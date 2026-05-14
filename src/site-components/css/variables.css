@@ -1,0 +1,2634 @@
+:root {
+  --rebel-style_colors---color-dark--dark-1: var(
+    --rebel-style---colors--dark-input
+  );
+  --rebel-style---colors--color-primary: #163666;
+  --rebel-style_colors---color-8--color-8: var(
+    --rebel-style---colors--color-8-input
+  );
+  --rebel-style_colors---color-7--color-7: var(
+    --rebel-style---colors--color-7-input
+  );
+  --rebel-style_colors---color-9--color-9: var(
+    --rebel-style---colors--color-9-input
+  );
+  --rebel-style_colors---primary--primary: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-3--color-3-inverse: var(
+    --rebel-style---colors--color-8-input
+  );
+  --rebel-style_colors---color-2--color-2: var(
+    --rebel-style---colors--color-2-input
+  );
+  --rebel-style_colors---color-5--color-5-inverse: var(
+    --rebel-style---colors--color-7-input
+  );
+  --rebel-style_colors---color-light--light-1: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style_space-size---container--container-lg-width: 1440px;
+  --rebel-style_type---responsive-label-text--label-font-size-base: clamp(
+    0.875rem,
+    1.5cqw,
+    1rem
+  );
+  --rebel-style_type---responsive-label-text--label-font-size-md: clamp(
+    0.975rem,
+    1.7cqw,
+    1.125rem
+  );
+  --rebel-style_type---responsive-label-text--label-font-size-sm: clamp(
+    0.75rem,
+    1.3cqw,
+    0.875rem
+  );
+  --rebel-style_type---responsive-label-text--label-font-size-xs: clamp(
+    0.625rem,
+    1.1cqw,
+    0.75rem
+  );
+  --rebel-style_space-size---icon-size--base-icon: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_space-size---icon-size--sm-icon: var(
+    --rebel-style_space-size---size--2x
+  );
+  --rebel-style_space-size---icon-size--xs-icon: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style_space-size---icon-size--md-icon: var(
+    --rebel-style_space-size---size--4x
+  );
+  --rebel-style_space-size---icon-size--lg-icon: var(
+    --rebel-style_space-size---size--5x
+  );
+  --rebel-style_space-size---icon-size--xl-icon: var(
+    --rebel-style_space-size---size--6x
+  );
+  --rebel-style---primary-filter--primary-invert: 17;
+  --rebel-style---primary-filter--primary-sepia: 24;
+  --rebel-style---primary-filter--primary-saturate: 2415;
+  --rebel-style---primary-filter--primary-hue-rotate: 185;
+  --rebel-style---primary-filter--primary-brightness: 103;
+  --rebel-style---primary-filter--primary-contrast: 98;
+  --rebel-style---color-1-filter--color-1-invert: 26;
+  --rebel-style---color-1-filter--color-1-sepia: 80;
+  --rebel-style---color-1-filter--color-1-saturate: 2128;
+  --rebel-style---color-1-filter--color-1-hue-rotate: 169;
+  --rebel-style---color-1-filter--color-1-brightness: 93;
+  --rebel-style---color-1-filter--color-1-contrast: 97;
+  --rebel-style---color-2-filter--color-2-invert: 60;
+  --rebel-style---color-2-filter--color-2-sepia: 83;
+  --rebel-style---color-2-filter--color-2-saturate: 5082;
+  --rebel-style---color-2-filter--color-2-hue-rotate: 155;
+  --rebel-style---color-2-filter--color-2-brightness: 97;
+  --rebel-style---color-2-filter--color-2-contrast: 101;
+  --rebel-style---color-3-filter--color-3-invert: 81;
+  --rebel-style---color-3-filter--color-3-sepia: 41;
+  --rebel-style---color-3-filter--color-3-saturate: 374;
+  --rebel-style---color-3-filter--color-3-hue-rotate: 123;
+  --rebel-style---color-3-filter--color-3-brightness: 84;
+  --rebel-style---color-3-filter--color-3-contrast: 92;
+  --rebel-style---color-4-filter--color-4-invert: 90;
+  --rebel-style---color-4-filter--color-4-sepia: 15;
+  --rebel-style---color-4-filter--color-4-saturate: 576;
+  --rebel-style---color-4-filter--color-4-hue-rotate: 162;
+  --rebel-style---color-4-filter--color-4-brightness: 92;
+  --rebel-style---color-4-filter--color-4-contrast: 89;
+  --rebel-style---color-5-filter--color-5-invert: 95;
+  --rebel-style---color-5-filter--color-5-sepia: 17;
+  --rebel-style---color-5-filter--color-5-saturate: 4211;
+  --rebel-style---color-5-filter--color-5-hue-rotate: 309;
+  --rebel-style---color-5-filter--color-5-brightness: 113;
+  --rebel-style---color-5-filter--color-5-contrast: 96;
+  --rebel-style---color-6-filter--color-6-invert: 64;
+  --rebel-style---color-6-filter--color-6-sepia: 13;
+  --rebel-style---color-6-filter--color-6-saturate: 3377;
+  --rebel-style---color-6-filter--color-6-hue-rotate: 323;
+  --rebel-style---color-6-filter--color-6-brightness: 99;
+  --rebel-style---color-6-filter--color-6-contrast: 92;
+  --rebel-style---color-7-filter--color-7-invert: 53;
+  --rebel-style---color-7-filter--color-7-sepia: 85;
+  --rebel-style---color-7-filter--color-7-saturate: 4480;
+  --rebel-style---color-7-filter--color-7-hue-rotate: 335;
+  --rebel-style---color-7-filter--color-7-brightness: 94;
+  --rebel-style---color-7-filter--color-7-contrast: 86;
+  --rebel-style---color-8-filter--color-8-invert: 34;
+  --rebel-style---color-8-filter--color-8-sepia: 17;
+  --rebel-style---color-8-filter--color-8-saturate: 1564;
+  --rebel-style---color-8-filter--color-8-hue-rotate: 277;
+  --rebel-style---color-8-filter--color-8-brightness: 92;
+  --rebel-style---color-8-filter--color-8-contrast: 89;
+  --rebel-style---color-9-filter--color-9-invert: 99;
+  --rebel-style---color-9-filter--color-9-sepia: 2;
+  --rebel-style---color-9-filter--color-9-saturate: 551;
+  --rebel-style---color-9-filter--color-9-hue-rotate: 144;
+  --rebel-style---color-9-filter--color-9-brightness: 99;
+  --rebel-style---color-9-filter--color-9-contrast: 95;
+  --rebel-style---light-filter--light-invert: 99;
+  --rebel-style---light-filter--light-sepia: 49;
+  --rebel-style---light-filter--light-saturate: 197;
+  --rebel-style---light-filter--light-hue-rotate: 239;
+  --rebel-style---light-filter--light-brightness: 113;
+  --rebel-style---light-filter--light-contrast: 96;
+  --rebel-style---dark-filter--dark-invert: 17;
+  --rebel-style---dark-filter--dark-sepia: 24;
+  --rebel-style---dark-filter--dark-saturate: 2415;
+  --rebel-style---dark-filter--dark-hue-rotate: 185;
+  --rebel-style---dark-filter--dark-brightness: 103;
+  --rebel-style---dark-filter--dark-contrast: 98;
+  --rebel-style---grey-1-filter--grey-1-invert: 77;
+  --rebel-style---grey-1-filter--grey-1-sepia: 0;
+  --rebel-style---grey-1-filter--grey-1-saturate: 523;
+  --rebel-style---grey-1-filter--grey-1-hue-rotate: 135;
+  --rebel-style---grey-1-filter--grey-1-brightness: 89;
+  --rebel-style---grey-1-filter--grey-1-contrast: 90;
+  --rebel-style---grey-2-filter--grey-2-invert: 31;
+  --rebel-style---grey-2-filter--grey-2-sepia: 51;
+  --rebel-style---grey-2-filter--grey-2-saturate: 6;
+  --rebel-style---grey-2-filter--grey-2-hue-rotate: 315;
+  --rebel-style---grey-2-filter--grey-2-brightness: 95;
+  --rebel-style---grey-2-filter--grey-2-contrast: 94;
+  --rebel-style---grey-3-filter--grey-3-invert: 15;
+  --rebel-style---grey-3-filter--grey-3-sepia: 0;
+  --rebel-style---grey-3-filter--grey-3-saturate: 0;
+  --rebel-style---grey-3-filter--grey-3-hue-rotate: 251;
+  --rebel-style---grey-3-filter--grey-3-brightness: 98;
+  --rebel-style---grey-3-filter--grey-3-contrast: 90;
+  --rebel-style_buttons---labels--padding-top: 0.2em;
+  --rebel-style_buttons---labels--padding-right: 0.35em;
+  --rebel-style_buttons---labels--padding-bottom: 0.2em;
+  --rebel-style_buttons---labels--padding-left: 0.35em;
+  --rebel-style_colors---color-1--color-1: var(
+    --rebel-style---colors--color-1-input
+  );
+  --rebel-style_colors---color-3--color-3: var(
+    --rebel-style---colors--color-3-input
+  );
+  --rebel-style_colors---color-4--color-4: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---color-5--color-5: var(
+    --rebel-style---colors--color-5-input
+  );
+  --rebel-style_colors---color-6--color-6: var(
+    --rebel-style---colors--color-6-input
+  );
+  --rebel-style_colors---color-8--color-8-inverse: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_colors---color-7--color-7-inverse: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---color-4--color-4-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-2--color-2-inverse: var(
+    --rebel-style---colors--color-5-input
+  );
+  --rebel-style_colors---color-6--color-6-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-1--color-1-inverse: var(
+    --rebel-style---colors--color-9-input
+  );
+  --rebel-style_colors---color-9--color-9-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---primary--primary-inverse: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---primary--color\<deleted\|variable-497d28ab-0f3d-60ea-5855-1863c636fd73\>: white;
+  --rebel-style_colors---color-1--color-1-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-1--color-1) 70%,
+    white 30%
+  );
+  --rebel-style_colors---color-3--color-3-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-3--color-3) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-4--color-4-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-4--color-4) 70%,
+    white 30%
+  );
+  --rebel-style_colors---color-7--color-7-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-7--color-7) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-6--color-6-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-6--color-6) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-8--color-8-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-3--color-3-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_buttons---labels--label-font: Khand, Impact, sans-serif;
+  --rebel-style_buttons---labels--label-font-weight: 700;
+  --rebel-style_buttons---labels--letter-spacing: 0.055em;
+  --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+  --rebel-style_colors---color-light--light-3: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-light--light-1) 80%,
+    black 20%
+  );
+  --rebel-style_buttons---button-brand-color-5--btn-color-5-border: var(
+    --rebel-style_colors---color-5--color-5
+  );
+  --rebel-style_colors---core-colors--transparent: transparent;
+  --rebel-style_colors---color-5--color-5-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-5--color-5-inverse) 90%,
+    white 10%
+  );
+  --rebel-style_buttons---button-brand-color-5--btn-color-5-bg: var(
+    --rebel-style_colors---color-5--color-5
+  );
+  --rebel-style_buttons---button-brand-color-8--btn-color-8-border: var(
+    --rebel-style_colors---color-8--color-8
+  );
+  --rebel-style_buttons---button-brand-color-8--btn-color-8-bg: var(
+    --rebel-style_colors---color-8--color-8
+  );
+  --rebel-style_buttons---button-brand-color-8--btn-color-8-font-color: var(
+    --rebel-style_colors---color-8--color-8-inverse
+  );
+  --rebel-style_buttons---button-states--btn-alert-color: var(
+    --rebel-style_colors---actions--color-alert
+  );
+  --rebel-style_colors---socials--instagram: var(
+    --rebel-style_colors---color-7--color-7
+  );
+  --rebel-style_buttons---button-states--btn-alert-font-color: var(
+    --rebel-style_colors---color-7--color-7-inverse
+  );
+  --rebel-style_buttons---button-states--btn-disabled-color: var(
+    --rebel-style_colors---actions--color-disabled
+  );
+  --rebel-style_buttons---button-disabled-font-color: var(
+    --rebel-style_shades---shades-brightgrey--brightgrey-d200
+  );
+  --rebel-style_buttons---button-light--btn-light-border: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_buttons---button-primary--btn-primary-bg: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_buttons---button-brand-color-5--btn-color-5-text: var(
+    --rebel-style_colors---color-5--color-5-inverse
+  );
+  --rebel-style_shades---shades-color-8--color-8-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 80%,
+    black 20%
+  );
+  --rebel-style_buttons---button-states--btn-alert-color-hover: var(
+    --rebel-style_shades---shades-color-7--color-7-l200
+  );
+  --rebel-style_colors---color-light--light-inverse: var(
+    --rebel-style---colors--dark-input
+  );
+  --rebel-style_colors---primary--primary-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---primary--primary-inverse) 80%,
+    white 30%
+  );
+  --rebel-style_colors---color-dark--dark-3: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-dark--dark-1) 60%,
+    white 40%
+  );
+  --rebel-style_colors---color-2--color-2-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-2--color-2) 70%,
+    white 30%
+  );
+  --rebel-style_colors---color-5--color-5-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-5--color-5) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-grey--grey-3-inverse: var(
+    --rebel-style---colors--grey-1-input
+  );
+  --rebel-style_colors---color-9-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-9--color-9) 80%,
+    white 20%
+  );
+  --rebel-style_colors---primary--primary-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---primary--primary) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-2--color-2-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-2--color-2-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-3--color-3-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-3--color-3-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_buttons---all-buttons--btn-font: Khand, Impact, sans-serif;
+  --rebel-style_buttons---base-buttons--btn-font-weight: 700;
+  --rebel-style_buttons---all-buttons--btn-letter-spacing: 0.05em;
+  --rebel-style_type---text-size--text-size-md: clamp(
+    1.15 * 1rem,
+    (
+      (
+          1.15 -
+            (
+              (1.25 - 1.15) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.25 - 1.15) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.25 * 1rem
+  );
+  --rebel-style_type---text-size--text-size-sm: clamp(
+    0.8 * 1rem,
+    (
+      (
+          0.8 -
+            (
+              (0.95 - 0.8) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (0.95 - 0.8) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    0.95 * 1rem
+  );
+  --rebel-style_type---text-size--text-size-xs: clamp(
+    0.7 * 1rem,
+    (
+      (
+          0.7 -
+            (
+              (0.917716 - 0.7) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (0.917716 - 0.7) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    0.917716 * 1rem
+  );
+  --rebel-style_buttons---base-buttons--btn-padding-top: 1.25rem;
+  --rebel-style_buttons---base-buttons--btn-padding-left: 1.25rem;
+  --rebel-style_buttons---base-buttons--btn-padding-bottom: 1.25rem;
+  --rebel-style_buttons---base-buttons--btn-padding-right: 1.15rem;
+  --rebel-style_buttons---base-buttons--btn-font-size: 1rem;
+  --rebel-style_buttons---all-buttons--btn-line-height: 1;
+  --rebel-style_buttons---large-buttons--lg-btn-padding-top: 1.5rem;
+  --rebel-style_buttons---large-buttons--lg-btn-padding-right: 2rem;
+  --rebel-style_buttons---large-buttons--lg-btn-padding-bottom: 1.5rem;
+  --rebel-style_buttons---large-buttons--lg-btn-padding-left: 2rem;
+  --rebel-style_buttons---small-buttons--sm-btn-padding-top: 0.9rem;
+  --rebel-style_buttons---small-buttons--sm-btn-padding-right: 0.85rem;
+  --rebel-style_buttons---small-buttons--sm-btn-padding-bottom: 0.9rem;
+  --rebel-style_buttons---small-buttons--sm-btn-padding-left: 0.85rem;
+  --rebel-style_type---font--font-body: "General Sans", Tahoma, sans-serif;
+  --rebel-style_type---paragraph--paragraph-font-size-xs: var(
+    --rebel-style_type---text-size--text-size-xs
+  );
+  --rebel-style_type---line-height--line-height-base: 1.15;
+  --rebel-style_type---font-weights--font-weight-400: 400;
+  --rebel-style_type---paragraph--paragraph-font-size-xxs: var(
+    --rebel-style_type---text-size--text-size-xxs
+  );
+  --rebel-style_buttons---all-buttons--btn-radius: 2px;
+  --rebel-style_colors---nav-link--nav-link-dark: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_shades---brand-color-primary--brand-color-primary-l200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 81%,
+    white
+  );
+  --rebel-style_type---font-weights--font-weight-700: 700;
+  --rebel-style_buttons---tags--tag-font: Khand, Impact, sans-serif;
+  --rebel-style_buttons---tags--font-size: 0.9rem;
+  --rebel-style_buttons---tags--line-height: 1;
+  --rebel-style_buttons---tags--font-weight: 700;
+  --rebel-style_type---text-size--text-size-base: clamp(
+    0.8 * 1rem,
+    (
+      (
+          0.8 -
+            (
+              (1 - 0.8) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1 - 0.8) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1 * 1rem
+  );
+  --rebel-style_type---base-type--line-height-x1-5: var(
+    --rebel-style_type---line-height--line-height-md
+  );
+  --rebel-style_type---base-type--body-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style---colors--color-2-input: #00a6b6;
+  --rebel-style_type---font--font-headline: Khand, Impact, sans-serif;
+  --rebel-style_type---base-headlines--font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h3--h3-letter-spacing: -0.01em;
+  --rebel-style_type---h5--h5-letter-spacing: -0.025em;
+  --rebel-style_type---h2--h2-letter-spacing: -0.01em;
+  --rebel-style_type---headlines-input--sm2\<deleted\|variable-14e0f764-1190-d25c-840f-edd7804602eb\>: clamp(
+    2.1rem,
+    3.5vw,
+    2.8rem
+  );
+  --rebel-style_type---h1--h1-line-height: 0.8;
+  --rebel-style_type---h1--h1-letter-spacing: -0.01em;
+  --rebel-style_type---base-headlines--line-height: 0.85;
+  --rebel-style_type---base-type--subheadline: var(
+    --rebel-style_type---lists-font
+  );
+  --rebel-style_type---base-type--body-font-size: var(
+    --rebel-style_type---text-size--text-size-sm
+  );
+  --rebel-style_type---h4--h4-line-height: 0.85;
+  --rebel-style_type---h4--h4-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h4--h4-letter-spacing: -0.01px;
+  --rebel-style_type---h5--h5-line-height: 0.85;
+  --rebel-style_type---h5--h5-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---blockquotes--font-family: Supreme, Arial, sans-serif;
+  --rebel-style_type---subheadlines--sub-headline-font-size-xs: clamp(
+    0.719 * 1rem,
+    (
+      (
+          0.719 -
+            (
+              (1.54 - 0.719) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.54 - 0.719) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.54 * 1rem
+  );
+  --rebel-style---colors--color-3-input: #71c9c5;
+  --rebel-style_type---sub-headlines--s3-base\<deleted\|variable-7931f1c9-2a9f-6edf-1f75-c7cd3d2ea392\>: 1.343rem;
+  --rebel-style_type---h6--h6-line-height: 0.95;
+  --rebel-style_type---h6--h6-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h6--h6-letter-spacing: -0.01em;
+  --rebel-style_type---font-weights--font-weight-500: 500;
+  --rebel-style_type---base-type--line-height-x1: 1;
+  --rebel-style_type---font-weights--font-weight-300: 300;
+  --rebel-style_type---font-weights--font-weight-600: 600;
+  --rebel-style---colors--light-input: #fafafa;
+  --rebel-style_type---text-size--text-size-lg: clamp(
+    1.25 * 1rem,
+    (
+      (
+          1.25 -
+            (
+              (2.25 - 1.25) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (2.25 - 1.25) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    2.25 * 1rem
+  );
+  --rebel-style_space-size---widths--max-width-lg: 1600px;
+  --rebel-style_shades---brand-color-primary--color-primary: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_type---headlines-input--md2\<deleted\|variable-58cecc3d-1fbd-1f8d-025d-e1bf7fb5a1aa\>: clamp(
+    3.75rem,
+    6.71vw,
+    5.37rem
+  );
+  --rebel-style_type---headlines-input--base2\<deleted\|variable-7ce435cd-6f5b-2174-cd17-05a30c1d6de3\>: clamp(
+    2.75rem,
+    4.75vw,
+    3.8rem
+  );
+  --rebel-style_type---h0--h0-letter-spacing: -0.01em;
+  --rebel-style_type---h0--h0-margin-bottom: 0.5%;
+  --rebel-style_type---base-headlines--letter-spacing: -0.02em;
+  --_apps---typography--heading-font: Khand, Impact, sans-serif;
+  --rebel-style_type---headlines--headline-font-size-md: clamp(
+    2.57 * 1rem,
+    (
+      (
+          2.57 -
+            (
+              (5.25 - 2.57) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (5.25 - 2.57) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    5.25 * 1rem
+  );
+  --rebel-style_cards---large-card--lg-card-radius: 4px;
+  --rebel-style_cards---light-card--light-card-text-color: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_cards-2---light-card--light-card-text-color\<deleted\|variable-c54ecd6d-9c56-14dd-0fb1-3d50cc520549\>: var(
+    --rebel-style_colors-2---text--text-blue\<deleted\|variable-376fe723-b878-0759-96ab-0b42e133af87\>
+  );
+  --rebel-style_type---base-type--margin-bottom: 1%;
+  --rebel-style---colors--white-input: white;
+  --rebel-style_space-size---size--1x: 1rem;
+  --rebel-style_type---eyebrows--font-family: "Supreme Variable";
+  --rebel-style_type---s6--s6-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-xxs
+  );
+  --rebel-style---colors--color-9-input: #eff5f6;
+  --rebel-style---colors--color-7-input: #e05047;
+  --rebel-style---colors--color-4-input: #b2d3de;
+  --rebel-style_type---eyebrows--font-size: 1rem;
+  --rebel-style_type---font--logo: Barlow, Impact, sans-serif;
+  --rebel-style_buttons---labels--line-height: 1;
+  --rebel-style_buttons---all-buttons--btn-border-width: 3px;
+  --rebel-style_buttons---button-primary--btn-primary-border: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_buttons---button-primary--btn-primary-font-color: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_buttons---button-primary--btn-primary-border-hover-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_buttons---button-primary--btn-primary-bg-hover-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_forms---forms--form-padding: 2rem;
+  --rebel-style_forms---forms--form-padding-bottom: 1.5rem;
+  --rebel-style_forms---core-inputs--input-border-width: 1px;
+  --rebel-style---input-form-radius: 0rem;
+  --rebel-style_forms---light-input--bg-color: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_forms---core-inputs--input-font: Supreme, Arial, sans-serif;
+  --rebel-style_buttons---button-light--btn-light-font-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---dark-input--border-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---dark-input--bg-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---dark-input--font-color: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_forms---light-input--border-color-hover: var(
+    --rebel-style_colors---color-1--color-1
+  );
+  --rebel-style_forms---light-input--bg-color-hover: white;
+  --_apps---colors--secondary: var(--rebel-style_colors---color-2--color-2);
+  --rebel-style_forms---dark-input--bg-color-hover: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_forms---light-input--placeholder-font-color: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_forms---dark-input--placeholder-font-color: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_forms---dark-input--border-color-hover: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_type---base-type--body-letter-spacing: -0.0025em;
+  --rebel-style---colors--color-6-input: #f37d59;
+  --rebel-style_colors---colors--color-white: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style_type---text-size--text-size-xxs: clamp(
+    0.6597 * 1rem,
+    (
+      (
+          0.75 -
+            (
+              (0.6597 - 0.75) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (0.6597 - 0.75) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    0.75 * 1rem
+  );
+  --rebel-style_buttons---button-light--btn-light-bg: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_buttons---button-brand-color-8--btn-color-8-bg-hover-dim: var(
+    --rebel-style_shades---shades-color-8--color-8-l200
+  );
+  --rebel-style_buttons---button-color-3--btn-color-3-border: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_buttons---button-color-3--btn-color-3-bg: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_buttons---button-color-3--btn-color-3-font-color: var(
+    --rebel-style_colors---color-3--color-3-inverse
+  );
+  --rebel-style_buttons---button-light--btn-light-border-hover-dim: var(
+    --rebel-style_colors---color-9--color-9
+  );
+  --rebel-style_buttons---button-light--btn-light-bg-hover-dim: var(
+    --rebel-style_colors---color-9--color-9
+  );
+  --rebel-style_buttons---button-brand-color-8--btn-color-8-border-hover-dim: var(
+    --rebel-style_shades---shades-color-8--color-8-l200
+  );
+  --rebel-style_buttons---button-color-3--btn-color-3-border-hover-dim: var(
+    --rebel-style_shades---shades-color-2--color-2-l200
+  );
+  --rebel-style_buttons---button-color-3--btn-color-3-bg-hover-dim: var(
+    --rebel-style_shades---shades-color-2--color-2-l200
+  );
+  --rebel-style_buttons---button-brand-color-5--btn-color-5-border-hover-dim: var(
+    --rebel-style_shades---shades-color-5--color-5-d200
+  );
+  --rebel-style_buttons---button-brand-color-5--btn-color-5-bg-hover-dim: var(
+    --rebel-style_shades---shades-color-5--color-5-d200
+  );
+  --rebel-style_type---headlines--headline-font-size-lg: clamp(
+    3.1 * 0.95rem,
+    (
+      (
+          3.5 -
+            (
+              (7.5 - 3.1) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 0.95rem +
+        (
+          (7.75 - 5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    7.75 * 0.95rem
+  );
+  --rebel-style_type---h6--h6-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h6--h6-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-xxs
+  );
+  --rebel-style_type---text-size--text-size-xl: clamp(
+    1.35 * 1rem,
+    (
+      (
+          1.35 -
+            (
+              (3 - 1.35) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3 - 1.35) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3 * 1rem
+  );
+  --rebel-style_type---s3--s3-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s3--s3-font-size: var(
+    --rebel-style_type---subheadlines--sub-headlinesub-font-size-base
+  );
+  --rebel-style_type---s3--s3-line-height: 1.25;
+  --rebel-style_type---s3--s3-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-200
+  );
+  --rebel-style_type---s3--s3-letter-spacing: 0px;
+  --rebel-style_type---sub-headlines--s4-sm\<deleted\|variable-ecca1590-7732-3050-c5bc-42b6243cac69\>: 1.199rem;
+  --rebel-style_colors---nav-link--nav-link-light: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_space-size---gap--xxs-gap: var(
+    --rebel-style_space-size---size--0-5x
+  );
+  --rebel-style_type---h5--h5-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---sub-headlines--s5-xs\<deleted\|variable-80b332d0-c464-d6af-1d33-c860d0a8159e\>: 1.071rem;
+  --rebel-style_type---h2--h2-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-md
+  );
+  --rebel-style_type---h2--h2-line-height: 0.8;
+  --rebel-style_type---h2--h2-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h3--h3-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h3--h3-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-base
+  );
+  --rebel-style_type---h3--h3-line-height: 0.85;
+  --rebel-style_type---h3--h3-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_colors---backgrounds--bg-white\<deleted\|variable-f2b270f2-b950-7973-438c-14502c10404c\>: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style---core-button-color--button-white: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style_space-size---size--4x: 4rem;
+  --rebel-style_space-size---widths--max-width-sm: 1150px;
+  --rebel-style_type---line-height--line-height-lg: 1.5;
+  --rebel-style_type---h4--h4-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h4--h4-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-sm
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-md: clamp(
+    1.26 * 1rem,
+    (
+      (
+          1.26 -
+            (
+              (2.58 - 1.26) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (2.58 - 1.26) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    2.58 * 1rem
+  );
+  --rebel-style_type---s2--s2-line-height: 1.25;
+  --rebel-style_type---s2--s2-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s2--s2-letter-spacing: 0px;
+  --rebel-style_type---headlines--headline-font-size-xxs: clamp(
+    1.05 * 1rem,
+    (
+      (
+          1.05 -
+            (
+              (2.25 - 1.05) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (2.25 - 1.05) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    2.25 * 1rem
+  );
+  --rebel-style_type---headlines--headline-font-size-base: clamp(
+    1.76 * 0.95rem,
+    (
+      (
+          1.76 -
+            (
+              (3.79 - 1.76) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 0.95rem +
+        (
+          (3.79 - 1.76) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.79 * 0.95rem
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-xxs: clamp(
+    0.517 * 1rem,
+    (
+      (
+          0.517 -
+            (
+              (1.1 - 0.517) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.1 - 0.517) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.1 * 1rem
+  );
+  --rebel-style_type---headlines--headline-font-size-sm: clamp(
+    1.63 * 1rem,
+    (
+      (
+          1.63 -
+            (
+              (3.5 - 1.63) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.5 - 1.63) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.5 * 1rem
+  );
+  --rebel-style_type---sub-headlines--s6-xxs\<deleted\|variable-ece26371-e11f-aa0b-7333-3e71bc1b0a9b\>: 0.956rem;
+  --rebel-style_shades---shades-blue--blue-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-blue--blue-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 60%,
+    white 40%
+  );
+  --rebel-style_type---headlines--headline-font-size-xs: clamp(
+    1.46 * 1rem,
+    (
+      (
+          1.46 -
+            (
+              (3.13 - 1.46) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.13 - 1.46) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.13 * 1rem
+  );
+  --rebel-style_type---responsive-headlines--base: clamp(
+    3.5rem,
+    calc(3.414rem + 0.429cqi),
+    3.8rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-1: clamp(
+    4.375rem,
+    calc(4.268rem + 0.536cqi),
+    4.75rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-3: clamp(
+    6.836rem,
+    calc(6.668rem + 0.837cqi),
+    7.422rem
+  );
+  --rebel-style_type---headlines--headline-font-size-xl: clamp(
+    5 * 1rem,
+    (
+      (
+          5 -
+            (
+              (10.75 - 5) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (10.75 - 5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    10.75 * 1rem
+  );
+  --rebel-style_type---responsive-headlines--h-minus-1: clamp(
+    2.8rem,
+    calc(2.731rem + 0.343cqi),
+    3.04rem
+  );
+  --rebel-style_type---responsive-headlines--h-minus-2: clamp(
+    2.24rem,
+    calc(2.185rem + 0.274cqi),
+    2.432rem
+  );
+  --rebel-style_type---responsive-headlines--h-minus-3: clamp(
+    1.792rem,
+    calc(1.748rem + 0.219cqi),
+    1.946rem
+  );
+  --rebel-style_type---responsive-headlines--h-minus-4: clamp(
+    1.434rem,
+    calc(1.399rem + 0.176cqi),
+    1.556rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-2: clamp(
+    5.469rem,
+    calc(5.335rem + 0.67cqi),
+    5.938rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-2-line-height: 0.8;
+  --rebel-style_type---responsive-headlines--h-plus-3-line-height: 0.8;
+  --rebel-style_type---responsive-headlines--h-plus-6: clamp(
+    8.545rem,
+    calc(8.336rem + 1.046cqi),
+    9.277rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-6-line-height: 0.8;
+  --rebel-style_type---responsive-headlines--h-minus-3-line-height: 0.9;
+  --rebel-style_type---responsive-headlines--h-plus-4: clamp(
+    7.406rem,
+    calc(7.224rem + 0.907cqi),
+    8.04rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-4-line-height: 0.8;
+  --rebel-style_type---responsive-headlines--h-plus-1-line-height: 0.85;
+  --rebel-style_type---responsive-headlines--h-minus-2-line-height: 0.9;
+  --rebel-style_type---responsive-headlines--h-minus-4-line-height: 0.95;
+  --rebel-style_type---responsive-headlines--h-plus-5: clamp(
+    7.976rem,
+    calc(7.781rem + 0.976cqi),
+    8.658rem
+  );
+  --rebel-style_type---responsive-headlines--base-line-height: 0.85;
+  --rebel-style_type---responsive-label-text--label-line-height-xs: 1;
+  --rebel-style_type---responsive-label-text--label-line-height-sm: 1.35;
+  --rebel-style_type---responsive-label-text--label-line-height-md: 1.45;
+  --rebel-style_type---responsive-headlines--h-minus-5: clamp(
+    1.147rem,
+    calc(1.119rem + 0.14cqi),
+    1.245rem
+  );
+  --rebel-style_type---responsive-headlines--h-minus-5-line-height: 0.95;
+  --rebel-style_type---responsive-headlines--h-minus-1-line-height: 0.85;
+  --rebel-style_space-size---gap--lg-gap: var(
+    --rebel-style_space-size---size--4x
+  );
+  --rebel-style_space-size---gap--xxl-gap: var(
+    --rebel-style_space-size---size--6x
+  );
+  --rebel-style_space-size---size--2x: 2rem;
+  --rebel-style_buttons---tags--radius: 0.35rem;
+  --rebel-style_space-size---size--8x: 8rem;
+  --rebel-style_space-size---size--6x: 6rem;
+  --rebel-style_type---h6--h6-margin-bottom: 0.15em;
+  --text--line-height: 0px;
+  --_apps---size--3rem: 3rem;
+  --h5--line-height: 0px;
+  --_apps---text-transform--lowercase: 0px;
+  --_apps---font-weight--600: 0px;
+  --text-small--font-size: 0.875rem;
+  --_apps---size--8-5rem: 8.5rem;
+  --text--text-transform: 0px;
+  --theme--border-3: white;
+  --swatch--dark-1: var(--rebel-style_colors---color-dark--dark-1);
+  --h1--letter-spacing: 0px;
+  --_apps---font-weight--500: 0px;
+  --_apps---size--4rem: 4rem;
+  --_apps---size--12rem: 12rem;
+  --_apps---size--13rem: 13rem;
+  --display--line-height: 0px;
+  --text-large--font-size: 0px;
+  --button--border-hover: white;
+  --_apps---font--primary-regular: 0px;
+  --h6--letter-spacing: 0px;
+  --_apps---letter-spacing--0em: 0em;
+  --_apps---size--2-5rem: 2.5rem;
+  --_apps---size--5-5rem: 5.5rem;
+  --_apps---text-transform--inherit: 0px;
+  --_apps---font-weight--inherit: 0px;
+  --button--border: white;
+  --display--letter-spacing: 0px;
+  --_apps---size--0-5rem: 0.5rem;
+  --h4--letter-spacing: 0px;
+  --swatch--transparent: rgba(255, 255, 255, 0);
+  --_apps---size--1-5rem: 1.5rem;
+  --h2--text-transform: 0px;
+  --_apps---size--11rem: 11rem;
+  --_apps---size--6-5rem: 6.5rem;
+  --swatch--light-2: #f5f4f4;
+  --_apps---icon-size--large: 0px;
+  --_apps---icon-size--medium: 0px;
+  --_apps---font--inherit: "Clash Grotesk", sans-serif;
+  --h4--text-transform: 0px;
+  --swatch--brand-1: var(--rebel-style_colors---primary--primary);
+  --_apps---letter-spacing--0-2em: 0.2em;
+  --button--background: white;
+  --h1--text-transform: 0px;
+  --text-large--font-family: Inter, Arial, sans-serif;
+  --display--font-weight: 0px;
+  --_apps---size--9-5rem: 9.5rem;
+  --h3--font-weight: 0px;
+  --_apps---size--6rem: 6rem;
+  --grid-gap--regular: 0px;
+  --_apps---size--1-25rem: 1.25rem;
+  --text-small--text-transform: 0px;
+  --theme--text-3: white;
+  --text--letter-spacing: 0px;
+  --h5--letter-spacing: 0px;
+  --h5--text-transform: 0px;
+  --_apps---size--0rem: 0rem;
+  --_apps---size--4-5rem: 4.5rem;
+  --text-large--text-transform: 0px;
+  --_apps---font-weight--400: 0px;
+  --button--text: white;
+  --_apps---text-transform--uppercase: 0px;
+  --rich-text--top-large: 0px;
+  --_apps---line-height--1em: 1em;
+  --h3--line-height: 0px;
+  --_apps---line-height--1-1em: 1.1em;
+  --_apps---size--2rem: 2rem;
+  --max-width--medium: 70rem;
+  --_apps---size--0-75rem: 0.75rem;
+  --display--text-transform: 0px;
+  --rich-text--bottom-main: 0px;
+  --_apps---font-weight--700: 0px;
+  --_apps---size--1rem: 1rem;
+  --swatch--dark-2: hsla(236, 3.81%, 22.48%, 1);
+  --svg--stroke-width--main: 1px;
+  --padding-vertical--none: 0px;
+  --button--text-hover: white;
+  --grid-gap--xsmall: 0px;
+  --_apps---display--font-size: 0px;
+  --_apps---font--secondary-regular: 0px;
+  --_apps---font-weight--100: 0px;
+  --_apps---font--primary-bold: 0px;
+  --_apps---size--0-25rem: 0.25rem;
+  --_apps---line-height--1-3em: 1.3em;
+  --swatch--dark-3: hsla(143, 1.93%, 37.94%, 1);
+  --h2--letter-spacing: 0px;
+  --h2--font-weight: 0px;
+  --_apps---size--8rem: 8rem;
+  --_apps---font--primary-family: "Clash Grotesk", sans-serif;
+  --rich-text--top-medium: 0px;
+  --theme--border-2: white;
+  --text-large--font-weight: 0px;
+  --grid-gap--large: 0px;
+  --border-width--main: 1px;
+  --_apps---size--3-5rem: 3.5rem;
+  --_apps---font-weight--800: 0px;
+  --_apps---size--5rem: 5rem;
+  --_apps---size--15rem: 15rem;
+  --h3--letter-spacing: 0px;
+  --text--font-weight: 0px;
+  --_apps---icon-size--small: 0px;
+  --rich-text--top-small: 0px;
+  --text--font-size: 0px;
+  --radius--main: 1rem;
+  --_apps---size--0-125rem: 0.125rem;
+  --_apps---text-transform--none: 0px;
+  --swatch--light-3: hsla(0, 5.09%, 86.65%, 1);
+  --max-width--main: 90rem;
+  --theme--text-2: white;
+  --h1--font-weight: 0px;
+  --_apps---size--10rem: 10rem;
+  --_apps---size--16rem: 16rem;
+  --_apps---letter-spacing--0-03em: -0.03em;
+  --_apps---size--7-5rem: 7.5rem;
+  --_apps---line-height--1-5em: 1.5em;
+  --radius--small: 0.5rem;
+  --h2--line-height: 0px;
+  --text-large--line-height: 0px;
+  --text-large--letter-spacing: 0px;
+  --_apps---font-weight--300: 0px;
+  --grid-gap--main: 0px;
+  --_apps---font--secondary-family: "General Sans", Tahoma, sans-serif;
+  --h3--text-transform: 0px;
+  --_apps---text-transform--capitalize: 0px;
+  --h1--line-height: 0px;
+  --max-width--small: 48rem;
+  --theme--text-1: white;
+  --text-small--line-height: 0px;
+  --theme--border-1: white;
+  --_apps---size--9rem: 9rem;
+  --radius--round: 100vw;
+  --grid-gap--small: 0px;
+  --display--font-family: Inter, Arial, sans-serif;
+  --h4--line-height: 0px;
+  --text-small--letter-spacing: 0px;
+  --grid-gap--medium: 0px;
+  --_apps---size--7rem: 7rem;
+  --button--background-hover: white;
+  --swatch--light-1: var(--rebel-style_colors---color-light--light-1);
+  --_apps---font--primary-medium: 0px;
+  --_apps---font-weight--900: 0px;
+  --_apps---font-weight--200: 0px;
+  --_apps---icon-size--xsmall: 0px;
+  --_apps---size--14rem: 14rem;
+  --rebel-style_colors---colors--color-black: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-light--light-2: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-light--light-1) 80%,
+    black 10%
+  );
+  --rebel-style_type---font--base-option: Inter, Arial, sans-serif;
+  --rebel-style_colors---color-dark--dark-2: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-dark--dark-1) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-dark--dark-inverse: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style_type---font--font-emphasis: "Fira Code", Arial, sans-serif;
+  --rebel-style_colors---color-dark--dark-inverse-on-hover: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-dark--dark-1) 90%,
+    white 10%
+  );
+  --rebel-style_type---font--font-code: "Fira Code", Arial, sans-serif;
+  --rebel-style_colors---color-dark--color: white;
+  --rebel-style_colors---color-grey--grey-1: var(
+    --rebel-style---colors--grey-1-input
+  );
+  --rebel-style_type---font--font-emoji: "Noto Emoji", Arial, sans-serif;
+  --rebel-style_colors---color-grey--grey-2: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_colors---color-grey--grey-3: var(
+    --rebel-style---colors--grey-3-input
+  );
+  --rebel-style_type---font--font-blockquote: "Logic Monoscript",
+    "Palatino Linotype", sans-serif;
+  --rebel-style_colors---color-grey--grey-1-inverse: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_type---font--blockquote-option: Pacifico, "Palatino Linotype",
+    sans-serif;
+  --rebel-style_colors---color-grey--grey-2-inverse: var(
+    --rebel-style---colors--grey-3-input
+  );
+  --rebel-style_colors---color-grey--color: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-grey--grey-1) 80%,
+    white 20%
+  );
+  --rebel-style_type---font--subheadline: "General Sans", Tahoma, sans-serif;
+  --rebel-style_colors---color-1--color-1-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-1--color-1-inverse) 90%,
+    black 10%
+  );
+  --rebel-style_colors---color-4--color-4-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---primary--primary) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-6--color-6-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-6--color-6-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-7--color-7-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-4--color-4) 85%,
+    black 15%
+  );
+  --rebel-style_colors---color-8--color-8-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-8--color-8-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_colors---color-9--color-9-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-9--color-9) 95%,
+    var(--rebel-style_colors---primary--primary) 5%
+  );
+  --rebel-style_colors---color-9--color-9-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-9--color-9-inverse) 80%,
+    white 20%
+  );
+  --rebel-style_type---base-type--size: 0px;
+  --rebel-style_type---base-headlines--font-family: "General Sans", Tahoma,
+    sans-serif;
+  --rebel-style_forms---core-inputs--input-font-size: 1rem;
+  --rebel-style_forms---core-inputs--input-font-height: 1.5;
+  --rebel-style_forms---core-inputs--input-font-weight: 300;
+  --rebel-style_forms---core-inputs--input-border-radius: 0.25rem;
+  --rebel-style_type---font-weights--font-weight-900: 900;
+  --rebel-style_cards---base-card--card-headline-font: Khand, Impact, sans-serif;
+  --rebel-style_cards---base-card--text-size: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style_type---font-weights--font-weight-200: 200;
+  --rebel-style_cards---base-card--padding-v: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_cards---base-card--padding-h: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_cards---base-card--border-width: 5px;
+  --rebel-style_cards---base-card--radius: 0.25em;
+  --rebel-style---colors--color-1-input: #047c97;
+  --rebel-style_cards---base-card--text-padding: 2%;
+  --rebel-style---colors--color-5-input: #faca78;
+  --rebel-style_cards---small-card--sm-card-text-size: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style---colors--color-8-input: #8e456a;
+  --rebel-style---colors--grey-1-input: #ababab;
+  --rebel-style---colors--grey-2-input: #575757;
+  --rebel-style---colors--grey-3-input: #2e2e2e;
+  --rebel-style_forms---core-inputs--input-padding-vertical: 1.75rem;
+  --rebel-style_cards---small-card--sm-card-text-weight: var(
+    --rebel-style_type---font-weights--font-weight-400
+  );
+  --_apps---typography--body-font: "General Sans", Tahoma, sans-serif;
+  --_apps---typography--button-font: Khand, Impact, sans-serif;
+  --rebel-style_cards---small-card--sm-card-text-weight-hover: var(
+    --rebel-style_type---font-weights--font-weight-400
+  );
+  --rebel-style_forms---core-inputs--input-padding-horizontal: 1rem;
+  --rebel-style---core-button-color--core-button-color: var(
+    --rebel-style---colors--color-primary
+  );
+  --_apps---sizes--radius: 6px;
+  --rebel-style_cards---small-card--sm-card-padding-v: var(
+    --rebel-style_space-size---size--2x
+  );
+  --rebel-style_forms---core-inputs--input-control: #ffffff;
+  --rebel-style---colors--dark-input: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style---core-button-color--core-button-inverse-color: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style_type---line-height--line-height-xxl: 2;
+  --rebel-style_type---line-height--line-height-xl: 1.75;
+  --rebel-style_type---line-height--line-height-md: 1.25;
+  --rebel-style_type---line-height--line-height-xs: 0.95;
+  --rebel-style_type---line-height--line-height-xxs: 0.85;
+  --rebel-style_type---line-height--line-height-sm: 1.05;
+  --rebel-style_type---headlines--size-2: clamp(
+    1.57 * 1rem,
+    (
+      (
+          1.57 -
+            (
+              (3.37 - 1.57) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.37 - 1.57) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.37 * 1rem
+  );
+  --rebel-style_type---headlines--size: clamp(
+    1.51 * 1rem,
+    (
+      (
+          1.51 -
+            (
+              (3.25 - 1.51) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.25 - 1.51) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.25 * 1rem
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-xl: clamp(
+    2.46 * 1rem,
+    (
+      (
+          2.46 -
+            (
+              (5.29 - 2.46) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (5.29 - 2.46) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    5.29 * 1rem
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-lg: clamp(
+    1.72 * 1rem,
+    (
+      (
+          1.72 -
+            (
+              (3.69 - 1.72) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---max-viewport)
+                ) * var(--rebel-style---max-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.69 - 1.72) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---max-viewport)
+            )
+        ) * 100vw
+    ),
+    3.69 * 1rem
+  );
+  --rebel-style_type---subheadlines--sub-headlinesub-font-size-base: clamp(
+    0.86 * 1rem,
+    (
+      (
+          0.86 -
+            (
+              (1.866 - 0.86) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.866 - 0.86) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.866 * 1rem
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-sm: clamp(
+    0.802 * 1rem,
+    (
+      (
+          0.802 -
+            (
+              (1.72 - 0.802) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.72 - 0.802) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.72 * 1rem
+  );
+  --rebel-style_type---responsive-headlines--h-plus-5-line-height: 0.8;
+  --rebel-style_type---text-size--text-size-xxl: clamp(
+    1.4 * 1rem,
+    (
+      (
+          1.4 -
+            (
+              (3.25 - 1.4) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (3.25 - 1.4) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    3.25 * 1rem
+  );
+  --rebel-style_type---paragraph--paragraph-font-size-md: var(
+    --rebel-style_type---text-size--text-size-md
+  );
+  --rebel-style_type---paragraph--paragraph-font-size-base: var(
+    --rebel-style_type---text-size--text-size-base
+  );
+  --rebel-style_type---paragraph--paragraph-font-size-sm: var(
+    --rebel-style_type---text-size--text-size-md
+  );
+  --rebel-style_type---paragraph--paragraph-line-height-xl: 1.7;
+  --rebel-style_type---paragraph--paragraph-line-height-lg: 1.65;
+  --rebel-style_type---paragraph--paragraph-line-height-md: 1.5;
+  --rebel-style_type---paragraph--paragraph-line-height-base: 1.55;
+  --rebel-style_type---paragraph--paragraph-line-height-sm: 1.35px;
+  --rebel-style---colors--size: 0px;
+  --rebel-style_type---paragraph--numberparagraph-line-height-xs: 1;
+  --_apps---colors--background: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_cards---small-card--sm-card-padding-h: var(
+    --rebel-style_space-size---size--2x
+  );
+  --rebel-style_space-size---widths--max-width-xxl: 1820px;
+  --rebel-style_forms---core-inputs--input-control-border: white;
+  --rebel-style_forms---core-inputs--placeholder-font-size: 0.85rem;
+  --rebel-style_forms---core-inputs--placeholder-font-weight: 300;
+  --rebel-style_forms---forms--label-font-color: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_cards---small-card--sm-card-border-width: 4px;
+  --_apps---colors--foreground: var(--rebel-style_colors---primary--primary);
+  --_apps---colors--card: var(--rebel-style_colors---color-light--light-1);
+  --rebel-style_cards---small-card--sm-card-radius: 0.3rem;
+  --rebel-style_cards---large-card--lg-card-text-size: 1rem;
+  --rebel-style_cards---large-card--lg-card-text-weight: var(
+    --rebel-style_type---font-weights--font-weight-400
+  );
+  --rebel-style_cards---large-card--lg-card-text-weight-hover: var(
+    --rebel-style_type---font-weights--font-weight-400
+  );
+  --_apps---colors--card-foreground: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style---blue-divider-color: hsla(
+    216.36363636363635,
+    63.87%,
+    30.39%,
+    0.49
+  );
+  --rebel-style_cards---large-card--lg-card-padding-v: var(
+    --rebel-style_space-size---size--5x
+  );
+  --rebel-style_cards---large-card--lg-card-padding-h: var(
+    --rebel-style_space-size---size--5x
+  );
+  --rebel-style_cards---large-card--lg-card-border-width: 4rem;
+  --rebel-style_forms---forms--focused-border-color: #ffffff;
+  --_apps---colors--popover: hsl(0, 0%, 100%);
+  --rebel-style_forms---light-input--font-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---light-input--border-color: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style---max-width_large: 50rem;
+  --rebel-style---label-text-size: 1rem;
+  --rebel-style_type---input-form-font-weight: 350;
+  --rebel-style_colors---heading-font-color: var(
+    --rebel-style---colors--color-primary
+  );
+  --_apps---colors--popover-foreground: var(--_apps---colors--primary);
+  --_apps---colors--primary: var(--rebel-style_colors---primary--primary);
+  --rebel-style---width: 35px;
+  --_apps---colors--primary-foreground: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --_apps---colors--secondary-foreground: var(
+    --rebel-style_colors---color-2--color-2-inverse
+  );
+  --rebel-style---checkbox-spacing: 0.095rem;
+  --rebel-style---alert-color-inverse: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --_apps---colors--muted: var(--rebel-style_colors---color-9--color-9);
+  --_apps---colors--muted-foreground: var(
+    --rebel-style_colors---color-9--color-9-inverse
+  );
+  --_apps---colors--accent: var(--rebel-style_colors---color-4--color-4);
+  --_apps---colors--accent-foreground: var(
+    --rebel-style_colors---color-3--color-3-inverse
+  );
+  --_apps---colors--destructive: var(--rebel-style_colors---color-7--color-7);
+  --_apps---colors--border: var(--_apps---colors--primary);
+  --_apps---colors--input: var(--rebel-style_colors---color-light--light-1);
+  --_apps---colors--ring: var(--rebel-style_colors---color-4--color-4);
+  --_apps---charts--chart-1: oklch(77.7% 0.152 181.912);
+  --_apps---charts--chart-2: oklch(70.4% 0.14 182.503);
+  --_apps---charts--chart-3: oklch(60% 0.118 184.704);
+  --_apps---charts--chart-4: oklch(51.1% 0.096 186.391);
+  --_apps---charts--chart-5: oklch(43.7% 0.078 188.216);
+  --_apps---sidebar--sidebar: var(--rebel-style_colors---color-light--light-1);
+  --_apps---sidebar--sidebar-foreground: var(--_apps---colors--primary);
+  --_apps---sidebar--sidebar-primary: hsl(222, 89%, 56%);
+  --_apps---sidebar--sidebar-primary-foreground: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-accent: hsl(340, 82%, 52%);
+  --_apps---sidebar--sidebar-accent-foreground: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-border: hsl(210, 16%, 82%);
+  --_apps---sidebar--sidebar-ring: hsl(222, 89%, 56%);
+  --_apps---colors--background-dark: var(
+    --rebel-style_cards---dark-card--dark-card-bg-inverse
+  );
+  --_apps---colors--foreground-dark: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --_apps---colors--card-dark: var(--rebel-style_colors---primary--primary);
+  --_apps---colors--card-foreground-dark: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --_apps---colors--popover-dark: var(
+    --rebel-style_cards---dark-card--dark-card-bg-inverse
+  );
+  --_apps---colors--popover-foreground-dark: hsl(210, 40%, 92%);
+  --_apps---colors--primary-dark: var(--core-colors--color-bright-blue);
+  --_apps---colors--primary-foreground-dark: hsl(210, 40%, 98%);
+  --_apps---colors--secondary-dark: var(
+    --rebel-style_cards---dark-card--dark-card-bg-inverse
+  );
+  --_apps---colors--secondary-foreground-dark: hsl(210, 40%, 90%);
+  --_apps---colors--muted-dark: hsl(210, 20%, 30%);
+  --_apps---colors--muted-foreground-dark: hsl(210, 20%, 70%);
+  --_apps---colors--accent-dark: var(
+    --rebel-style_colors---color-2--color-2-inverse
+  );
+  --_apps---colors--accent-foreground-dark: var(
+    --rebel-style_colors---color-2--color-2
+  );
+  --_apps---colors--destructive-dark: var(
+    --rebel-style_colors---color-7--color-7
+  );
+  --_apps---colors--border-dark: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --_apps---colors--input-dark: var(--_apps---colors--primary);
+  --_apps---colors--ring-dark: var(--rebel-style_colors---color-8--color-8);
+  --_apps---charts--chart-1-dark: oklch(77.7% 0.152 181.912);
+  --_apps---charts--chart-2-dark: oklch(70.4% 0.14 182.503);
+  --_apps---charts--chart-3-dark: oklch(60% 0.118 184.704);
+  --_apps---charts--chart-4-dark: oklch(51.1% 0.096 186.391);
+  --_apps---charts--chart-5-dark: oklch(43.7% 0.078 188.216);
+  --_apps---sidebar--sidebar-dark: var(
+    --rebel-style_cards---dark-card--dark-card-bg-inverse
+  );
+  --_apps---sidebar--sidebar-foreground-dark: hsl(210, 40%, 90%);
+  --_apps---sidebar--sidebar-primary-dark: var(
+    --core-colors--color-bright-blue
+  );
+  --_apps---sidebar--sidebar-primary-foreground-dark: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-accent-dark: hsl(280, 60%, 40%);
+  --_apps---sidebar--sidebar-accent-foreground-dark: hsl(280, 60%, 95%);
+  --_apps---sidebar--sidebar-border-dark: hsl(210, 30%, 25%);
+  --_apps---sidebar--sidebar-ring-dark: hsl(210, 60%, 50%);
+  --theme--background-color-1: var(--rebel-style_colors---primary--primary);
+  --theme--background-color-2: var(--rebel-style_colors---color-2--color-2);
+  --theme--background-color-3: var(--rebel-style_colors---color-3--color-3);
+  --theme--background-color-4: var(--rebel-style_colors---color-4--color-4);
+  --theme--background-color-5: var(--rebel-style_colors---color-5--color-5);
+  --theme--background-color-6: var(--rebel-style_colors---color-6--color-6);
+  --theme--background-color-7: var(--rebel-style_colors---color-7--color-7);
+  --theme--background-color-8: var(--rebel-style_colors---color-8--color-8);
+  --theme--background-color-9: var(--rebel-style_colors---color-9--color-9);
+  --padding-horizontal--none: 0px;
+  --padding-horizontal--small: var(--_apps---size--2rem);
+  --padding-horizontal--main: var(--_apps---size--4rem);
+  --padding-horizontal--large: var(--_apps---size--6rem);
+  --padding-vertical--small: var(--_apps---size--2rem);
+  --padding-vertical--main: var(--_apps---size--4rem);
+  --padding-vertical--large: var(--_apps---size--6rem);
+  --text-small--font-family: var(--rebel-style_type---font--font-body);
+  --text-small--font-weight: 0px;
+  --rebel-style_type---eyebrows--letter-spacing: 0.1em;
+  --rebel-style_type---eyebrows--font-weight: 300;
+  --text--font-family: Inter, Arial, sans-serif;
+  --h1--font-family: var(--rebel-style_type---font--font-headline);
+  --h1--font-size: var(--rebel-style_type---h1--h1-font-size);
+  --h2--font-family: var(--rebel-style_type---font--font-headline);
+  --rebel-style_space-size---widths--max-width-xl: 1720px;
+  --rebel-style_space-size---widths--max-width-md: 1440px;
+  --rebel-style_space-size---widths--max-width-base: 1280px;
+  --rebel-style_space-size---widths--max-width-xs: 900px;
+  --rebel-style_space-size---widths--max-width-xxs: 12px;
+  --h2--font-size: var(--rebel-style_type---h2--h2-font-size);
+  --rebel-style_space-size---widths--max-size-xs: 60%;
+  --rebel-style_colors---core-colors--color-grey: white;
+  --h3--font-family: var(--rebel-style_type---font--font-headline);
+  --rebel-style_space-size---widths--width-xxl: 70rem;
+  --rebel-style_space-size---widths--width-xl: 60rem;
+  --rebel-style_space-size---widths--width-lg: 50rem;
+  --rebel-style_space-size---widths--width-base: 40rem;
+  --rebel-style_space-size---widths--width-sm: 35rem;
+  --rebel-style_space-size---widths--width-xs: 25rem;
+  --rebel-style_space-size---widths--width-xxs: 12rem;
+  --rebel-style_space-size---widths--full-width: 100%;
+  --rebel-style_space-size---widths--3-quarters-size: 75%;
+  --rebel-style_space-size---widths--half-size: 50%;
+  --rebel-style_space-size---widths--quarter-size: 25%;
+  --rebel-style_space-size---widths--max-rem-md: 40rem;
+  --rebel-style_space-size---widths--size: 0px;
+  --rebel-style_space-size---container--container-xl-width: 1600px;
+  --h3--font-size: var(--rebel-style_type---h3--h3-font-size);
+  --h4--font-family: var(--rebel-style_type---font--font-headline);
+  --h4--font-weight: 0px;
+  --h4--font-size: var(--rebel-style_type---h4--h4-font-size);
+  --rebel-style_shades---shades-blue--blue-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-blue--blue-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-blue--core-blue: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_shades---shades-blue--blue-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-blue--blue-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-blue--blue-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-blue--blue-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-primary) 60%,
+    black 40%
+  );
+  --rebel-style_shades---brand-color-primary--brand-color-primary-l400: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 65.61%,
+    white
+  );
+  --rebel-style_shades---brand-color-primary--brand-color-primary-l300: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 72.9%,
+    white
+  );
+  --rebel-style_shades---brand-color-primary--brand-color-primary-l100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 90%,
+    white
+  );
+  --rebel-style_shades---brand-color-primary--color-primary-d100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 90%,
+    black
+  );
+  --rebel-style_shades---brand-color-primary--color-primary-d200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 81%,
+    black
+  );
+  --rebel-style_shades---brand-color-primary--color-primary-d300: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 72.9%,
+    black
+  );
+  --rebel-style_shades---brand-color-primary--color-primary-d400: color-mix(
+    in srgb,
+    var(--rebel-style_shades---brand-color-primary--color-primary) 65.61%,
+    black
+  );
+  --rebel-style_shades---shades-color-1--color-1-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-1--color-1-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-1--color-1-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-1--color-1-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-1--color-1: var(
+    --rebel-style_colors---color-1--color-1
+  );
+  --rebel-style_shades---shades-color-1--color-1-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-1--color-1-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-1--color-1-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-1--color-1-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-1-input) 60%,
+    black 40%
+  );
+  --rebel-style_shades---shades-color-2--color-2-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-2--color-2-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-2--color-2-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-2--color-2-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-2--color-2: var(
+    --rebel-style_colors---color-2--color-2
+  );
+  --rebel-style_shades---shades-color-2--color-2-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-2--color-2-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-2--color-2-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-2--color-2-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-2-input) 60%,
+    black 40%
+  );
+  --h5--font-family: var(--rebel-style_type---font--font-headline);
+  --h5--font-weight: 0px;
+  --h5--font-size: var(--rebel-style_type---h5--h5-font-size);
+  --rebel-style_shades---shades-brand-color-4--color-4-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-4-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-4-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-l200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-brand-color-4--color-4) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-l100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-brand-color-4--color-4) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4: var(
+    --rebel-style_colors---color-4--color-4
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-d100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-brand-color-4--color-4) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-d200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-brand-color-4--color-4) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-4-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-brand-color-4--color-4-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-4-input) 60%,
+    black 40%
+  );
+  --rebel-style_shades---shades-color-5--color-5-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-5--color-5-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-5--color-5-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-5--color-5-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-5--color-5: var(
+    --rebel-style_colors---color-5--color-5
+  );
+  --rebel-style_shades---shades-color-5--color-5-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-color-5--color-5-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-5--color-5-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-5--color-5-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-5-input) 60%,
+    black 40%
+  );
+  --rebel-style_shades---shades-color-6--color-6-l400: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 80%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-6--color-6-l300: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-6--color-6-l200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-6--color-6-l100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-6--color-6: var(
+    --rebel-style_colors---color-6--color-6
+  );
+  --rebel-style_shades---shades-color-6--color-6-d100: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-color-6--color-6-d200: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-6--color-6-d300: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-6--color-6-d400: color-mix(
+    in srgb,
+    var(--rebel-style_shades---shades-color-6--color-6) 80%,
+    black 40%
+  );
+  --rebel-style_shades---shades-color-7--color-7-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-7--color-7-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-7--color-7-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-7--color-7-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-7--color-7: var(
+    --rebel-style_colors---color-7--color-7
+  );
+  --rebel-style_shades---shades-color-7--color-7-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-color-7--color-7-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-color-7--color-7-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-7--color-7-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-7-input) 60%,
+    black 40%
+  );
+  --rebel-style_shades---shades-color-8--color-8-l400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 60%,
+    white 40%
+  );
+  --rebel-style_shades---shades-color-8--color-8-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-color-8--color-8-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-color-8--color-8-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-color-8--color-8: var(
+    --rebel-style_colors---color-8--color-8
+  );
+  --rebel-style_shades---shades-color-8--color-8-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-color-8--color-8-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-color-8--color-8-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--color-8-input) 60%,
+    black 40%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-l400: #2e2e2e;
+  --rebel-style_shades---shades-brightgrey--brightgrey-l300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 80%,
+    white 20%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-l200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 70%,
+    white 30%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-l100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 90%,
+    white 10%
+  );
+  --rebel-style_shades---shades-brightgrey--core-grey-bright: var(
+    --rebel-style---colors--grey-1-input
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-d100: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 90%,
+    black 10%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-d200: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 80%,
+    black 20%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-d300: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 70%,
+    black 30%
+  );
+  --rebel-style_shades---shades-brightgrey--brightgrey-d400: color-mix(
+    in srgb,
+    var(--rebel-style---colors--grey-1-input) 60%,
+    black 40%
+  );
+  --h6--font-family: var(--rebel-style_type---font--font-headline);
+  --h6--font-weight: 0px;
+  --h6--font-size: var(--rebel-style_type---h6--h6-font-size);
+  --h6--line-height: 0px;
+  --h6--text-transform: 0px;
+  --rebel-style_shades---shades-grey--grey-l400: #585858;
+  --rebel-style_shades---shades-grey--grey-l300: #4d4d4d;
+  --rebel-style_shades---shades-grey--grey-l200: #434343;
+  --rebel-style_shades---shades-grey--grey-l100: #383838;
+  --rebel-style_shades---shades-grey--core-grey: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_shades---shades-grey--grey-d100: #2c2c2c;
+  --rebel-style_shades---shades-grey--grey-d200: #292929;
+  --rebel-style_shades---shades-grey--grey-d300: #272727;
+  --rebel-style_shades---shades-grey--grey-d400: #252525;
+  --rebel-style_space-size---container--container-md-width: 1200px;
+  --rebel-style_space-size---container--container-sm-width: 1000px;
+  --rebel-style_space-size---container--container-padding-horizontal: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style_space-size---page-padding--page-padding-v: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_space-size---page-padding--page-padding-h: var(
+    --rebel-style_space-size---size--4x
+  );
+  --rebel-style_space-size---section--section-padding-vertical: var(
+    --rebel-style_space-size---size--8x
+  );
+  --rebel-style_space-size---gap--xs-gap: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style_space-size---gap--sm-gap: var(
+    --rebel-style_space-size---size--2x
+  );
+  --rebel-style_space-size---gap--md-gap: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_space-size---gap--xl-gap: var(
+    --rebel-style_space-size---size--5x
+  );
+  --rebel-style_type---h0--h0-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h0--h0-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-xl
+  );
+  --rebel-style_type---h0--h0-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h0--h0-line-height: 0.8;
+  --rebel-style_type---h1--h1-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h1--h1-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h1--h1-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-lg
+  );
+  --rebel-style_type---h1--h1-margin-bottom: 0px;
+  --rebel-style_type---h2--h2-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h2--h2-margin-bottom: 1%;
+  --rebel-style_type---h3--h3-margin-bottom: 0.15em;
+  --rebel-style_type---h4--h4-margin-bottom: 0.15em;
+  --rebel-style_type---h5--h5-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-xs
+  );
+  --rebel-style_type---h5--h5-margin-bottom: 0.15em;
+  --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+  --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+  --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+  --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+  --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+  --rebel-style_space-size---ix--ix-card-change-width: 50%;
+  --rebel-style_space-size---ix--ix-nav-width: 0px;
+  --rebel-style_colors---actions--color-success: var(
+    --rebel-style_colors---color-2--color-2
+  );
+  --rebel-style_colors---actions--color-alert: var(
+    --rebel-style_colors---color-7--color-7
+  );
+  --rebel-style_colors---actions--color-error: var(
+    --rebel-style_colors---color-7--color-7
+  );
+  --rebel-style_space-size---radius--sm-radius: 0.25rem;
+  --rebel-style_colors---actions--color-warning: var(
+    --rebel-style_colors---color-5--color-5
+  );
+  --rebel-style_colors---actions--color-disabled: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_space-size---radius--md-radius: 0.5rem;
+  --rebel-style_space-size---radius--lg-radius: 0.75rem;
+  --rebel-style_space-size---radius--xl-radius: 1rem;
+  --rebel-style_space-size---radius--round: 100rem;
+  --rebel-style_space-size---size--0-25x: 0.25rem;
+  --rebel-style_space-size---size--0-5x: 0.5rem;
+  --rebel-style_space-size---size--0-75x: 0.75rem;
+  --rebel-style_space-size---size--1-25x: 1.25rem;
+  --rebel-style_space-size---size--1-5x: 1.5rem;
+  --rebel-style_space-size---size--1-75x: 1.75rem;
+  --rebel-style_space-size---size--3x: 3rem;
+  --rebel-style_space-size---size--5x: 5rem;
+  --rebel-style_space-size---size--7x: 7rem;
+  --rebel-style_space-size---divider-width: 2px;
+  --rebel-style_space-size---height: 0px;
+  --rebel-style_colors---links--link-font-color: var(
+    --rebel-style_colors---color-2--color-2
+  );
+  --rebel-style_colors---links--filter-blue: var(
+    --rebel-style---colors--color-9-input
+  );
+  --rebel-style_colors---socials--email: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_colors---socials--linkedin: var(
+    --rebel-style_colors---color-1--color-1
+  );
+  --rebel-style_colors---socials--facebook: var(
+    --rebel-style_colors---color-8--color-8
+  );
+  --rebel-style_colors---socials--x: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_colors---socials--github: var(
+    --rebel-style_colors---color-grey--grey-2
+  );
+  --rebel-style_colors---socials--google: var(
+    --rebel-style_colors---color-6--color-6
+  );
+  --rebel-style_colors---socials--blog: var(
+    --rebel-style_colors---color-5--color-5
+  );
+  --rebel-style_colors---socials--youtube: var(
+    --rebel-style_shades---shades-color-7--color-7-d200
+  );
+  --rebel-style_colors---cards--info-card-1: var(
+    --rebel-style_colors---color-2--color-2
+  );
+  --rebel-style_colors---cards--info-card-1-inverse: var(
+    --rebel-style_colors---color-2--color-2-inverse
+  );
+  --rebel-style_colors---cards--infor-card-2: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_colors---cards--info-card-2-inverse: var(
+    --rebel-style_colors---color-3--color-3-inverse
+  );
+  --rebel-style_colors---cards--infor-card-3: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_colors---cards--infor-card-3-inverse: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_type---font-color: var(--rebel-style_colors---primary--primary);
+  --rebel-style---dark-filter--color: white;
+  --rebel-style---dark-filter--number: 0;
+  --rebel-style_type---lists-line-height: 2;
+  --rebel-style_type---lists-font: "General Sans", Tahoma, sans-serif;
+  --rebel-style_buttons---all-buttons--btn-border-shadow: color-mix(
+    in srgb,
+    var(
+        --rebel-style---core-colors--inherit\<deleted\|variable-bb5cc251-d5e2-5ac6-bead-8a0dc52c2f59\>
+      )
+      20%,
+    transparent
+  );
+  --rebel-style_buttons---all-buttons--dark-border-shadow: rgba(
+    17,
+    41,
+    76,
+    0.31
+  );
+  --rebel-style_buttons---button-states--btn-disabled-color-hover: color-mix(
+    in srgb,
+    var(--rebel-style_buttons---button-states--btn-disabled-color) 80%,
+    transparent
+  );
+  --rebel-style_buttons---button-primary--btn-primary-border-hover-inverse: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_buttons---button-brand-color-4--btn-color4-bg: var(
+    --rebel-style_colors---color-4--color-4
+  );
+  --rebel-style_buttons---button-brand-color-4--btn-color4-bg-hover-dim: var(
+    --rebel-style_shades---shades-brand-color-4--color-4-d200
+  );
+  --rebel-style_buttons---button-brand-color-4--btn-color4-font-color: var(
+    --rebel-style_colors---color-4--color-4-inverse
+  );
+  --rebel-style_buttons---button-brand-color-4--btn-color4-border: var(
+    --rebel-style_colors---color-4--color-4
+  );
+  --rebel-style_buttons---button-brand-color-4--btn-color4-border-hover-dim: var(
+    --rebel-style_shades---shades-brand-color-4--color-4-d200
+  );
+  --rebel-style_buttons---button-grey--button-white--btngrey-bg: #575757;
+  --rebel-style_buttons---button-grey--button-white--btn-grey-bg-hover-dim: color-mix(
+    in srgb,
+    var(--rebel-style_buttons---button-grey--button-white--btngrey-bg) 80%,
+    transparent
+  );
+  --rebel-style_buttons---button-grey--button-white--btn-grey-font-color: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style_buttons---button-grey--button-white--btngrey-border: #575757;
+  --rebel-style_buttons---button-grey--button-white--btn-grey-border-hover-dim: color-mix(
+    in srgb,
+    var(--rebel-style_buttons---button-grey--button-white--btngrey-border) 80%,
+    transparent
+  );
+  --rebel-style_buttons---small-buttons--sm-btn-text-size: 0.85rem;
+  --rebel-style_buttons---small-buttons--sm-btn-weight: 400;
+  --rebel-style_buttons---small-buttons--sm-btn-border-width: 2px;
+  --rebel-style_buttons---small-buttons--sm-btn-radius: 1.25px;
+  --rebel-style_buttons---large-buttons--lg-btn-text-size: 1.15rem;
+  --rebel-style_buttons---large-buttons--lg-btn-weight: 400;
+  --rebel-style_buttons---large-buttons--lg-btn-weight-hover: 400;
+  --rebel-style_buttons---large-buttons--lg-btn-border-width: 3px;
+  --rebel-style_buttons---large-buttons--lg-btn-radius: 2.25px;
+  --rebel-style_buttons---tags--letter-spacing: 0;
+  --rebel-style_buttons---tags--font-weight-hover: 300;
+  --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+  --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+  --rebel-style_buttons---tags--border-width: 3px;
+  --rebel-style_cards---dark-card--dark-card-bg: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+  );
+  --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
+  --rebel-style_cards---dark-card--dark-card-border-color: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_cards---dark-card--dark-card-border-color-transparent: transparent;
+  --rebel-style_cards---dark-card--dark-card-text-color: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_cards---dark-card--dark-card-text-color-dim: color-mix(
+    in srgb,
+    black 2%,
+    var(
+      --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>
+    )
+  );
+  --rebel-style_cards---light-card--light-card-bg: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style_cards---light-card--light-card-bg-dim: color-mix(
+    in srgb,
+    black 2%,
+    var(
+      --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+    )
+  );
+  --rebel-style_cards---light-card--light-card-bg-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_cards---light-card--light-card-bg-transparent: transparent;
+  --rebel-style_cards---light-card--light-card-border-color: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_cards---light-card--light-card-border-color-dim: var(
+    --rebel-style_shades---shades-blue--blue-l200
+  );
+  --rebel-style_cards---light-card--light-card-border-color-inverse: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+  --rebel-style_cards---light-card--light-card-text-color-dim: var(
+    --rebel-style_shades---shades-blue--blue-l200
+  );
+  --rebel-style_cards---light-card--light-card-text-color-inverse: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style_cards---light-card--light-card-text-color-inverse-dim: var(
+    --rebel-style_cards---light-card--light-card-bg-dim
+  );
+  --rebel-style_cards---grey-card--grey-card-bg: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_cards---grey-card--grey-card-bg-dim: color-mix(
+    in srgb,
+    black 2%,
+    var(
+      --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+    )
+  );
+  --rebel-style_cards---grey-card--grey-card-bg-inverse: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_cards---grey-card--grey-card-border-color: rgba(
+    171,
+    171,
+    171,
+    0.35
+  );
+  --rebel-style_cards---grey-card--grey-card-border-color-dim: color-mix(
+    in srgb,
+    var(--rebel-style_cards---grey-card--grey-card-border-color) 90%,
+    black
+  );
+  --rebel-style_cards---grey-card--grey-card-border-color-inverse-dim: var(
+    --rebel-style---colors--grey-2-input
+  );
+  --rebel-style_cards---grey-card--grey-card-border-color-transparent: transparent;
+  --rebel-style_cards---grey-card--grey-card-text-color: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_cards---grey-card--grey-card-text-color-dim: color-mix(
+    in srgb,
+    var(--rebel-style_cards---grey-card--grey-card-text-color) 90%,
+    black
+  );
+  --rebel-style_cards---grey-card--grey-card-text-color-inverse: var(
+    --rebel-style---colors--light-input
+  );
+  --rebel-style_cards---grey-card--grey-card-text-color-inverse-dim: color-mix(
+    in srgb,
+    black 2%,
+    var(--rebel-style_cards---grey-card--grey-card-text-color-inverse)
+  );
+  --rebel-style_cards---labels--label-border-width: 4px;
+  --rebel-style---image-radius: 0.25rem;
+  --rebel-style---ratio-subhead: 0.4927;
+  --rebel-style---ratio-body: 0.2932;
+  --rebel-style---size: 0px;
+  --rebel-style---max-viewport: 100;
+  --rebel-style---min-viewport: 0;
+  --rebel-style---core-button-color--button-purple: var(
+    --rebel-style---colors--color-8-input
+  );
+  --rebel-style---core-button-color--button-color1-inverse: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style---core-button-color--button-green: var(
+    --rebel-style---colors--color-2-input
+  );
+  --rebel-style---core-button-color--button-color2-inverse: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style---core-button-color--button-bright-blue: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style---core-button-color--button-color3-inverse: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style---core-button-color--button-yellow: var(
+    --rebel-style---colors--color-7-input
+  );
+  --rebel-style---core-button-color--button-color4-inverse: var(
+    --rebel-style---colors--white-input
+  );
+  --rebel-style---core-button-color--button-white-inverse: transparent;
+  --rebel-style---font-weights--font-weight-800: 800;
+  --rebel-style_type---s0--s0-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s0--s0-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s0--s0-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-xl
+  );
+  --rebel-style_type---s0--s0-line-height: 1;
+  --rebel-style_type---s0--s0-letter-spacing: 0px;
+  --rebel-style_type---s1--s1-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s1--s1-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s1--s1-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-lg
+  );
+  --rebel-style_type---s1--s1-line-height: 1.25;
+  --rebel-style_type---s1--s1-letter-spacing: 0px;
+  --rebel-style_type---s2--s2-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s2--s2-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-md
+  );
+  --rebel-style_type---s4--s4-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s4--s4-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s4--s4-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-sm
+  );
+  --rebel-style_type---s4--s4-line-height: 1.25;
+  --rebel-style_type---s4--s4-letter-spacing: 0px;
+  --rebel-style_type---s5--s5-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s5--s5-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-xs
+  );
+  --rebel-style_type---s5--s5-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s5--s5-line-height: 1.25;
+  --rebel-style_type---s5--s5-letter-spacing: 0px;
+  --rebel-style_type---s6--s6-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s6--s6-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style_type---s6--s6-line-height: 1.25;
+  --rebel-style_type---s6--s6-letter-spacing: 0px;
+  --rebel-style_type---responsive-label-text--label-line-height-base: 1.5;
+  --rebel-style_type---blockquotes--background: transparent;
+  --rebel-style_type---blockquotes--border-color: transparent;
+  --rebel-style_type---blockquotes--border-weight: 500;
+  --rebel-style_type---blockquotes--border-radius: 0px;
+  --rebel-style_type---blockquotes--border-width: 3px;
+  --rebel-style_type---blockquotes--font-size: 2rem;
+  --rebel-style_type---blockquotes--letter-spacing: 0.01em;
+  --rebel-style_type---blockquotes--blockquote-padding-vertical: 0px;
+  --rebel-style_type---blockquotes--blockquote-padding-horizontal: 0px;
+  --rebel-style_colors-2---text--text-blue\<deleted\|variable-376fe723-b878-0759-96ab-0b42e133af87\>: var(
+    --rebel-style_core-2---core-colors--core-color-blue\<deleted\|variable-6781bb42-b520-79a3-212d-4cb2b1042435\>
+  );
+  --rebel-style---core-colors--inherit\<deleted\|variable-bb5cc251-d5e2-5ac6-bead-8a0dc52c2f59\>: #b2d3de;
+  --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>: var(
+    --rebel-style_colors-2---text--text-brightwhite\<deleted\|variable-7f5d9235-9008-4928-f8b0-24bd8071febe\>
+  );
+  --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>: var(
+    --rebel-style_core-2---core-colors--bright-white\<deleted\|variable-fc25b7db-f5d1-4e2d-b37e-24bc654844ba\>
+  );
+  --rebel-style_core-2---core-colors--core-color-blue\<deleted\|variable-6781bb42-b520-79a3-212d-4cb2b1042435\>: #1c437f;
+  --rebel-style_colors-2---text--text-brightwhite\<deleted\|variable-7f5d9235-9008-4928-f8b0-24bd8071febe\>: var(
+    --rebel-style_core-2---core-colors--bright-white\<deleted\|variable-fc25b7db-f5d1-4e2d-b37e-24bc654844ba\>
+  );
+  --rebel-style_core-2---core-colors--bright-white\<deleted\|variable-fc25b7db-f5d1-4e2d-b37e-24bc654844ba\>: white;
+}

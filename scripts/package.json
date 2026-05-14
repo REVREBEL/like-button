@@ -1,0 +1,11 @@
+{
+  "name": "revrebel-project",
+  "private": true,
+  "scripts": {
+    "setup:repo": "bash scripts/setup-repo.sh",
+    "build:push": "bash scripts/build-and-push.sh",
+    "build:docs": "node ./scripts/build-master-doc.mjs",
+    "sync:main": "bash scripts/sync-main-to-dev.sh",
+    "cleanup": "rm -rf /tmp/* /var/tmp/* /root/.npm /root/.cache /root/.local /app/lost+found/* /app/dist 2>/dev/null || true && echo 'Cleanup complete!' && df -h / | tail -1"
+  }
+}

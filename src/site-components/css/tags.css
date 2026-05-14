@@ -1,0 +1,1151 @@
+@scope (.wf-devlink-e91129b34719534624bd200c8e89f8d1) {
+  body {
+    margin-top: 0px;
+    color: #333;
+  }
+  a {
+    color: var(--rebel-style_colors---color-2--color-2);
+    text-decoration: none;
+    text-decoration-color: transparent;
+  }
+  @media screen and (min-width: 1280px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 0.5rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 0.5rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 1rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 0.5rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_cards---large-card--lg-card-radius: 4px;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
+        sans-serif;
+      --rebel-style_cards---base-card--text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---base-card--padding-v: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---base-card--padding-h: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---base-card--border-width: 5px;
+      --rebel-style_cards---base-card--radius: 0.25em;
+      --rebel-style_cards---base-card--text-padding: 2%;
+      --rebel-style_cards---small-card--sm-card-text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-padding-v: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-padding-h: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-border-width: 4px;
+      --rebel-style_cards---small-card--sm-card-radius: 0.2rem;
+      --rebel-style_cards---large-card--lg-card-text-size: 1rem;
+      --rebel-style_cards---large-card--lg-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-padding-v: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_cards---large-card--lg-card-padding-h: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_cards---large-card--lg-card-border-width: 4rem;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-border-color: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-text-color: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-text-color-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg-inverse: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-bg-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-border-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-border-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-border-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse-dim: var(
+        --rebel-style_cards---light-card--light-card-bg-dim
+      );
+      --rebel-style_cards---grey-card--grey-card-bg: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-inverse: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color: rgba(
+        171,
+        171,
+        171,
+        0.35
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-border-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-inverse-dim: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-transparent: transparent;
+      --rebel-style_cards---grey-card--grey-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-text-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(--rebel-style_cards---grey-card--grey-card-text-color-inverse)
+      );
+    }
+  }
+  @media screen and (max-width: 767px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 0.5rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 2rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_cards---large-card--lg-card-radius: 4px;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
+        sans-serif;
+      --rebel-style_cards---base-card--text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---base-card--padding-v: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---base-card--padding-h: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---base-card--border-width: 1px;
+      --rebel-style_cards---base-card--radius: 1rem;
+      --rebel-style_cards---base-card--text-padding: 2%;
+      --rebel-style_cards---small-card--sm-card-text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-padding-v: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-padding-h: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-border-width: 2px;
+      --rebel-style_cards---small-card--sm-card-radius: 0.5rem;
+      --rebel-style_cards---large-card--lg-card-text-size: 1rem;
+      --rebel-style_cards---large-card--lg-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-padding-v: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_cards---large-card--lg-card-padding-h: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_cards---large-card--lg-card-border-width: 4px;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-border-color: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-text-color: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-text-color-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg-inverse: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-bg-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-border-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-border-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-border-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse-dim: var(
+        --rebel-style_cards---light-card--light-card-bg-dim
+      );
+      --rebel-style_cards---grey-card--grey-card-bg: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-inverse: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color: rgba(
+        171,
+        171,
+        171,
+        0.35
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-border-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-inverse-dim: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-transparent: transparent;
+      --rebel-style_cards---grey-card--grey-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-text-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(--rebel-style_cards---grey-card--grey-card-text-color-inverse)
+      );
+    }
+  }
+  @media screen and (max-width: 479px) {
+    body {
+      --rebel-style_space-size---container--container-lg-width: 1440px;
+      --rebel-style_space-size---icon-size--base-icon: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---icon-size--sm-icon: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---icon-size--xs-icon: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---icon-size--md-icon: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---icon-size--lg-icon: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---icon-size--xl-icon: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-lg: 1600px;
+      --rebel-style_space-size---size--1x: 1rem;
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_space-size---size--4x: 4rem;
+      --rebel-style_space-size---widths--max-width-sm: 1150px;
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
+      );
+      --rebel-style_space-size---size--2x: 2rem;
+      --rebel-style_space-size---size--8x: 8rem;
+      --rebel-style_space-size---size--6x: 6rem;
+      --rebel-style_space-size---widths--max-width-xxl: 1820px;
+      --rebel-style_space-size---widths--max-width-xl: 1720px;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
+      --rebel-style_space-size---widths--max-width-base: 1280px;
+      --rebel-style_space-size---widths--max-width-xs: 900px;
+      --rebel-style_space-size---widths--max-width-xxs: 12px;
+      --rebel-style_space-size---widths--max-size-xs: 60%;
+      --rebel-style_space-size---widths--width-xxl: 70rem;
+      --rebel-style_space-size---widths--width-xl: 60rem;
+      --rebel-style_space-size---widths--width-lg: 50rem;
+      --rebel-style_space-size---widths--width-base: 40rem;
+      --rebel-style_space-size---widths--width-sm: 35rem;
+      --rebel-style_space-size---widths--width-xs: 25rem;
+      --rebel-style_space-size---widths--width-xxs: 12rem;
+      --rebel-style_space-size---widths--full-width: 100%;
+      --rebel-style_space-size---widths--3-quarters-size: 75%;
+      --rebel-style_space-size---widths--half-size: 50%;
+      --rebel-style_space-size---widths--quarter-size: 25%;
+      --rebel-style_space-size---widths--max-rem-md: 40rem;
+      --rebel-style_space-size---widths--size: 0px;
+      --rebel-style_space-size---container--container-xl-width: 1600px;
+      --rebel-style_space-size---container--container-md-width: 1200px;
+      --rebel-style_space-size---container--container-sm-width: 1000px;
+      --rebel-style_space-size---container--container-padding-horizontal: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-v: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---page-padding--page-padding-h: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---section--section-padding-vertical: var(
+        --rebel-style_space-size---size--8x
+      );
+      --rebel-style_space-size---gap--xs-gap: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_space-size---gap--sm-gap: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_space-size---gap--md-gap: var(
+        --rebel-style_space-size---size--3x
+      );
+      --rebel-style_space-size---gap--xl-gap: var(
+        --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
+      --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-3: 0px;
+      --rebel-style_space-size---ix--ix-card-spacing: 2rem;
+      --rebel-style_space-size---ix--ix-card-change-width: 50%;
+      --rebel-style_space-size---ix--ix-nav-width: 0px;
+      --rebel-style_space-size---radius--sm-radius: 0.25rem;
+      --rebel-style_space-size---radius--md-radius: 0.5rem;
+      --rebel-style_space-size---radius--lg-radius: 0.75rem;
+      --rebel-style_space-size---radius--xl-radius: 1rem;
+      --rebel-style_space-size---radius--round: 100rem;
+      --rebel-style_space-size---size--0-25x: 0.25rem;
+      --rebel-style_space-size---size--0-5x: 0.5rem;
+      --rebel-style_space-size---size--0-75x: 0.75rem;
+      --rebel-style_space-size---size--1-25x: 1.25rem;
+      --rebel-style_space-size---size--1-5x: 1.5rem;
+      --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---divider-width: 2px;
+      --rebel-style_space-size---height: 0px;
+      --rebel-style_space-size---tags--tag-padding-top: 0.15em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_cards---large-card--lg-card-radius: 4px;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
+        sans-serif;
+      --rebel-style_cards---base-card--text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---base-card--padding-v: var(
+        --rebel-style_space-size---size--1-5x
+      );
+      --rebel-style_cards---base-card--padding-h: var(
+        --rebel-style_space-size---size--1-5x
+      );
+      --rebel-style_cards---base-card--border-width: 1px;
+      --rebel-style_cards---base-card--radius: 1rem;
+      --rebel-style_cards---base-card--text-padding: 2%;
+      --rebel-style_cards---small-card--sm-card-text-size: var(
+        --rebel-style_space-size---size--1x
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---small-card--sm-card-padding-v: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_cards---small-card--sm-card-padding-h: var(
+        --rebel-style_space-size---size--0-5x
+      );
+      --rebel-style_cards---small-card--sm-card-border-width: 2px;
+      --rebel-style_cards---small-card--sm-card-radius: 0.5rem;
+      --rebel-style_cards---large-card--lg-card-text-size: 1rem;
+      --rebel-style_cards---large-card--lg-card-text-weight: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-text-weight-hover: var(
+        --rebel-style_type---font-weights--font-weight-400
+      );
+      --rebel-style_cards---large-card--lg-card-padding-v: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---large-card--lg-card-padding-h: var(
+        --rebel-style_space-size---size--2x
+      );
+      --rebel-style_cards---large-card--lg-card-border-width: 4rem;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-border-color: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
+        --rebel-style_colors---primary--primary
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-transparent: transparent;
+      --rebel-style_cards---dark-card--dark-card-text-color: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-text-color-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---light-card--light-card-bg-inverse: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-bg-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-border-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---light-card--light-card-border-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-border-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color-dim: var(
+        --rebel-style_shades---shades-blue--blue-l200
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse: var(
+        --rebel-style---colors--white-input
+      );
+      --rebel-style_cards---light-card--light-card-text-color-inverse-dim: var(
+        --rebel-style_cards---light-card--light-card-bg-dim
+      );
+      --rebel-style_cards---grey-card--grey-card-bg: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(
+          --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>
+        )
+      );
+      --rebel-style_cards---grey-card--grey-card-bg-inverse: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color: rgba(
+        171,
+        171,
+        171,
+        0.35
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-border-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-inverse-dim: var(
+        --rebel-style---colors--grey-2-input
+      );
+      --rebel-style_cards---grey-card--grey-card-border-color-transparent: transparent;
+      --rebel-style_cards---grey-card--grey-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-dim: color-mix(
+        in srgb,
+        var(--rebel-style_cards---grey-card--grey-card-text-color) 90%,
+        black
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse: var(
+        --rebel-style---colors--light-input
+      );
+      --rebel-style_cards---grey-card--grey-card-text-color-inverse-dim: color-mix(
+        in srgb,
+        black 2%,
+        var(--rebel-style_cards---grey-card--grey-card-text-color-inverse)
+      );
+    }
+  }
+}
