@@ -1,4 +1,10 @@
 import type { APIRoute } from 'astro';
+import { atomicIncrement } from '../../../lib/likes-views/kv-atomic';
+import { jsonResponse, optionsResponse, errorResponse } from '../../../lib/likes-views/cors';
+
+export const OPTIONS: APIRoute = async () => {
+  return optionsResponse();
+};
 
 export const POST: APIRoute = async ({ request, locals }) => {
   try {
@@ -6,16 +12,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     
     if (!KV) {
       console.error('KV namespace not found');
-      return new Response(
-        JSON.stringify({ 
-          success: false, 
-          error: 'Storage not configured' 
-        }),
-        { 
-          status: 500,
-          headers: { 'Content-Type': 'application/json' }
-        }
-      );
+      return errorResponse('Storage not configured', 500);
     }
 
     // Try to get slug from request body
@@ -32,42 +29,21 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const viewsKey = `views:${slug}`;
     const likesKey = `likes:${slug}`;
     
-    // Get current counts
-    const [currentViews, currentLikes] = await Promise.all([
-      KV.get(viewsKey),
-      KV.get(likesKey)
-    ]);
+    // Atomically increment views
+    const newViewCount = await atomicIncrement(KV, viewsKey, 1);
     
-    const viewCount = currentViews ? parseInt(currentViews, 10) : 0;
+    // Get current likes count (non-atomic read is fine here)
+    const currentLikes = await KV.get(likesKey);
     const likeCount = currentLikes ? parseInt(currentLikes, 10) : 0;
-    
-    // Increment views
-    const newViewCount = viewCount + 1;
-    await KV.put(viewsKey, newViewCount.toString());
 
-    return new Response(
-      JSON.stringify({ 
-        success: true, 
-        views: newViewCount,
-        likes: likeCount,
-        slug
-      }),
-      { 
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      }
-    );
+    return jsonResponse({ 
+      success: true, 
+      views: newViewCount,
+      likes: likeCount,
+      slug
+    });
   } catch (error) {
     console.error('Error incrementing views:', error);
-    return new Response(
-      JSON.stringify({ 
-        success: false, 
-        error: 'Failed to increment views' 
-      }),
-      { 
-        status: 500,
-        headers: { 'Content-Type': 'application/json' }
-      }
-    );
+    return errorResponse('Failed to increment views', 500);
   }
 };

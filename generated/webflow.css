@@ -1,0 +1,148 @@
+/**
+GENERATED FILE
+
+webflow.css is generated automatically by webflow and is used to expose variables from your webflow design system in your app.
+
+Any changes to this file will be overwritten the next time your app is loaded in the workbench.
+
+In order to override any of these variables, you can redefine them in a CSS file that is imported globally after the webflow.css on your page.
+
+Font imports and @font-face declarations are in fonts.css, which should be imported before this file.
+
+You can learn more about CSS custom properties here:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties#inheritance_of_custom_properties
+*/
+
+:root {
+  --_apps---typography--heading-font: Khand, Impact, sans-serif;
+  --_apps---typography--body-font: 'General Sans', Tahoma, sans-serif;
+  --_apps---typography--button-font: Khand, Impact, sans-serif;
+  --_apps---sizes--radius: 6px;
+  --_apps---colors--background: #fafafa;
+  --_apps---colors--foreground: #163666;
+  --_apps---colors--card: #fafafa;
+  --_apps---colors--card-foreground: #163666;
+  --_apps---colors--popover: hsl(0, 0%, 100%);
+  --_apps---colors--popover-foreground: #163666;
+  --_apps---colors--primary: #163666;
+  --_apps---colors--primary-foreground: #b2d3de;
+  --_apps---colors--secondary: #00a6b6;
+  --_apps---colors--secondary-foreground: #faca78;
+  --_apps---colors--muted: #eff5f6;
+  --_apps---colors--muted-foreground: #163666;
+  --_apps---colors--accent: #b2d3de;
+  --_apps---colors--accent-foreground: #8e456a;
+  --_apps---colors--destructive: #e05047;
+  --_apps---colors--border: #163666;
+  --_apps---colors--input: #fafafa;
+  --_apps---colors--ring: #b2d3de;
+  --_apps---charts--chart-1: oklch(77.7% .152 181.912);
+  --_apps---charts--chart-2: oklch(70.4% .14 182.503);
+  --_apps---charts--chart-3: oklch(60% .118 184.704);
+  --_apps---charts--chart-4: oklch(51.1% .096 186.391);
+  --_apps---charts--chart-5: oklch(43.7% .078 188.216);
+  --_apps---sidebar--sidebar: #fafafa;
+  --_apps---sidebar--sidebar-foreground: #163666;
+  --_apps---sidebar--sidebar-primary: hsl(222, 89%, 56%);
+  --_apps---sidebar--sidebar-primary-foreground: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-accent: hsl(340, 82%, 52%);
+  --_apps---sidebar--sidebar-accent-foreground: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-border: hsl(210, 16%, 82%);
+  --_apps---sidebar--sidebar-ring: hsl(222, 89%, 56%);
+  --_apps---colors--background-dark: #b2d3de;
+  --_apps---colors--foreground-dark: #fafafa;
+  --_apps---colors--card-dark: #163666;
+  --_apps---colors--card-foreground-dark: #b2d3de;
+  --_apps---colors--popover-dark: #b2d3de;
+  --_apps---colors--popover-foreground-dark: hsl(210, 40%, 92%);
+  --_apps---colors--primary-dark: var(--core-colors--color-bright-blue);
+  --_apps---colors--primary-foreground-dark: hsl(210, 40%, 98%);
+  --_apps---colors--secondary-dark: #b2d3de;
+  --_apps---colors--secondary-foreground-dark: hsl(210, 40%, 90%);
+  --_apps---colors--muted-dark: hsl(210, 20%, 30%);
+  --_apps---colors--muted-foreground-dark: hsl(210, 20%, 70%);
+  --_apps---colors--accent-dark: #faca78;
+  --_apps---colors--accent-foreground-dark: #00a6b6;
+  --_apps---colors--destructive-dark: #e05047;
+  --_apps---colors--border-dark: #b2d3de;
+  --_apps---colors--input-dark: #163666;
+  --_apps---colors--ring-dark: #8e456a;
+  --_apps---charts--chart-1-dark: oklch(77.7% .152 181.912);
+  --_apps---charts--chart-2-dark: oklch(70.4% .14 182.503);
+  --_apps---charts--chart-3-dark: oklch(60% .118 184.704);
+  --_apps---charts--chart-4-dark: oklch(51.1% .096 186.391);
+  --_apps---charts--chart-5-dark: oklch(43.7% .078 188.216);
+  --_apps---sidebar--sidebar-dark: #b2d3de;
+  --_apps---sidebar--sidebar-foreground-dark: hsl(210, 40%, 90%);
+  --_apps---sidebar--sidebar-primary-dark: var(--core-colors--color-bright-blue);
+  --_apps---sidebar--sidebar-primary-foreground-dark: hsl(210, 40%, 98%);
+  --_apps---sidebar--sidebar-accent-dark: hsl(280, 60%, 40%);
+  --_apps---sidebar--sidebar-accent-foreground-dark: hsl(280, 60%, 95%);
+  --_apps---sidebar--sidebar-border-dark: hsl(210, 30%, 25%);
+  --_apps---sidebar--sidebar-ring-dark: hsl(210, 60%, 50%);
+  --_apps---font--primary-regular: 0px;
+  --_apps---font--inherit: 'Clash Grotesk', sans-serif;
+  --_apps---font--secondary-regular: 0px;
+  --_apps---font--primary-bold: 0px;
+  --_apps---font--primary-family: 'Clash Grotesk', sans-serif;
+  --_apps---font--secondary-family: 'General Sans', Tahoma, sans-serif;
+  --_apps---font--primary-medium: 0px;
+  --_apps---line-height--1em: 1em;
+  --_apps---line-height--1-1em: 1.1em;
+  --_apps---line-height--1-3em: 1.3em;
+  --_apps---line-height--1-5em: 1.5em;
+  --_apps---display--font-size: 0px;
+  --_apps---font-weight--600: 0px;
+  --_apps---font-weight--500: 0px;
+  --_apps---font-weight--inherit: 0px;
+  --_apps---font-weight--400: 0px;
+  --_apps---font-weight--700: 0px;
+  --_apps---font-weight--100: 0px;
+  --_apps---font-weight--800: 0px;
+  --_apps---font-weight--300: 0px;
+  --_apps---font-weight--900: 0px;
+  --_apps---font-weight--200: 0px;
+  --_apps---letter-spacing--0em: 0em;
+  --_apps---letter-spacing--0-2em: 0.2em;
+  --_apps---letter-spacing--0-03em: -0.03em;
+  --_apps---text-transform--lowercase: 0px;
+  --_apps---text-transform--inherit: 0px;
+  --_apps---text-transform--uppercase: 0px;
+  --_apps---text-transform--none: 0px;
+  --_apps---text-transform--capitalize: 0px;
+  --_apps---size--3rem: 3rem;
+  --_apps---size--8-5rem: 8.5rem;
+  --_apps---size--4rem: 4rem;
+  --_apps---size--12rem: 12rem;
+  --_apps---size--13rem: 13rem;
+  --_apps---size--2-5rem: 2.5rem;
+  --_apps---size--5-5rem: 5.5rem;
+  --_apps---size--0-5rem: 0.5rem;
+  --_apps---size--1-5rem: 1.5rem;
+  --_apps---size--11rem: 11rem;
+  --_apps---size--6-5rem: 6.5rem;
+  --_apps---size--9-5rem: 9.5rem;
+  --_apps---size--6rem: 6rem;
+  --_apps---size--1-25rem: 1.25rem;
+  --_apps---size--0rem: 0rem;
+  --_apps---size--4-5rem: 4.5rem;
+  --_apps---size--2rem: 2rem;
+  --_apps---size--0-75rem: 0.75rem;
+  --_apps---size--1rem: 1rem;
+  --_apps---size--0-25rem: 0.25rem;
+  --_apps---size--8rem: 8rem;
+  --_apps---size--3-5rem: 3.5rem;
+  --_apps---size--5rem: 5rem;
+  --_apps---size--15rem: 15rem;
+  --_apps---size--0-125rem: 0.125rem;
+  --_apps---size--10rem: 10rem;
+  --_apps---size--16rem: 16rem;
+  --_apps---size--7-5rem: 7.5rem;
+  --_apps---size--9rem: 9rem;
+  --_apps---size--7rem: 7rem;
+  --_apps---size--14rem: 14rem;
+  --_apps---icon-size--large: 0px;
+  --_apps---icon-size--medium: 0px;
+  --_apps---icon-size--small: 0px;
+  --_apps---icon-size--xsmall: 0px;
+}

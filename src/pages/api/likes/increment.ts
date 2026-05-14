@@ -1,4 +1,10 @@
 import type { APIRoute } from 'astro';
+import { atomicIncrement } from '../../../lib/likes-views/kv-atomic';
+import { jsonResponse, optionsResponse, errorResponse } from '../../../lib/likes-views/cors';
+
+export const OPTIONS: APIRoute = async () => {
+  return optionsResponse();
+};
 
 export const POST: APIRoute = async ({ request, locals }) => {
   try {
@@ -6,16 +12,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     
     if (!KV) {
       console.error('KV namespace not found');
-      return new Response(
-        JSON.stringify({ 
-          success: false, 
-          error: 'Storage not configured' 
-        }),
-        { 
-          status: 500,
-          headers: { 'Content-Type': 'application/json' }
-        }
-      );
+      return errorResponse('Storage not configured', 500);
     }
 
     // Try to get slug from request body
@@ -32,42 +29,21 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const likesKey = `likes:${slug}`;
     const viewsKey = `views:${slug}`;
     
-    // Get current counts
-    const [currentLikes, currentViews] = await Promise.all([
-      KV.get(likesKey),
-      KV.get(viewsKey)
-    ]);
+    // Atomically increment likes
+    const newLikeCount = await atomicIncrement(KV, likesKey, 1);
     
-    const likeCount = currentLikes ? parseInt(currentLikes, 10) : 0;
+    // Get current views count (non-atomic read is fine here)
+    const currentViews = await KV.get(viewsKey);
     const viewCount = currentViews ? parseInt(currentViews, 10) : 0;
-    
-    // Increment likes
-    const newLikeCount = likeCount + 1;
-    await KV.put(likesKey, newLikeCount.toString());
 
-    return new Response(
-      JSON.stringify({ 
-        success: true, 
-        likes: newLikeCount,
-        views: viewCount,
-        slug
-      }),
-      { 
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      }
-    );
+    return jsonResponse({ 
+      success: true, 
+      likes: newLikeCount,
+      views: viewCount,
+      slug
+    });
   } catch (error) {
     console.error('Error incrementing likes:', error);
-    return new Response(
-      JSON.stringify({ 
-        success: false, 
-        error: 'Failed to increment likes' 
-      }),
-      { 
-        status: 500,
-        headers: { 'Content-Type': 'application/json' }
-      }
-    );
+    return errorResponse('Failed to increment likes', 500);
   }
 };
