@@ -1,0 +1,163 @@
+---
+import MainLayout from '../layouts/main.astro';
+import { LikedWrapper } from '../components/LikedWrapper';
+import { baseUrl } from '../lib/base-url';
+---
+
+<MainLayout>
+<div class="min-h-screen bg-background text-foreground p-8">
+<div class="max-w-4xl mx-auto space-y-12">
+<!-- Header -->
+<header class="text-center space-y-4">
+<h1 class="text-4xl font-bold font-heading">Likes & Views System</h1>
+<p class="text-lg text-muted-foreground">
+DevLink Component Integration with React State Management
+</p>
+</header>
+
+<!-- React Component Example -->
+<section class="space-y-4 p-6 border border-border rounded-lg bg-card">
+<h2 class="text-2xl font-semibold font-heading">React DevLink Component</h2>
+<p class="text-muted-foreground">
+This uses your actual Webflow DevLink component with proper React state management.
+The optionsIsActive prop is properly controlled.
+</p>
+
+<!-- Single Item -->
+<div class="p-6 border-2 border-primary/20 rounded-lg bg-muted/30">
+<h3 class="text-xl font-semibold mb-4">Example Article</h3>
+<p class="text-muted-foreground mb-4">
+Click the button below to like/unlike. The heart icon will toggle correctly.
+</p>
+<LikedWrapper 
+client:only="react"
+slug="testslug000001"
+autoTrackView={true}
+unlikedText="Like"
+likedText="Liked"
+optionsColorVariants="Primary"
+optionsIconVisibility={true}
+optionsLikesCountVisibility={true}
+optionsLikesLabelVisibility={true}
+/>
+</div>
+</section>
+
+<!-- Multiple Items Example -->
+<section class="space-y-4 p-6 border border-border rounded-lg bg-card">
+<h2 class="text-2xl font-semibold font-heading">Multiple Items (Independent Tracking)</h2>
+<p class="text-muted-foreground">
+Each item has its own slug, so they track independently.
+</p>
+
+<div class="grid md:grid-cols-2 gap-4">
+<!-- Card 1 -->
+<div class="p-4 border border-border rounded-lg bg-muted/20">
+<h4 class="font-semibold mb-3">Article 1</h4>
+<LikedWrapper 
+client:only="react"
+slug="article-1"
+autoTrackView={true}
+unlikedText="Like"
+likedText="Liked"
+optionsColorVariants="Primary"
+/>
+</div>
+
+<!-- Card 2 -->
+<div class="p-4 border border-border rounded-lg bg-muted/20">
+<h4 class="font-semibold mb-3">Article 2</h4>
+<LikedWrapper 
+client:only="react"
+slug="article-2"
+autoTrackView={true}
+unlikedText="Like"
+likedText="Liked"
+optionsColorVariants="Color 2"
+/>
+</div>
+</div>
+</section>
+
+<!-- Component Props -->
+<section class="space-y-4 p-6 border border-border rounded-lg bg-card">
+<h2 class="text-2xl font-semibold font-heading">Available Props</h2>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead class="border-b border-border">
+<tr>
+<th class="text-left py-2 px-3">Prop</th>
+<th class="text-left py-2 px-3">Type</th>
+<th class="text-left py-2 px-3">Default</th>
+<th class="text-left py-2 px-3">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">slug</td>
+<td class="py-2 px-3">string</td>
+<td class="py-2 px-3 text-destructive">required</td>
+<td class="py-2 px-3">Unique identifier for tracking</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">autoTrackView</td>
+<td class="py-2 px-3">boolean</td>
+<td class="py-2 px-3">true</td>
+<td class="py-2 px-3">Auto-increment view count on mount</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">unlikedText</td>
+<td class="py-2 px-3">string</td>
+<td class="py-2 px-3">"Like"</td>
+<td class="py-2 px-3">Text when not liked</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">likedText</td>
+<td class="py-2 px-3">string</td>
+<td class="py-2 px-3">"Liked"</td>
+<td class="py-2 px-3">Text when liked</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">optionsColorVariants</td>
+<td class="py-2 px-3">string</td>
+<td class="py-2 px-3">"Primary"</td>
+<td class="py-2 px-3">Primary | Light | Color 2 | Color 7</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">optionsIconVisibility</td>
+<td class="py-2 px-3">boolean</td>
+<td class="py-2 px-3">true</td>
+<td class="py-2 px-3">Show/hide heart icon</td>
+</tr>
+<tr class="border-b border-border">
+<td class="py-2 px-3 font-mono">optionsLikesCountVisibility</td>
+<td class="py-2 px-3">boolean</td>
+<td class="py-2 px-3">true</td>
+<td class="py-2 px-3">Show/hide like count</td>
+</tr>
+<tr>
+<td class="py-2 px-3 font-mono">optionsLikesLabelVisibility</td>
+<td class="py-2 px-3">boolean</td>
+<td class="py-2 px-3">true</td>
+<td class="py-2 px-3">Show/hide "Likes" label</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- Documentation Links -->
+<section class="p-6 border border-border rounded-lg bg-card text-center">
+<h2 class="text-xl font-semibold font-heading mb-4">📚 Full Documentation</h2>
+<div class="flex flex-wrap justify-center gap-3">
+<a href="/WEBFLOW_LIKES_VIEWS_GUIDE.md" class="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
+Complete Setup Guide
+</a>
+<a href="/LIKES_SYSTEM_README.md" class="px-4 py-2 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/90 transition-colors">
+Technical Details
+</a>
+</div>
+</section>
+</div>
+</div>
+</MainLayout>

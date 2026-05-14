@@ -1,0 +1,99 @@
+/**
+ * Optional CSS styles for like button states
+ * Include this in your static HTML if using the embed script
+ */
+
+/* Base button styling */
+[data-liked-button] {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  background: white;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Hover state */
+[data-liked-button]:hover:not([data-loading="true"]) {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+/* Liked state */
+[data-liked-button][data-liked="true"] {
+  background: #ef4444;
+  color: white;
+  border-color: #dc2626;
+}
+
+[data-liked-button][data-liked="true"]:hover:not([data-loading="true"]) {
+  background: #dc2626;
+}
+
+/* Loading state */
+[data-liked-button][data-loading="true"] {
+  opacity: 0.6;
+  cursor: wait;
+  pointer-events: none;
+}
+
+/* Focus state for accessibility */
+[data-liked-button]:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Disabled state */
+[data-liked-button]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Optional: Add icon support */
+[data-liked-button]::before {
+  content: "👍";
+  font-size: 1rem;
+}
+
+[data-liked-button][data-liked="true"]::before {
+  content: "❤️";
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  [data-liked-button] {
+    background: #1f2937;
+    color: #f9fafb;
+    border-color: #374151;
+  }
+
+  [data-liked-button]:hover:not([data-loading="true"]) {
+    background: #374151;
+  }
+
+  [data-liked-button][data-liked="true"] {
+    background: #ef4444;
+    color: white;
+    border-color: #dc2626;
+  }
+}
+
+/* Animation for like action */
+@keyframes like-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+[data-liked-button][data-liked="true"] {
+  animation: like-pulse 0.3s ease;
+}

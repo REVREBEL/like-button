@@ -1,0 +1,33 @@
+import * as React from "react";
+import * as Types from "../webflow_modules/types";
+
+declare function SolutionsSection(props: {
+  item1DescriptionText?: React.ReactNode;
+  item1Headline?: React.ReactNode;
+  item1HeadlineTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  item1Icon?: Types.Asset.Image;
+  item1IconAltText?: Types.Basic.AltText;
+  item1Link?: Types.Basic.Link;
+  item2DescriptionText?: React.ReactNode;
+  item2Headline?: React.ReactNode;
+  item2HeadlineTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  item2Icon?: Types.Asset.Image;
+  item2IconAltText?: Types.Basic.AltText;
+  item2Link?: Types.Basic.Link;
+  item3DescriptionText?: React.ReactNode;
+  item3Headline?: React.ReactNode;
+  item3HeadlineTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  item3Icon?: Types.Asset.Image;
+  item3IconAltText?: Types.Basic.AltText;
+  item4DescriptionText?: React.ReactNode;
+  item4Headline?: React.ReactNode;
+  item4HeadlineTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  item4Icon?: Types.Asset.Image;
+  item4IconAltText?: Types.Basic.AltText;
+  item4Link?: Types.Basic.Link;
+  mainSectionHeadlineText?: React.ReactNode;
+  mainSectionHeadlineTextTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  mainSectionParagraphText?: React.ReactNode;
+  mainSectionSubHeadlineText?: React.ReactNode;
+  variant?: "Light" | "Dark";
+}): React.JSX.Element;

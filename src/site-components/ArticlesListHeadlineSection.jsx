@@ -1,0 +1,86 @@
+"use client";
+import React from "react";
+import * as _Builtin from "./_Builtin";
+import * as _interactions from "./interactions";
+import { UnderlinedLink } from "./UnderlinedLink";
+
+const _interactionsData = JSON.parse(
+    '{"events":{"e-13271":{"id":"e-13271","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-13272"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":null,"originalId":"a4d1183e-0a30-73b4-11dc-9a2782f34dea","appliesTo":"CLASS"},"targets":[{"selector":null,"originalId":"a4d1183e-0a30-73b4-11dc-9a2782f34dea","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":30,"scrollOffsetUnit":"%","delay":3,"direction":"BOTTOM","effectIn":true},"createdOn":1754711868359,"origin":["6946540cc72b976861f8c836","e-71"]},"e-13273":{"id":"e-13273","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-4759","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-13274"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".rebel-style--paragraph.rebel-style--text-color-component.rebel-style--scroll-in-view_sticky-fade-in","originalId":"ca2a2051-cf6c-b280-f4bb-1d8d503b2ee2","appliesTo":"CLASS"},"targets":[{"selector":".rebel-style--paragraph.rebel-style--text-color-component.rebel-style--scroll-in-view_sticky-fade-in","originalId":"ca2a2051-cf6c-b280-f4bb-1d8d503b2ee2","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1756564804114,"origin":["6946540cc72b976861f8c836","e-458"]},"e-13392":{"id":"e-13392","name":"","animationType":"custom","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-4806","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-325"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".rebel-style--button-link_underline-5","originalId":"68aeb08fae835690f41e06e1|6832d1d0-de60-605b-bf34-2e8d0b7e25df","appliesTo":"CLASS"},"targets":[{"selector":".rebel-style--button-link_underline-5","originalId":"68aeb08fae835690f41e06e1|6832d1d0-de60-605b-bf34-2e8d0b7e25df","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1756303378916,"origin":["6946540cc72b976861f8c836","e-850"]},"e-13393":{"id":"e-13393","name":"","animationType":"custom","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-4807","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-324"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".rebel-style--button-link_underline-5","originalId":"68aeb08fae835690f41e06e1|6832d1d0-de60-605b-bf34-2e8d0b7e25df","appliesTo":"CLASS"},"targets":[{"selector":".rebel-style--button-link_underline-5","originalId":"68aeb08fae835690f41e06e1|6832d1d0-de60-605b-bf34-2e8d0b7e25df","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1756303378919,"origin":["6946540cc72b976861f8c836","e-851"]},"e-13394":{"id":"e-13394","name":"","animationType":"custom","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-4756","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-13395"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"b5462d4c-b48d-d687-7618-bfed4342046e","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"b5462d4c-b48d-d687-7618-bfed4342046e","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1758820901395,"origin":["6946540cc72b976861f8c836","e-664"]}},"actionLists":{"a-4759":{"id":"a-4759","origin":["6946540cc72b976861f8c836","a-22"],"title":"sticky-headline_fade-in 3","actionItemGroups":[{"actionItems":[{"id":"a-4759-n","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6884e83432ebea93d1bc32d0|e5986f46-72ab-3c7e-a6ff-7be0072d68ee"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-4759-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"easeIn","duration":500,"target":{"useEventTarget":true,"id":"6884e83432ebea93d1bc32d0|e5986f46-72ab-3c7e-a6ff-7be0072d68ee"},"value":1,"unit":""}}]}],"useFirstGroupAsInitialState":true,"createdOn":1753542422006},"a-4806":{"id":"a-4806","origin":["6946540cc72b976861f8c836","a-229"],"title":"Hover On  Link Line Green 46","actionItemGroups":[{"actionItems":[{"id":"a-4806-n","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"easeIn","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".rebel-style--link-line-2","selectorGuids":["cde15eed-299e-5fe8-0106-e71cab71671f"]},"globalSwatchId":"@var_variable-5c34b5aa-a793-0d4f-064d-1761fedc9141","rValue":113,"bValue":197,"gValue":201,"aValue":1}}]}],"useFirstGroupAsInitialState":false,"createdOn":1756303386216},"a-4807":{"id":"a-4807","origin":["6946540cc72b976861f8c836","a-230"],"title":"Hover Off Link Line Blue 46","actionItemGroups":[{"actionItems":[{"id":"a-4807-n","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"easeOut","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".rebel-style--link-line-2","selectorGuids":["cde15eed-299e-5fe8-0106-e71cab71671f"]},"globalSwatchId":"@var_variable-2bb1ebee-e63b-0624-0a6e-46ad3ae5858d","rValue":22,"bValue":102,"gValue":54,"aValue":1}}]}],"useFirstGroupAsInitialState":false,"createdOn":1756303386216},"a-4756":{"id":"a-4756","origin":["6946540cc72b976861f8c836","a-165"],"title":"Preview Card [HIDE] 28","actionItemGroups":[{"actionItems":[{"id":"a-4756-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"PARENT","selector":".rebel-style--component_wrapper","selectorGuids":["9f4372d4-dcdd-e08e-46e2-0c42204bd69a"]},"value":"none"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1758820974099},"slideInBottom":{"id":"slideInBottom","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":100,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":0,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}},{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}}]}]}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}'
+);
+
+export function ArticlesListHeadlineSection(
+    {
+        as: _Component = _Builtin.Section,
+        headlineText = "Curated Code",
+        subHeadlineText = <>{"Shift Happens: "}<br />{"Helping Hotels Take Control of Their Revenue Story"}</>,
+        paragraphLeft = "Welcome to CTRLShift: your command center for mastering the complex mechanics of hotel performance. In an industry where efficiency and insight are the ultimate currency, we cut through the noise to deliver the essential intelligence you need.",
+        paragraphTopRight = "We decode the evolving landscape of hospitality—covering everything from profit-smart segmentation and brand positioning to next-gen social strategy—ensuring your operation is always calibrated for maximum impact and sustained competitive advantage. Consider this your definitive operational upgrade.",
+        paragraphBottomRight = "This is where strategic thinking meets tactical execution, providing a clear signal in a world of data static. From optimizing your revenue generation algorithms and fine-tuning distribution channels to deploying high-impact marketing campaigns and leveraging smart tech,CTRLShift provides the blueprints. ",
+        logoImage = "https://cdn.prod.website-files.com/68ce13370afdfa5ff87473be/6940f9f1ceace9d0c0d15d89_dba2e9f9a7b4051b2037af7d69ce2eee_CTRL_Logo-Blue.png",
+        underlinedLinkUnderlinedLinkLinkText = "Explore All Categories",
+
+        underlinedLinkUnderlinedLinkLink = {
+            href: "#"
+        },
+
+        underlinedLinkUnderlinedLinkColor = null,
+        underlinedLinkUnderlinedLinkLinkVisibility = true
+    }
+) {
+    _interactions.useInteractions(_interactionsData);
+
+    return (
+        <_Component
+            tag="section"
+            grid={{
+                type: "section"
+            }}><_Builtin.HtmlEmbed
+                className="rebel-style--code-embed-10"
+                value="%3Cstyle%3E%0A%2F*%20%0A%20*%20Applies%20a%20color%20filter%20to%20elements%20with%20both%20'icon'%20and%20'%7BCOLOR%7D'%20class.%0A%20*%20The%20filter%20uses%20a%20combination%20of%20invert%2C%20sepia%2C%20saturate%2C%20hue-rotate%2C%20brightness%2C%20and%20contrast%0A%20*%20to%20achieve%20the%20desired%20purple%20hue%20effect%20on%20the%20icon.%0A%20*%2F%0A%20%0A%2F*%20%0A%20*%20Gradients%0A%20*%2F%0A.bg-gradient-yellow-red%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%23faca78%2C%20%23fabc6e%2C%20%23f9ae66%2C%20%23f8a060%2C%20%23f6915c%2C%20%23f48759%2C%20%23f17d56%2C%20%23ee7254%2C%20%23eb6a50%2C%20%23e7624d%2C%20%23e4594a%2C%20%23e05047)%3B%0A%7D%0A%0A.bg-gradient-blue-green%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%2327498b%2C%20%23145491%2C%20%23005e95%2C%20%23006897%2C%20%23007198%2C%20%23067b9c%2C%20%231785a0%2C%20%23278fa3%2C%20%233a9dac%2C%20%234cacb4%2C%20%235ebabd%2C%20%2371c9c5)%3B%0A%7D%0A%0A.bg-red-purple%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%23f37d59%2C%20%23f07555%2C%20%23ec6d51%2C%20%23e9654e%2C%20%23e55c4b%2C%20%23df554f%2C%20%23d84e53%2C%20%23d04856%2C%20%23c2455f%2C%20%23b14565%2C%20%23a04569%2C%20%238e456a)%3B%0A%7D%0A%0A.bg-yellow-purple%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%23faca78%2C%20%23fabc6e%2C%20%23f9ae66%2C%20%23f8a060%2C%20%23f6915c%2C%20%23f0835e%2C%20%23e97660%2C%20%23e06963%2C%20%23ce5d68%2C%20%23ba536b%2C%20%23a54c6c%2C%20%238e456a)%3B%0A%7D%0A%0A.bg-yellow-red%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%23faca78%2C%20%23fabc6e%2C%20%23f9ae66%2C%20%23f8a060%2C%20%23f6915c%2C%20%23f48759%2C%20%23f17d56%2C%20%23ee7254%2C%20%23eb6a50%2C%20%23e7624d%2C%20%23e4594a%2C%20%23e05047)%3B%0A%7D%0A%0A.bg-blue-red%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%2327498b%2C%20%23494788%2C%20%23604583%2C%20%2372447d%2C%20%23804375%2C%20%238e4372%2C%20%239b446e%2C%20%23a64568%2C%20%23b74563%2C%20%23c7475c%2C%20%23d54a53%2C%20%23e05047)%3B%0A%7D%0A%0A.is-rebel%2C%0A.text-rebel%20%7B%0A%20%20background-image%3A%20linear-gradient(to%20right%2C%20%2327498b%2C%20%23145491%2C%20%23005e95%2C%20%23006897%2C%20%23007198%2C%20%2300789b%2C%20%23007f9d%2C%20%2300869f%2C%20%23008ea5%2C%20%230096ab%2C%20%23009eb1%2C%20%2300a6b6%2C%20%2371c9c5%2C%20%237aceb5%2C%20%238fd2a2%2C%20%23abd38e%2C%20%23ccd17e%2C%20%23dbca73%2C%20%23ebc16d%2C%20%23fab86b%2C%20%23f9aa64%2C%20%23f89b5e%2C%20%23f68c5b%2C%20%23f37d59%2C%20%23f37d59%2C%20%23f07555%2C%20%23ec6d51%2C%20%23e9654e%2C%20%23e55c4b%2C%20%23df554f%2C%20%23d84e53%2C%20%23d04856%2C%20%23c2455f%2C%20%23b14565%2C%20%23a04569%2C%20%238e456a)%3B%0A%7D%0A%0A%0A%0A%0A%2F*%20%0A%20*%20Navigation%20Breakpoint%20Adjustment%0A%20*%2F%0A%40media%20screen%20and%20(max-width%3A%201132px)%20%7B%0A%20%20.footer_contact-wrapper.margin_left-auto%20%7B%0A%20%20%20%20flex-flow%3A%20column%3B%0A%20%20%20%20margin-left%3A%20unset%3B%0A%20%20%20%20width%3A%20100%25%0A%20%20%7D%0A%7D%0A%0A%40media%20screen%20and%20(max-width%3A%20991px)%20%7B%0A%20%20.footer_contact-wrapper.margin_left-auto%20%7B%0A%20%20%20%20flex-flow%3A%20column%3B%0A%20%20%20%20width%3A%20100%25%0A%20%20%7D%0A%7D%0A%0A%40media%20screen%20and%20(max-width%3A%20767px)%20%7B%0A%20%20.footer_contact-wrapper.margin_left-auto%20%7B%0A%20%20%20%20flex-flow%3A%20row%3B%0A%20%20%7D%0A%7D%0A%0A%40media%20screen%20and%20(max-width%3A%20479px)%20%7B%0A%20%20.footer_contact-wrapper.margin_left-auto%20%7B%0A%20%20%20%20flex-flow%3A%20column%3B%0A%20%20%7D%0A%7D%0A%0A%0A%0A%0A%3C%2Fstyle%3E" /><_Builtin.BlockContainer
+                className="rebel-style--component_wrapper rebel-style--max-width_md rebel-style--margin-bottom_xxl"
+                tag="div"
+                grid={{
+                    type: "container"
+                }}><_Builtin.BlockContainer
+                    className="rebel-style--component_container"
+                    tag="div"
+                    grid={{
+                        type: "container"
+                    }}><_Builtin.Block
+                        className="rebel-style--text-color-primary container w-container"
+                        tag="div"><_Builtin.Section
+                            className="rebel-style--padding-inline_sm"
+                            tag="section"
+                            grid={{
+                                type: "section"
+                            }}><_Builtin.Block
+                                className="rebel-style--grid_2-col rebel-style--is-articles_top-section"
+                                tag="div"><_Builtin.Heading
+                                    className="rebel-style--articles-list_main-headline "
+                                    id="w-node-_0921846d-b76a-d67a-e341-974a4185f825-4185f81e"
+                                    tag="h1">{headlineText}</_Builtin.Heading><_Builtin.Block
+                                    className="rebel-style--flex_horizontal rebel-style--flex-align-center"
+                                    id="w-node-_0921846d-b76a-d67a-e341-974a4185f826-4185f81e"
+                                    tag="div"><_Builtin.Block className="rebel-style--flex-align_center" tag="div"><UnderlinedLink
+                                            underlinedLinkLinkText={underlinedLinkUnderlinedLinkLinkText}
+                                            underlinedLinkLink={underlinedLinkUnderlinedLinkLink}
+                                            underlinedLinkColor={underlinedLinkUnderlinedLinkColor}
+                                            underlinedLinkLinkVisibility={underlinedLinkUnderlinedLinkLinkVisibility} /></_Builtin.Block><_Builtin.Image
+                                        className="rebel-style--logo-circle"
+                                        width="200"
+                                        height="Auto"
+                                        loading="lazy"
+                                        alt=""
+                                        src={logoImage} /></_Builtin.Block><_Builtin.Block
+                                    className="rebel-style--articles-list_sub-headline-wrapper"
+                                    id="w-node-_0921846d-b76a-d67a-e341-974a4185f82a-4185f81e"
+                                    tag="div"><_Builtin.Block
+                                        className="rebel-style--articles-list_sub-headline"
+                                        id="w-node-_0921846d-b76a-d67a-e341-974a4185f82b-4185f81e"
+                                        tag="div">{subHeadlineText}</_Builtin.Block><_Builtin.Paragraph
+                                        className="rebel-style--paragraph"
+                                        id="w-node-_0921846d-b76a-d67a-e341-974a4185f82c-4185f81e">{paragraphLeft}</_Builtin.Paragraph></_Builtin.Block><_Builtin.Block id="w-node-_0921846d-b76a-d67a-e341-974a4185f82d-4185f81e" tag="div"><_Builtin.Paragraph
+                                        className="rebel-style--paragraph rebel-style--margin-bottom_xs"
+                                        editable={true}>{paragraphTopRight}</_Builtin.Paragraph><_Builtin.Paragraph className="rebel-style--paragraph">{paragraphBottomRight}</_Builtin.Paragraph></_Builtin.Block></_Builtin.Block></_Builtin.Section></_Builtin.Block></_Builtin.BlockContainer></_Builtin.BlockContainer></_Component>
+    );
+}

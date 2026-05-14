@@ -1,0 +1,38 @@
+---
+import '../../generated/fonts.css';
+// Note: Site components global.css temporarily disabled due to Tailwind v4 parsing issues
+// Uncomment when using DevLink components: import '../site-components/global.css';
+import '../styles/global.css';
+
+const { pageClass = '' } = Astro.props;
+---
+
+<html lang="en" class={pageClass}>
+<head>
+<meta charset="utf-8" />
+<link rel="icon" type="image/png" href="/favicon.ico" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
+<title>Webflow App</title>
+
+<!-- DevLink component styles (loaded from public to avoid Tailwind v4 parsing) -->
+<link rel="stylesheet" href="/devlink-styles.css" />
+</head>
+<!-- Dark mode class injection point - will be replaced with `dark` class based on your site palette -->
+<body class="__DARK_MODE_CLASS__">
+<slot />
+</body>
+</html>
+
+<style is:global>
+/* Page-specific overrides */
+html.splash main { 
+display: flex !important; 
+}
+
+html.splash ol,
+html.splash ul { 
+padding-left: 0 !important; 
+margin: 0 !important; 
+}
+</style>
