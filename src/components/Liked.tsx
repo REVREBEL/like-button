@@ -23,8 +23,9 @@ export interface LikedProps {
 }
 
 export function Liked({
-  storageKey = 'user_has_liked',
   slug = 'global',
+  storageKey = `liked_${slug}`,
+
   unlikedText = 'Like',
   likedText = 'Liked',
   showCount = false,
