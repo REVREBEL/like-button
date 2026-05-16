@@ -27,7 +27,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
       >
         <Block
           className={`diverse-exp_headline-wrapper ${_activeStyleVariant}`}
-          id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c2a-b9278c29"}
           tag={"div"}
         >
           <Heading
@@ -54,17 +53,14 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
           </Block>
           <Block
             className={`diverse-exp-stat-wrapper ${_activeStyleVariant}`}
-            id={"w-node-_207573f3-a1ce-7355-fca9-9bd7182050fe-b9278c29"}
             tag={"div"}
           >
             <Block
               className={`diverse-exp-stat is-inverse ${_activeStyleVariant}`}
-              id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c31-b9278c29"}
               tag={"div"}
             >
               <Block
                 className={`diverse-exp_metric-wrapper is-inverse ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c32-b9278c29"}
                 tag={"div"}
               >
                 <Block
@@ -95,7 +91,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
               </Block>
               <Block
                 className={`diverse-exp_stat-wrapper ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c3d-b9278c29"}
                 tag={"div"}
               >
                 <Heading
@@ -115,17 +110,14 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
           </Block>
           <Block
             className={`diverse-exp-stat-wrapper ${_activeStyleVariant}`}
-            id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c43-b9278c29"}
             tag={"div"}
           >
             <Block
               className={`diverse-exp-stat ${_activeStyleVariant}`}
-              id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c44-b9278c29"}
               tag={"div"}
             >
               <Block
                 className={`diverse-exp_stat-wrapper s-stacked ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c45-b9278c29"}
                 tag={"div"}
               >
                 <Heading
@@ -143,7 +135,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
               </Block>
               <Block
                 className={`diverse-exp_metric-wrapper ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c4a-b9278c29"}
                 tag={"div"}
               >
                 <Block
@@ -176,7 +167,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
           </Block>
           <Block
             className={`diverse-exp-stat-wrapper ${_activeStyleVariant}`}
-            id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c55-b9278c29"}
             tag={"div"}
           >
             <Block
@@ -185,7 +175,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
             >
               <Block
                 className={`diverse-exp_metric-wrapper is-inverse ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c57-b9278c29"}
                 tag={"div"}
               >
                 <Block
@@ -216,7 +205,6 @@ export function DiverseExpOverviewHorizontal({ variant = "Stacked Layout" }) {
               </Block>
               <Block
                 className={`diverse-exp_stat-wrapper s-stacked ${_activeStyleVariant}`}
-                id={"w-node-c63d60d2-d03e-9184-7d44-9da4b9278c64-b9278c29"}
                 tag={"div"}
               >
                 <Heading

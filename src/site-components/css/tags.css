@@ -1,4 +1,4 @@
-@scope (.wf-devlink-e91129b34719534624bd200c8e89f8d1) {
+@scope (.wf-devlink-5a1f1e5dcf28a40036e505a8feb576d5) {
   body {
     margin-top: 0px;
     color: #333;
@@ -30,25 +30,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -81,6 +68,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -90,8 +80,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -111,13 +107,17 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
     }
   }
   @media screen and (min-width: 1440px) {
@@ -142,25 +142,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -193,6 +180,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -202,8 +192,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -223,13 +219,17 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
     }
   }
   @media screen and (min-width: 1920px) {
@@ -254,25 +254,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -305,6 +292,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -314,8 +304,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -335,13 +331,17 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
     }
   }
   @media screen and (max-width: 991px) {
@@ -366,25 +366,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -417,6 +404,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -426,8 +416,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -447,17 +443,30 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
-      --rebel-style_cards---large-card--lg-card-radius: 4px;
-      --rebel-style_cards---light-card--light-card-text-color: var(
-        --rebel-style---colors--color-primary
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.1em;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
       );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---large-card--lg-card-radius: 0.25rem;
       --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
         sans-serif;
       --rebel-style_cards---base-card--text-size: var(
@@ -503,21 +512,9 @@
         --rebel-style_space-size---size--4x
       );
       --rebel-style_cards---large-card--lg-card-border-width: 4rem;
-      --rebel-style_cards---dark-card--dark-card-bg: var(
-        --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
-        --rebel-style_colors---primary--primary-inverse
-      );
       --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
       --rebel-style_cards---dark-card--dark-card-border-color: var(
         --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
       );
       --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
         --rebel-style_colors---primary--primary
@@ -557,6 +554,9 @@
         --rebel-style---colors--light-input
       );
       --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
       --rebel-style_cards---light-card--light-card-text-color-dim: var(
         --rebel-style_shades---shades-blue--blue-l200
       );
@@ -634,25 +634,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -685,6 +672,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -694,8 +684,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -715,17 +711,30 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 2rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
-      --rebel-style_cards---large-card--lg-card-radius: 4px;
-      --rebel-style_cards---light-card--light-card-text-color: var(
-        --rebel-style---colors--color-primary
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
       );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---large-card--lg-card-radius: 0.25rem;
       --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
         sans-serif;
       --rebel-style_cards---base-card--text-size: var(
@@ -771,21 +780,9 @@
         --rebel-style_space-size---size--3x
       );
       --rebel-style_cards---large-card--lg-card-border-width: 4px;
-      --rebel-style_cards---dark-card--dark-card-bg: var(
-        --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
-        --rebel-style_colors---primary--primary-inverse
-      );
       --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
       --rebel-style_cards---dark-card--dark-card-border-color: var(
         --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
       );
       --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
         --rebel-style_colors---primary--primary
@@ -825,6 +822,9 @@
         --rebel-style---colors--light-input
       );
       --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
       --rebel-style_cards---light-card--light-card-text-color-dim: var(
         --rebel-style_shades---shades-blue--blue-l200
       );
@@ -902,25 +902,12 @@
         --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
+      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-lg: 1600px;
       --rebel-style_space-size---size--1x: 1rem;
-      --rebel-style_space-size---gap--xxs-gap: var(
-        --rebel-style_space-size---size--0-5x
-      );
-      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---widths--max-width-sm: 1150px;
-      --rebel-style_space-size---gap--lg-gap: var(
-        --rebel-style_space-size---size--4x
-      );
-      --rebel-style_space-size---gap--xxl-gap: var(
-        --rebel-style_space-size---size--6x
-      );
-      --rebel-style_space-size---size--2x: 2rem;
-      --rebel-style_space-size---size--8x: 8rem;
-      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---widths--max-width-xxl: 1820px;
       --rebel-style_space-size---widths--max-width-xl: 1720px;
-      --rebel-style_space-size---widths--max-width-md: 1440px;
       --rebel-style_space-size---widths--max-width-base: 1280px;
       --rebel-style_space-size---widths--max-width-xs: 900px;
       --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -953,6 +940,9 @@
       --rebel-style_space-size---section--section-padding-vertical: var(
         --rebel-style_space-size---size--8x
       );
+      --rebel-style_space-size---gap--xxs-gap: var(
+        --rebel-style_space-size---size--0-5x
+      );
       --rebel-style_space-size---gap--xs-gap: var(
         --rebel-style_space-size---size--1x
       );
@@ -962,8 +952,14 @@
       --rebel-style_space-size---gap--md-gap: var(
         --rebel-style_space-size---size--3x
       );
+      --rebel-style_space-size---gap--lg-gap: var(
+        --rebel-style_space-size---size--4x
+      );
       --rebel-style_space-size---gap--xl-gap: var(
         --rebel-style_space-size---size--5x
+      );
+      --rebel-style_space-size---gap--xxl-gap: var(
+        --rebel-style_space-size---size--6x
       );
       --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
       --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
@@ -983,17 +979,30 @@
       --rebel-style_space-size---size--1-25x: 1.25rem;
       --rebel-style_space-size---size--1-5x: 1.5rem;
       --rebel-style_space-size---size--1-75x: 1.75rem;
+      --rebel-style_space-size---size--2x: 2rem;
       --rebel-style_space-size---size--3x: 3rem;
+      --rebel-style_space-size---size--4x: 4rem;
       --rebel-style_space-size---size--5x: 5rem;
+      --rebel-style_space-size---size--6x: 6rem;
       --rebel-style_space-size---size--7x: 7rem;
+      --rebel-style_space-size---size--8x: 8rem;
       --rebel-style_space-size---divider-width: 2px;
       --rebel-style_space-size---height: 0px;
       --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-      --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
-      --rebel-style_cards---large-card--lg-card-radius: 4px;
-      --rebel-style_cards---light-card--light-card-text-color: var(
-        --rebel-style---colors--color-primary
+      --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
+      --rebel-style_cards---dark-card--dark-card-bg: var(
+        --rebel-style_colors---primary--primary
       );
+      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+        --rebel-style_colors---primary--primary-inverse
+      );
+      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+      );
+      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+      );
+      --rebel-style_cards---large-card--lg-card-radius: 0.25rem;
       --rebel-style_cards---base-card--card-headline-font: Khand, Impact,
         sans-serif;
       --rebel-style_cards---base-card--text-size: var(
@@ -1039,21 +1048,9 @@
         --rebel-style_space-size---size--2x
       );
       --rebel-style_cards---large-card--lg-card-border-width: 4rem;
-      --rebel-style_cards---dark-card--dark-card-bg: var(
-        --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l100
-      );
-      --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
-        --rebel-style_colors---primary--primary-inverse
-      );
       --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
       --rebel-style_cards---dark-card--dark-card-border-color: var(
         --rebel-style_colors---primary--primary
-      );
-      --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
-        --rebel-style_shades---brand-color-primary--brand-color-primary-l200
       );
       --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
         --rebel-style_colors---primary--primary
@@ -1093,6 +1090,9 @@
         --rebel-style---colors--light-input
       );
       --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+      --rebel-style_cards---light-card--light-card-text-color: var(
+        --rebel-style---colors--color-primary
+      );
       --rebel-style_cards---light-card--light-card-text-color-dim: var(
         --rebel-style_shades---shades-blue--blue-l200
       );

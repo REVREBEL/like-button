@@ -22,24 +22,12 @@ export function SocialShareSidebar({
         data-share-root={""}
         tag={"aside"}
       >
-        <Block
-          className={"social-share"}
-          id={"w-node-_28176cc2-90e0-693c-dd1d-25b6fb0d29d5-fb0d29d4"}
-          tag={"div"}
-        >
+        <Block className={"social-share"} tag={"div"}>
           <Grid className={"social-share_grid"} tag={"div"}>
-            <Block
-              className={"label-sm-2 text-align_center"}
-              id={"w-node-_28176cc2-90e0-693c-dd1d-25b6fb0d29d7-fb0d29d4"}
-              tag={"div"}
-            >
+            <Block className={"label-sm-2 text-align_center"} tag={"div"}>
               {socialShareTopLabelText}
             </Block>
-            <Block
-              className={"social-share_icon-size"}
-              id={"w-node-_28176cc2-90e0-693c-dd1d-25b6fb0d29d8-fb0d29d4"}
-              tag={"div"}
-            >
+            <Block className={"social-share_icon-size"} tag={"div"}>
               <Block
                 className={"btn-share icon-solid_email filter_email"}
                 data-share={"email"}
@@ -57,11 +45,7 @@ export function SocialShareSidebar({
                 tag={"div"}
               />
             </Block>
-            <Block
-              className={"social-share_icon-size"}
-              id={"w-node-_28176cc2-90e0-693c-dd1d-25b6fb0d29dc-fb0d29d4"}
-              tag={"div"}
-            >
+            <Block className={"social-share_icon-size"} tag={"div"}>
               <Block
                 className={"btn-share icon-solid_x filter_x-2"}
                 data-share={"x"}
@@ -99,11 +83,7 @@ export function SocialShareSidebar({
                 tag={"div"}
               />
             </Block>
-            <Block
-              className={"label-sm-2 text-align_center"}
-              id={"w-node-_28176cc2-90e0-693c-dd1d-25b6fb0d29e4-fb0d29d4"}
-              tag={"div"}
-            >
+            <Block className={"label-sm-2 text-align_center"} tag={"div"}>
               {socialShareBottomLabelText}
             </Block>
           </Grid>

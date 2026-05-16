@@ -114,7 +114,6 @@ export function SoloOperators2SubSections2({
                 >
                   <Block
                     className={`padding-inline_md ${_activeStyleVariant}`}
-                    id={"w-node-_6b74488c-a3cd-eb65-2312-100790f45168-90f45162"}
                     tag={"div"}
                   />
                   <Block
@@ -143,9 +142,6 @@ export function SoloOperators2SubSections2({
                   >
                     <Block
                       className={`card_body ${_activeStyleVariant}`}
-                      id={
-                        "w-node-_6b74488c-a3cd-eb65-2312-100790f4516f-90f45162"
-                      }
                       tag={"div"}
                     >
                       <Block
@@ -199,9 +195,6 @@ export function SoloOperators2SubSections2({
                       alt={""}
                       className={`gallery04_image ${_activeStyleVariant}`}
                       height={"auto"}
-                      id={
-                        "w-node-_6b74488c-a3cd-eb65-2312-100790f4517f-90f45162"
-                      }
                       loading={"lazy"}
                       src={
                         "https://cdn.prod.website-files.com/68ce13370afdfa5ff87473be/6975b05c73bc8349fcc749de_902fa4f38d4d6e73e0eb851aa8b34f2f_Brainstorming%20Sketches%2C%20Wireframes%2C%20%26%20Design%20Mockups%20Alt.avif"
@@ -216,9 +209,6 @@ export function SoloOperators2SubSections2({
                   >
                     <Block
                       className={`card_body ${_activeStyleVariant}`}
-                      id={
-                        "w-node-_6b74488c-a3cd-eb65-2312-100790f45181-90f45162"
-                      }
                       tag={"div"}
                     >
                       <Block
@@ -269,9 +259,6 @@ export function SoloOperators2SubSections2({
                     </Block>
                     <Block
                       className={`card_body margin-top-md ${_activeStyleVariant}`}
-                      id={
-                        "w-node-_6b74488c-a3cd-eb65-2312-100790f45190-90f45162"
-                      }
                       tag={"div"}
                     >
                       <Block

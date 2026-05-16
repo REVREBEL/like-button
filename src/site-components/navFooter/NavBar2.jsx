@@ -304,36 +304,24 @@ export function NavBar2({
                               >
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143e1-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {whiteNavCardSlot}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143e3-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {whiteNavCardSlot2}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143e5-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {whiteNavCardSlot3}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143e7-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {whiteNavCardSlot4}
@@ -394,36 +382,24 @@ export function NavBar2({
                               >
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143f2-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {colorNavCardSlot}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143f4-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {colorNavCardSlot2}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143f6-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {colorNavCardSlot3}
                                 </Block>
                                 <Block
                                   className={`navcard-wrapper-2 ${_activeStyleVariant}`}
-                                  id={
-                                    "w-node-c0db3138-7c73-db77-5331-c684e9d143f8-e9d143c9"
-                                  }
                                   tag={"div"}
                                 >
                                   {colorNavCardSlot4}
