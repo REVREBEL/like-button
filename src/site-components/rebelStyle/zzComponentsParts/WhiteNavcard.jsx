@@ -74,7 +74,6 @@ export function WhiteNavcard({
       >
         <Block
           className={`rebel-style--navcard-wrapper ${_activeStyleVariant}`}
-          id={"w-node-bed3c81c-abaa-be13-387f-ac35124703c3-124703c2"}
           tag={"div"}
         >
           <Link
@@ -132,7 +131,6 @@ export function WhiteNavcard({
         </Block>
         <Block
           className={`rebel-style--navcard-wrapper ${_activeStyleVariant}`}
-          id={"w-node-bed3c81c-abaa-be13-387f-ac35124703cf-124703c2"}
           tag={"div"}
         >
           <Link
@@ -190,7 +188,6 @@ export function WhiteNavcard({
         </Block>
         <Block
           className={`rebel-style--navcard-wrapper ${_activeStyleVariant}`}
-          id={"w-node-bed3c81c-abaa-be13-387f-ac35124703db-124703c2"}
           tag={"div"}
         >
           <Link
@@ -248,7 +245,6 @@ export function WhiteNavcard({
         </Block>
         <Block
           className={`rebel-style--navcard-wrapper ${_activeStyleVariant}`}
-          id={"w-node-bed3c81c-abaa-be13-387f-ac35124703e7-124703c2"}
           tag={"div"}
         >
           <Link

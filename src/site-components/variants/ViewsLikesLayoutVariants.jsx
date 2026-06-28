@@ -78,18 +78,15 @@ export function ViewsLikesLayoutVariants({
               className={`views-likes-layout ${_activeStyleVariant}`}
               data-metric-like={""}
               data-storage-key={listOfElementsToText(viewsLikesDataStorageKey)}
-              id={"w-node-c036441f-f28a-8d82-cdbb-626de68d5f9f-e68d5f9c"}
               tag={"div"}
             >
               <Block
                 className={`views-likes_counter-wrapper ${_activeStyleVariant}`}
-                id={"w-node-c036441f-f28a-8d82-cdbb-626de68d5fa0-e68d5f9c"}
                 tag={"div"}
               >
                 {viewsCounterViewsCounterVisibility ? (
                   <Block
                     className={`views-likes_text-wrapper ${_activeStyleVariant}`}
-                    id={"w-node-c036441f-f28a-8d82-cdbb-626de68d5fa1-e68d5f9c"}
                     tag={"div"}
                   >
                     <Block
@@ -129,7 +126,6 @@ export function ViewsLikesLayoutVariants({
                 {likesCounterLikesCounterVisibility ? (
                   <Block
                     className={`views-likes_text-wrapper ${_activeStyleVariant}`}
-                    id={"w-node-c036441f-f28a-8d82-cdbb-626de68d5fa8-e68d5f9c"}
                     tag={"div"}
                   >
                     <Block
@@ -211,7 +207,6 @@ export function ViewsLikesLayoutVariants({
               {likesButtonLikesButtonVisibility ? (
                 <Block
                   className={`like-button_wrapper ${_activeStyleVariant}`}
-                  id={"w-node-c036441f-f28a-8d82-cdbb-626de68d5fb1-e68d5f9c"}
                   tag={"div"}
                 >
                   <Block

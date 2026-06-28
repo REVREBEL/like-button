@@ -241,9 +241,6 @@ export function Footer({
                                 <FormButton
                                   className={`button is-btn-sm-2 ${_activeStyleVariant}`}
                                   data-wait={"transmitting..."}
-                                  id={
-                                    "w-node-_6f0f3cbc-721e-3d0b-9af8-a177e964478a-e9644778"
-                                  }
                                   type={"submit"}
                                   value={newsletterNewsletterSignupCtaText}
                                 />
@@ -550,9 +547,6 @@ export function Footer({
                     >
                       <Block
                         className={`copyright-text ${_activeStyleVariant}`}
-                        id={
-                          "w-node-_6f0f3cbc-721e-3d0b-9af8-a177e96447bf-e9644778"
-                        }
                         tag={"div"}
                       >
                         {"© 2023 All Rights Reserved. made By "}

@@ -41,7 +41,7 @@ export function VariantsTextColor({
       }}
     >
       <Block
-        className={`rebel-style--variants_font-color rebel-style--width_100pct ${_activeStyleVariant}`}
+        className={`rebel-style--variants_font-color ${_activeStyleVariant}`}
         tag={"div"}
       >
         {slotTextColorSlotFontColor}

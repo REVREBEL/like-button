@@ -40,19 +40,13 @@ export function InnerHotelMetricStyle1({
         className={`hotel-stat_container ${_activeStyleVariant}`}
         tag={"div"}
       >
-        <Block
-          className={`hotel-stat_item ${_activeStyleVariant}`}
-          id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c77-a5db9c76"}
-          tag={"div"}
-        >
+        <Block className={`hotel-stat_item ${_activeStyleVariant}`} tag={"div"}>
           <Block
             className={`hotel-stat_grid ${_activeStyleVariant}`}
-            id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c78-a5db9c76"}
             tag={"div"}
           >
             <Block
               className={`hotel-stat_icon-wrapper ${_activeStyleVariant}`}
-              id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c79-a5db9c76"}
               tag={"div"}
             >
               <Block
@@ -74,7 +68,6 @@ export function InnerHotelMetricStyle1({
             </Block>
             <Block
               className={`hotel-stat_count-wrapper ${_activeStyleVariant}`}
-              id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c7d-a5db9c76"}
               tag={"div"}
             >
               <Heading
@@ -85,7 +78,6 @@ export function InnerHotelMetricStyle1({
               </Heading>
               <Block
                 className={`hotel-stat_count-label ${_activeStyleVariant}`}
-                id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c7f-a5db9c76"}
                 tag={"div"}
               >
                 {"# of properties"}
@@ -93,7 +85,6 @@ export function InnerHotelMetricStyle1({
             </Block>
             <Block
               className={`hotel-stat_name-wrapper ${_activeStyleVariant}`}
-              id={"w-node-_279c7149-a9e2-ccf1-0e3e-5bfda5db9c81-a5db9c76"}
               tag={"div"}
             >
               <Block

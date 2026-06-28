@@ -19,7 +19,9 @@ export function IconVariant({
         height={"auto"}
         id={"w-node-_90afaf17-cf2c-b376-761b-a77ba051795d-a051795d"}
         loading={"lazy"}
-        src={icon}
+        src={
+          "https://cdn.prod.website-files.com/68ce13370afdfa5ff87473be/68d1035f06f481121f0f783d_6893a4440a25599917e86e40258e04cc_arrow-right.svg"
+        }
         width={"auto"}
       />
     </div>

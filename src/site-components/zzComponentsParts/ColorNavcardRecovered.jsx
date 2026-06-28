@@ -93,7 +93,6 @@ export function ColorNavcardRecovered({
       >
         <Block
           className={`navcard-wrapper-3 ${_activeStyleVariant}`}
-          id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e950-b954e94f"}
           tag={"div"}
         >
           <Link
@@ -104,7 +103,6 @@ export function ColorNavcardRecovered({
           >
             <Block
               className={`color-navcard_right-content-2 ${_activeStyleVariant}`}
-              id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e952-b954e94f"}
               tag={"div"}
             >
               <Block
@@ -159,7 +157,6 @@ export function ColorNavcardRecovered({
         </Block>
         <Block
           className={`navcard-wrapper-3 ${_activeStyleVariant}`}
-          id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e95b-b954e94f"}
           tag={"div"}
         >
           <Link
@@ -170,7 +167,6 @@ export function ColorNavcardRecovered({
           >
             <Block
               className={`color-navcard_right-content-2 is-inverse_color-2 ${_activeStyleVariant}`}
-              id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e95d-b954e94f"}
               tag={"div"}
             >
               <Block
@@ -225,7 +221,6 @@ export function ColorNavcardRecovered({
         </Block>
         <Block
           className={`navcard-wrapper-3 ${_activeStyleVariant}`}
-          id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e966-b954e94f"}
           tag={"div"}
         >
           <Link
@@ -236,7 +231,6 @@ export function ColorNavcardRecovered({
           >
             <Block
               className={`color-navcard_right-content-2 is-inverse-color-5 ${_activeStyleVariant}`}
-              id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e968-b954e94f"}
               tag={"div"}
             >
               <Block
@@ -291,7 +285,6 @@ export function ColorNavcardRecovered({
         </Block>
         <Block
           className={`navcard-wrapper-3 ${_activeStyleVariant}`}
-          id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e971-b954e94f"}
           tag={"div"}
         >
           <Link
@@ -302,7 +295,6 @@ export function ColorNavcardRecovered({
           >
             <Block
               className={`color-navcard_right-content-2 is-inverse-color-8 ${_activeStyleVariant}`}
-              id={"w-node-b2c12583-2245-4b6c-5a38-9851b954e973-b954e94f"}
               tag={"div"}
             >
               <Block

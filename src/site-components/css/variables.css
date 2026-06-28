@@ -1,8 +1,10 @@
 :root {
+  --rebel-style_colors---primary--primary: var(
+    --rebel-style---colors--color-primary
+  );
   --rebel-style_colors---color-dark--dark-1: var(
     --rebel-style---colors--dark-input
   );
-  --rebel-style---colors--color-primary: #163666;
   --rebel-style_colors---color-8--color-8: var(
     --rebel-style---colors--color-8-input
   );
@@ -11,9 +13,6 @@
   );
   --rebel-style_colors---color-9--color-9: var(
     --rebel-style---colors--color-9-input
-  );
-  --rebel-style_colors---primary--primary: var(
-    --rebel-style---colors--color-primary
   );
   --rebel-style_colors---color-3--color-3-inverse: var(
     --rebel-style---colors--color-8-input
@@ -24,10 +23,54 @@
   --rebel-style_colors---color-5--color-5-inverse: var(
     --rebel-style---colors--color-7-input
   );
+  --rebel-style_space-size---container--container-lg-width: 1440px;
+  --rebel-style_colors---primary--primary-inverse: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---colors--color-white: var(
+    --rebel-style---colors--light-input
+  );
   --rebel-style_colors---color-light--light-1: var(
     --rebel-style---colors--light-input
   );
-  --rebel-style_space-size---container--container-lg-width: 1440px;
+  --rebel-style_colors---color-9--color-9-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-8--color-8-inverse: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_colors---color-7--color-7-inverse: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---color-6--color-6: var(
+    --rebel-style---colors--color-6-input
+  );
+  --rebel-style_colors---color-6--color-6-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-5--color-5: var(
+    --rebel-style---colors--color-5-input
+  );
+  --rebel-style_colors---color-4--color-4: var(
+    --rebel-style---colors--color-4-input
+  );
+  --rebel-style_colors---color-4--color-4-inverse: var(
+    --rebel-style---colors--color-primary
+  );
+  --rebel-style_colors---color-3--color-3: var(
+    --rebel-style---colors--color-3-input
+  );
+  --rebel-style_colors---color-2--color-2-inverse: var(
+    --rebel-style---colors--color-5-input
+  );
+  --rebel-style_colors---color-1--color-1: var(
+    --rebel-style---colors--color-1-input
+  );
+  --rebel-style_colors---color-1--color-1-inverse: var(
+    --rebel-style---colors--color-9-input
+  );
+  --rebel-style_buttons---tags--tag-font: Khand, Impact, sans-serif;
+  --rebel-style_buttons---tags--font-weight: 700;
   --rebel-style_type---responsive-label-text--label-font-size-base: clamp(
     0.875rem,
     1.5cqw,
@@ -47,24 +90,6 @@
     0.625rem,
     1.1cqw,
     0.75rem
-  );
-  --rebel-style_space-size---icon-size--base-icon: var(
-    --rebel-style_space-size---size--3x
-  );
-  --rebel-style_space-size---icon-size--sm-icon: var(
-    --rebel-style_space-size---size--2x
-  );
-  --rebel-style_space-size---icon-size--xs-icon: var(
-    --rebel-style_space-size---size--1x
-  );
-  --rebel-style_space-size---icon-size--md-icon: var(
-    --rebel-style_space-size---size--4x
-  );
-  --rebel-style_space-size---icon-size--lg-icon: var(
-    --rebel-style_space-size---size--5x
-  );
-  --rebel-style_space-size---icon-size--xl-icon: var(
-    --rebel-style_space-size---size--6x
   );
   --rebel-style---primary-filter--primary-invert: 17;
   --rebel-style---primary-filter--primary-sepia: 24;
@@ -156,49 +181,28 @@
   --rebel-style---grey-3-filter--grey-3-hue-rotate: 251;
   --rebel-style---grey-3-filter--grey-3-brightness: 98;
   --rebel-style---grey-3-filter--grey-3-contrast: 90;
+  --rebel-style_space-size---icon-size--base-icon: var(
+    --rebel-style_space-size---size--3x
+  );
+  --rebel-style_space-size---icon-size--sm-icon: var(
+    --rebel-style_space-size---size--2x
+  );
+  --rebel-style_space-size---icon-size--xs-icon: var(
+    --rebel-style_space-size---size--1x
+  );
+  --rebel-style_space-size---icon-size--md-icon: var(
+    --rebel-style_space-size---size--4x
+  );
+  --rebel-style_space-size---icon-size--lg-icon: var(
+    --rebel-style_space-size---size--5x
+  );
+  --rebel-style_space-size---icon-size--xl-icon: var(
+    --rebel-style_space-size---size--6x
+  );
   --rebel-style_buttons---labels--padding-top: 0.2em;
   --rebel-style_buttons---labels--padding-right: 0.35em;
   --rebel-style_buttons---labels--padding-bottom: 0.2em;
   --rebel-style_buttons---labels--padding-left: 0.35em;
-  --rebel-style_colors---color-1--color-1: var(
-    --rebel-style---colors--color-1-input
-  );
-  --rebel-style_colors---color-3--color-3: var(
-    --rebel-style---colors--color-3-input
-  );
-  --rebel-style_colors---color-4--color-4: var(
-    --rebel-style---colors--color-4-input
-  );
-  --rebel-style_colors---color-5--color-5: var(
-    --rebel-style---colors--color-5-input
-  );
-  --rebel-style_colors---color-6--color-6: var(
-    --rebel-style---colors--color-6-input
-  );
-  --rebel-style_colors---color-8--color-8-inverse: var(
-    --rebel-style_colors---color-3--color-3
-  );
-  --rebel-style_colors---color-7--color-7-inverse: var(
-    --rebel-style---colors--color-4-input
-  );
-  --rebel-style_colors---color-4--color-4-inverse: var(
-    --rebel-style---colors--color-primary
-  );
-  --rebel-style_colors---color-2--color-2-inverse: var(
-    --rebel-style---colors--color-5-input
-  );
-  --rebel-style_colors---color-6--color-6-inverse: var(
-    --rebel-style---colors--color-primary
-  );
-  --rebel-style_colors---color-1--color-1-inverse: var(
-    --rebel-style---colors--color-9-input
-  );
-  --rebel-style_colors---color-9--color-9-inverse: var(
-    --rebel-style---colors--color-primary
-  );
-  --rebel-style_colors---primary--primary-inverse: var(
-    --rebel-style---colors--color-4-input
-  );
   --rebel-style_colors---primary--color\<deleted\|variable-497d28ab-0f3d-60ea-5855-1863c636fd73\>: white;
   --rebel-style_colors---color-1--color-1-fade: color-mix(
     in srgb,
@@ -231,8 +235,155 @@
     white 20%
   );
   --rebel-style_buttons---labels--label-font: Khand, Impact, sans-serif;
+  --rebel-style_type---text-size--text-size-base: clamp(
+    0.8 * 1rem,
+    (
+      (
+          0.8 -
+            (
+              (1 - 0.8) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1 - 0.8) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1 * 1rem
+  );
+  --rebel-style_buttons---labels--line-height: 1;
   --rebel-style_buttons---labels--label-font-weight: 700;
   --rebel-style_buttons---labels--letter-spacing: 0.055em;
+  --rebel-style_type---base-type--margin-bottom: 1%;
+  --rebel-style_type---font--font-body: "General Sans", Tahoma, sans-serif;
+  --rebel-style_type---base-type--line-height-x1-5: var(
+    --rebel-style_type---line-height--line-height-lg
+  );
+  --rebel-style_type---base-type--body-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-300
+  );
+  --rebel-style---colors--white-input: white;
+  --rebel-style---colors--light-input: #fafafa;
+  --rebel-style_type---font-weights--font-weight-400: 400;
+  --rebel-style_type---text-size--text-size-md: clamp(
+    1.15 * 1rem,
+    (
+      (
+          1.15 -
+            (
+              (1.25 - 1.15) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.25 - 1.15) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.25 * 1rem
+  );
+  --rebel-style_type---font-weights--font-weight-300: 300;
+  --rebel-style---colors--color-6-input: #f37d59;
+  --rebel-style_type---h6--h6-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h6--h6-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-xxs
+  );
+  --rebel-style_type---h6--h6-line-height: 0.95;
+  --rebel-style_type---h6--h6-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h6--h6-letter-spacing: -0.01em;
+  --rebel-style_type---text-size--text-size-lg: clamp(
+    1.25 * 1rem,
+    (
+      (
+          1.25 -
+            (
+              (1.35 - 1.25) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.35 - 1.25) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.35 * 1rem
+  );
+  --rebel-style_type---headlines--headline-font-size-sm: clamp(
+    3.5 * 1rem,
+    (
+      (
+          3.5 -
+            (
+              (4 - 3.5) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (4 - 3.5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    4 * 1rem
+  );
+  --rebel-style_type---subheadlines--sub-headline-font-size-base: clamp(
+    0.86 * 1rem,
+    (
+      (
+          0.86 -
+            (
+              (1.866 - 0.86) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.866 - 0.86) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.866 * 1rem
+  );
+  --rebel-style_type---sub-headlines--s3-base\<deleted\|variable-7931f1c9-2a9f-6edf-1f75-c7cd3d2ea392\>: 1.343rem;
+  --rebel-style_type---s2--s2-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-md
+  );
+  --rebel-style_type---s3--s3-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-base
+  );
   --rebel-style_space-size---tags--tag-padding-left-right: 0.25em;
   --rebel-style_colors---color-light--light-3: color-mix(
     in srgb,
@@ -341,29 +492,6 @@
   --rebel-style_buttons---all-buttons--btn-font: Khand, Impact, sans-serif;
   --rebel-style_buttons---base-buttons--btn-font-weight: 700;
   --rebel-style_buttons---all-buttons--btn-letter-spacing: 0.05em;
-  --rebel-style_type---text-size--text-size-md: clamp(
-    1.15 * 1rem,
-    (
-      (
-          1.15 -
-            (
-              (1.25 - 1.15) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (1.25 - 1.15) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    1.25 * 1rem
-  );
   --rebel-style_type---text-size--text-size-sm: clamp(
     0.8 * 1rem,
     (
@@ -411,7 +539,7 @@
     0.917716 * 1rem
   );
   --rebel-style_buttons---base-buttons--btn-padding-top: 1.25rem;
-  --rebel-style_buttons---base-buttons--btn-padding-left: 1.25rem;
+  --rebel-style_buttons---base-buttons--btn-padding-left: 1.15rem;
   --rebel-style_buttons---base-buttons--btn-padding-bottom: 1.25rem;
   --rebel-style_buttons---base-buttons--btn-padding-right: 1.15rem;
   --rebel-style_buttons---base-buttons--btn-font-size: 1rem;
@@ -424,12 +552,153 @@
   --rebel-style_buttons---small-buttons--sm-btn-padding-right: 0.85rem;
   --rebel-style_buttons---small-buttons--sm-btn-padding-bottom: 0.9rem;
   --rebel-style_buttons---small-buttons--sm-btn-padding-left: 0.85rem;
-  --rebel-style_type---font--font-body: "General Sans", Tahoma, sans-serif;
+  --rebel-style_forms---forms--form-padding: 2rem;
+  --rebel-style---input-form-radius: 0rem;
+  --rebel-style_forms---core-inputs--input-font: Supreme, Arial, sans-serif;
+  --rebel-style_forms---core-inputs--input-font-size: 1rem;
+  --rebel-style_type---input-form-font-weight: 350;
+  --rebel-style_forms---dark-input--border-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---dark-input--bg-color: var(
+    --rebel-style_colors---color-dark--dark-1
+  );
+  --rebel-style_forms---dark-input--font-color: var(
+    --rebel-style_colors---color-light--light-1
+  );
+  --rebel-style_forms---dark-input--bg-color-hover: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_forms---dark-input--border-color-hover: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_forms---dark-input--placeholder-font-color: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_cards---dark-card--dark-card-bg: var(
+    --rebel-style_colors---primary--primary
+  );
+  --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
+    --rebel-style_colors---primary--primary-inverse
+  );
+  --rebel-style_forms---light-input--border-color-hover: var(
+    --rebel-style_colors---color-1--color-1
+  );
+  --rebel-style_forms---light-input--bg-color-hover: white;
+  --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_cards---dark-card--dark-card-bg-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l100
+  );
+  --rebel-style_forms---forms--form-padding-bottom: 1.5rem;
+  --rebel-style_colors---color-1--color-1-inverse-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-1--color-1-inverse) 90%,
+    black 10%
+  );
+  --rebel-style_type---base-type--line-height-x1: 1;
+  --rebel-style_forms---light-input--border-color: var(
+    --rebel-style_colors---color-3--color-3
+  );
+  --rebel-style_type---h4--h4-margin-bottom: 0.15em;
+  --rebel-style_type---h4--h4-font-family: var(
+    --rebel-style_type---font--font-headline
+  );
+  --rebel-style_type---h4--h4-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-sm
+  );
+  --rebel-style_type---h4--h4-line-height: 0.85;
+  --rebel-style_type---h4--h4-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
+  );
+  --rebel-style_type---h4--h4-letter-spacing: -0.01px;
+  --rebel-style_type---headlines--headline-font-size-xs: clamp(
+    2.5 * 1rem,
+    (
+      (
+          2.5 -
+            (
+              (2.5 - 2.5) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (2.5 - 2.5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    2.5 * 1rem
+  );
+  --rebel-style_type---font-weights--font-weight-700: 700;
+  --rebel-style_type---headlines--headline-font-size-lg: clamp(
+    5 * 1rem,
+    (
+      (
+          5 -
+            (
+              (7 - 5) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (7 - 5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    7 * 1rem
+  );
+  --rebel-style_type---headlines--headline-font-size-md: clamp(
+    4.5 * 1rem,
+    (
+      (
+          4.5 -
+            (
+              (6 - 4.5) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (6 - 4.5) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    6 * 1rem
+  );
+  --rebel-style---colors--color-7-input: #e05047;
+  --rebel-style_type---font-weights--font-weight-600: 600;
+  --rebel-style_type---headlines-input--base2\<deleted\|variable-7ce435cd-6f5b-2174-cd17-05a30c1d6de3\>: clamp(
+    2.75rem,
+    4.75vw,
+    3.8rem
+  );
+  --rebel-style_type---font--font-headline: Khand, Impact, sans-serif;
+  --rebel-style_type---line-height--line-height-xs: 0.95;
+  --rebel-style_colors---nav-link--nav-link-light: var(
+    --rebel-style_colors---color-light--light-1
+  );
   --rebel-style_type---paragraph--paragraph-font-size-xs: var(
     --rebel-style_type---text-size--text-size-xs
   );
   --rebel-style_type---line-height--line-height-base: 1.15;
-  --rebel-style_type---font-weights--font-weight-400: 400;
   --rebel-style_type---paragraph--paragraph-font-size-xxs: var(
     --rebel-style_type---text-size--text-size-xxs
   );
@@ -442,42 +711,39 @@
     var(--rebel-style_shades---brand-color-primary--color-primary) 81%,
     white
   );
-  --rebel-style_type---font-weights--font-weight-700: 700;
-  --rebel-style_buttons---tags--tag-font: Khand, Impact, sans-serif;
   --rebel-style_buttons---tags--font-size: 0.9rem;
   --rebel-style_buttons---tags--line-height: 1;
-  --rebel-style_buttons---tags--font-weight: 700;
-  --rebel-style_type---text-size--text-size-base: clamp(
-    0.8 * 1rem,
-    (
-      (
-          0.8 -
-            (
-              (1 - 0.8) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (1 - 0.8) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    1 * 1rem
+  --rebel-style_colors---color-dark--dark-inverse: var(
+    --rebel-style---colors--light-input
   );
-  --rebel-style_type---base-type--line-height-x1-5: var(
-    --rebel-style_type---line-height--line-height-md
+  --rebel-style_type---line-height--line-height-xl: 1.75;
+  --rebel-style_buttons---small-buttons--sm-btn-text-size: 0.85rem;
+  --rebel-style_buttons---button-primary--btn-primary-font-color: var(
+    --rebel-style_colors---primary--primary-inverse
   );
-  --rebel-style_type---base-type--body-font-weight: var(
+  --rebel-style_buttons---button-primary--btn-primary-bg-hover-dim: var(
+    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
+  );
+  --rebel-style_colors---color-9--color-9-fade: color-mix(
+    in srgb,
+    var(--rebel-style_colors---color-9--color-9) 95%,
+    var(--rebel-style_colors---primary--primary) 5%
+  );
+  --rebel-style_type---s4--s4-font-family: var(
+    --rebel-style_type---font--subheadline
+  );
+  --rebel-style_type---s4--s4-font-size: var(
+    --rebel-style_type---subheadlines--sub-headline-font-size-sm
+  );
+  --rebel-style_type---s4--s4-line-height: 1.25;
+  --rebel-style_type---s4--s4-font-weight: var(
     --rebel-style_type---font-weights--font-weight-300
   );
+  --rebel-style_type---s4--s4-letter-spacing: 0px;
+  --rebel-style_type---font-weights--font-weight-800\<deleted\|variable-398a868b-9fbb-9997-0153-86e1b87077c6\>: 800;
+  --rebel-style_space-size---widths--max-width-md: 1440px;
+  --rebel-style---colors--color-primary: #163666;
   --rebel-style---colors--color-2-input: #00a6b6;
-  --rebel-style_type---font--font-headline: Khand, Impact, sans-serif;
   --rebel-style_type---base-headlines--font-weight: var(
     --rebel-style_type---font-weights--font-weight-700
   );
@@ -498,11 +764,6 @@
   --rebel-style_type---base-type--body-font-size: var(
     --rebel-style_type---text-size--text-size-sm
   );
-  --rebel-style_type---h4--h4-line-height: 0.85;
-  --rebel-style_type---h4--h4-font-weight: var(
-    --rebel-style_type---font-weights--font-weight-700
-  );
-  --rebel-style_type---h4--h4-letter-spacing: -0.01px;
   --rebel-style_type---h5--h5-line-height: 0.85;
   --rebel-style_type---h5--h5-font-weight: var(
     --rebel-style_type---font-weights--font-weight-700
@@ -532,40 +793,9 @@
     1.54 * 1rem
   );
   --rebel-style---colors--color-3-input: #71c9c5;
-  --rebel-style_type---sub-headlines--s3-base\<deleted\|variable-7931f1c9-2a9f-6edf-1f75-c7cd3d2ea392\>: 1.343rem;
-  --rebel-style_type---h6--h6-line-height: 0.95;
-  --rebel-style_type---h6--h6-font-weight: var(
-    --rebel-style_type---font-weights--font-weight-700
-  );
-  --rebel-style_type---h6--h6-letter-spacing: -0.01em;
+  --rebel-style_cards---large-card--lg-card-radius: 0.25rem;
   --rebel-style_type---font-weights--font-weight-500: 500;
-  --rebel-style_type---base-type--line-height-x1: 1;
-  --rebel-style_type---font-weights--font-weight-300: 300;
-  --rebel-style_type---font-weights--font-weight-600: 600;
-  --rebel-style---colors--light-input: #fafafa;
-  --rebel-style_type---text-size--text-size-lg: clamp(
-    1.25 * 1rem,
-    (
-      (
-          1.25 -
-            (
-              (2.25 - 1.25) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (2.25 - 1.25) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    2.25 * 1rem
-  );
+  --rebel-style_type---line-height--line-height-lg: 1.25;
   --rebel-style_space-size---widths--max-width-lg: 1600px;
   --rebel-style_shades---brand-color-primary--color-primary: var(
     --rebel-style_colors---primary--primary
@@ -575,113 +805,36 @@
     6.71vw,
     5.37rem
   );
-  --rebel-style_type---headlines-input--base2\<deleted\|variable-7ce435cd-6f5b-2174-cd17-05a30c1d6de3\>: clamp(
-    2.75rem,
-    4.75vw,
-    3.8rem
-  );
   --rebel-style_type---h0--h0-letter-spacing: -0.01em;
   --rebel-style_type---h0--h0-margin-bottom: 0.5%;
   --rebel-style_type---base-headlines--letter-spacing: -0.02em;
-  --_apps---typography--heading-font: Khand, Impact, sans-serif;
-  --rebel-style_type---headlines--headline-font-size-md: clamp(
-    2.57 * 1rem,
-    (
-      (
-          2.57 -
-            (
-              (5.25 - 2.57) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (5.25 - 2.57) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    5.25 * 1rem
-  );
-  --rebel-style_cards---large-card--lg-card-radius: 4px;
-  --rebel-style_cards---light-card--light-card-text-color: var(
-    --rebel-style---colors--color-primary
-  );
-  --rebel-style_cards-2---light-card--light-card-text-color\<deleted\|variable-c54ecd6d-9c56-14dd-0fb1-3d50cc520549\>: var(
-    --rebel-style_colors-2---text--text-blue\<deleted\|variable-376fe723-b878-0759-96ab-0b42e133af87\>
-  );
-  --rebel-style_type---base-type--margin-bottom: 1%;
-  --rebel-style---colors--white-input: white;
   --rebel-style_space-size---size--1x: 1rem;
   --rebel-style_type---eyebrows--font-family: "Supreme Variable";
   --rebel-style_type---s6--s6-font-size: var(
     --rebel-style_type---subheadlines--sub-headline-font-size-xxs
   );
   --rebel-style---colors--color-9-input: #eff5f6;
-  --rebel-style---colors--color-7-input: #e05047;
-  --rebel-style---colors--color-4-input: #b2d3de;
   --rebel-style_type---eyebrows--font-size: 1rem;
   --rebel-style_type---font--logo: Barlow, Impact, sans-serif;
-  --rebel-style_buttons---labels--line-height: 1;
   --rebel-style_buttons---all-buttons--btn-border-width: 3px;
   --rebel-style_buttons---button-primary--btn-primary-border: var(
     --rebel-style_colors---primary--primary
   );
-  --rebel-style_buttons---button-primary--btn-primary-font-color: var(
-    --rebel-style_colors---primary--primary-inverse
-  );
   --rebel-style_buttons---button-primary--btn-primary-border-hover-dim: var(
     --rebel-style_shades---brand-color-primary--brand-color-primary-l200
   );
-  --rebel-style_buttons---button-primary--btn-primary-bg-hover-dim: var(
-    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
-  );
-  --rebel-style_forms---forms--form-padding: 2rem;
-  --rebel-style_forms---forms--form-padding-bottom: 1.5rem;
   --rebel-style_forms---core-inputs--input-border-width: 1px;
-  --rebel-style---input-form-radius: 0rem;
   --rebel-style_forms---light-input--bg-color: var(
     --rebel-style_colors---color-light--light-1
   );
-  --rebel-style_forms---core-inputs--input-font: Supreme, Arial, sans-serif;
   --rebel-style_buttons---button-light--btn-light-font-color: var(
     --rebel-style_colors---color-dark--dark-1
   );
-  --rebel-style_forms---dark-input--border-color: var(
-    --rebel-style_colors---color-dark--dark-1
-  );
-  --rebel-style_forms---dark-input--bg-color: var(
-    --rebel-style_colors---color-dark--dark-1
-  );
-  --rebel-style_forms---dark-input--font-color: var(
-    --rebel-style_colors---color-light--light-1
-  );
-  --rebel-style_forms---light-input--border-color-hover: var(
-    --rebel-style_colors---color-1--color-1
-  );
-  --rebel-style_forms---light-input--bg-color-hover: white;
   --_apps---colors--secondary: var(--rebel-style_colors---color-2--color-2);
-  --rebel-style_forms---dark-input--bg-color-hover: var(
-    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
-  );
   --rebel-style_forms---light-input--placeholder-font-color: var(
     --rebel-style_colors---color-3--color-3
   );
-  --rebel-style_forms---dark-input--placeholder-font-color: var(
-    --rebel-style_colors---primary--primary-inverse
-  );
-  --rebel-style_forms---dark-input--border-color-hover: var(
-    --rebel-style_colors---primary--primary-inverse
-  );
   --rebel-style_type---base-type--body-letter-spacing: -0.0025em;
-  --rebel-style---colors--color-6-input: #f37d59;
-  --rebel-style_colors---colors--color-white: var(
-    --rebel-style---colors--light-input
-  );
   --rebel-style_type---text-size--text-size-xxs: clamp(
     0.6597 * 1rem,
     (
@@ -741,63 +894,8 @@
   --rebel-style_buttons---button-brand-color-5--btn-color-5-bg-hover-dim: var(
     --rebel-style_shades---shades-color-5--color-5-d200
   );
-  --rebel-style_type---headlines--headline-font-size-lg: clamp(
-    3.1 * 0.95rem,
-    (
-      (
-          3.5 -
-            (
-              (7.5 - 3.1) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 0.95rem +
-        (
-          (7.75 - 5) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    7.75 * 0.95rem
-  );
-  --rebel-style_type---h6--h6-font-family: var(
-    --rebel-style_type---font--font-headline
-  );
-  --rebel-style_type---h6--h6-font-size: var(
-    --rebel-style_type---headlines--headline-font-size-xxs
-  );
-  --rebel-style_type---text-size--text-size-xl: clamp(
-    1.35 * 1rem,
-    (
-      (
-          1.35 -
-            (
-              (3 - 1.35) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (3 - 1.35) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    3 * 1rem
-  );
   --rebel-style_type---s3--s3-font-family: var(
     --rebel-style_type---font--subheadline
-  );
-  --rebel-style_type---s3--s3-font-size: var(
-    --rebel-style_type---subheadlines--sub-headlinesub-font-size-base
   );
   --rebel-style_type---s3--s3-line-height: 1.25;
   --rebel-style_type---s3--s3-font-weight: var(
@@ -805,23 +903,6 @@
   );
   --rebel-style_type---s3--s3-letter-spacing: 0px;
   --rebel-style_type---sub-headlines--s4-sm\<deleted\|variable-ecca1590-7732-3050-c5bc-42b6243cac69\>: 1.199rem;
-  --rebel-style_colors---nav-link--nav-link-light: var(
-    --rebel-style_colors---color-light--light-1
-  );
-  --rebel-style_space-size---gap--xxs-gap: var(
-    --rebel-style_space-size---size--0-5x
-  );
-  --rebel-style_type---h5--h5-font-family: var(
-    --rebel-style_type---font--font-headline
-  );
-  --rebel-style_type---sub-headlines--s5-xs\<deleted\|variable-80b332d0-c464-d6af-1d33-c860d0a8159e\>: 1.071rem;
-  --rebel-style_type---h2--h2-font-size: var(
-    --rebel-style_type---headlines--headline-font-size-md
-  );
-  --rebel-style_type---h2--h2-line-height: 0.8;
-  --rebel-style_type---h2--h2-font-weight: var(
-    --rebel-style_type---font-weights--font-weight-700
-  );
   --rebel-style_type---h3--h3-font-family: var(
     --rebel-style_type---font--font-headline
   );
@@ -835,18 +916,15 @@
   --rebel-style_colors---backgrounds--bg-white\<deleted\|variable-f2b270f2-b950-7973-438c-14502c10404c\>: var(
     --rebel-style---colors--light-input
   );
-  --rebel-style---core-button-color--button-white: var(
-    --rebel-style---colors--white-input
-  );
-  --rebel-style_space-size---size--4x: 4rem;
   --rebel-style_space-size---widths--max-width-sm: 1150px;
-  --rebel-style_type---line-height--line-height-lg: 1.5;
-  --rebel-style_type---h4--h4-font-family: var(
-    --rebel-style_type---font--font-headline
+  --rebel-style_type---h2--h2-font-size: var(
+    --rebel-style_type---headlines--headline-font-size-md
   );
-  --rebel-style_type---h4--h4-font-size: var(
-    --rebel-style_type---headlines--headline-font-size-sm
+  --rebel-style_type---h2--h2-line-height: 0.8;
+  --rebel-style_type---h2--h2-font-weight: var(
+    --rebel-style_type---font-weights--font-weight-700
   );
+  --rebel-style---colors--color-4-input: #b2d3de;
   --rebel-style_type---subheadlines--sub-headline-font-size-md: clamp(
     1.26 * 1rem,
     (
@@ -876,12 +954,12 @@
   );
   --rebel-style_type---s2--s2-letter-spacing: 0px;
   --rebel-style_type---headlines--headline-font-size-xxs: clamp(
-    1.05 * 1rem,
+    2 * 1rem,
     (
       (
-          1.05 -
+          2 -
             (
-              (2.25 - 1.05) /
+              (2 - 2) /
                 (
                   var(--rebel-style---max-viewport) -
                     var(--rebel-style---min-viewport)
@@ -889,38 +967,39 @@
             )
         ) * 1rem +
         (
-          (2.25 - 1.05) /
+          (2 - 2) /
             (
               var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    2.25 * 1rem
+    2 * 1rem
   );
-  --rebel-style_type---headlines--headline-font-size-base: clamp(
-    1.76 * 0.95rem,
+  --rebel-style_type---headlines--headline-font-size-base\<deleted\|variable-25ee21f9-07eb-6b59-0f67-5a9277d6d8ab\>: clamp(
+    4 * 1rem,
     (
       (
-          1.76 -
+          4 -
             (
-              (3.79 - 1.76) /
+              (5 - 4) /
                 (
                   var(--rebel-style---max-viewport) -
                     var(--rebel-style---min-viewport)
                 ) * var(--rebel-style---min-viewport)
             )
-        ) * 0.95rem +
+        ) * 1rem +
         (
-          (3.79 - 1.76) /
+          (5 - 4) /
             (
               var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    3.79 * 0.95rem
+    5 * 1rem
   );
+  --_apps---typography--heading-font: Khand, Impact, sans-serif;
   --rebel-style_type---subheadlines--sub-headline-font-size-xxs: clamp(
     0.517 * 1rem,
     (
@@ -944,29 +1023,6 @@
     ),
     1.1 * 1rem
   );
-  --rebel-style_type---headlines--headline-font-size-sm: clamp(
-    1.63 * 1rem,
-    (
-      (
-          1.63 -
-            (
-              (3.5 - 1.63) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (3.5 - 1.63) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    3.5 * 1rem
-  );
   --rebel-style_type---sub-headlines--s6-xxs\<deleted\|variable-ece26371-e11f-aa0b-7333-3e71bc1b0a9b\>: 0.956rem;
   --rebel-style_shades---shades-blue--blue-l100: color-mix(
     in srgb,
@@ -978,28 +1034,8 @@
     var(--rebel-style---colors--color-primary) 60%,
     white 40%
   );
-  --rebel-style_type---headlines--headline-font-size-xs: clamp(
-    1.46 * 1rem,
-    (
-      (
-          1.46 -
-            (
-              (3.13 - 1.46) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (3.13 - 1.46) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    3.13 * 1rem
+  --rebel-style_type---h5--h5-font-family: var(
+    --rebel-style_type---font--font-headline
   );
   --rebel-style_type---responsive-headlines--base: clamp(
     3.5rem,
@@ -1017,12 +1053,12 @@
     7.422rem
   );
   --rebel-style_type---headlines--headline-font-size-xl: clamp(
-    5 * 1rem,
+    6 * 1rem,
     (
       (
-          5 -
+          6 -
             (
-              (10.75 - 5) /
+              (9 - 6) /
                 (
                   var(--rebel-style---max-viewport) -
                     var(--rebel-style---min-viewport)
@@ -1030,14 +1066,14 @@
             )
         ) * 1rem +
         (
-          (10.75 - 5) /
+          (9 - 6) /
             (
               var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    10.75 * 1rem
+    9 * 1rem
   );
   --rebel-style_type---responsive-headlines--h-minus-1: clamp(
     2.8rem,
@@ -1098,17 +1134,6 @@
   );
   --rebel-style_type---responsive-headlines--h-minus-5-line-height: 0.95;
   --rebel-style_type---responsive-headlines--h-minus-1-line-height: 0.85;
-  --rebel-style_space-size---gap--lg-gap: var(
-    --rebel-style_space-size---size--4x
-  );
-  --rebel-style_space-size---gap--xxl-gap: var(
-    --rebel-style_space-size---size--6x
-  );
-  --rebel-style_space-size---size--2x: 2rem;
-  --rebel-style_buttons---tags--radius: 0.35rem;
-  --rebel-style_space-size---size--8x: 8rem;
-  --rebel-style_space-size---size--6x: 6rem;
-  --rebel-style_type---h6--h6-margin-bottom: 0.15em;
   --text--line-height: 0px;
   --_apps---size--3rem: 3rem;
   --h5--line-height: 0px;
@@ -1266,9 +1291,6 @@
     var(--rebel-style_colors---color-dark--dark-1) 80%,
     white 20%
   );
-  --rebel-style_colors---color-dark--dark-inverse: var(
-    --rebel-style---colors--light-input
-  );
   --rebel-style_type---font--font-emphasis: "Fira Code", Arial, sans-serif;
   --rebel-style_colors---color-dark--dark-inverse-on-hover: color-mix(
     in srgb,
@@ -1295,7 +1317,7 @@
   --rebel-style_type---font--blockquote-option: Pacifico, "Palatino Linotype",
     sans-serif;
   --rebel-style_colors---color-grey--grey-2-inverse: var(
-    --rebel-style---colors--grey-3-input
+    --rebel-style---colors--grey-1-input
   );
   --rebel-style_colors---color-grey--color: color-mix(
     in srgb,
@@ -1303,11 +1325,6 @@
     white 20%
   );
   --rebel-style_type---font--subheadline: "General Sans", Tahoma, sans-serif;
-  --rebel-style_colors---color-1--color-1-inverse-fade: color-mix(
-    in srgb,
-    var(--rebel-style_colors---color-1--color-1-inverse) 90%,
-    black 10%
-  );
   --rebel-style_colors---color-4--color-4-inverse-fade: color-mix(
     in srgb,
     var(--rebel-style_colors---primary--primary) 80%,
@@ -1328,11 +1345,6 @@
     var(--rebel-style_colors---color-8--color-8-inverse) 80%,
     white 20%
   );
-  --rebel-style_colors---color-9--color-9-fade: color-mix(
-    in srgb,
-    var(--rebel-style_colors---color-9--color-9) 95%,
-    var(--rebel-style_colors---primary--primary) 5%
-  );
   --rebel-style_colors---color-9--color-9-inverse-fade: color-mix(
     in srgb,
     var(--rebel-style_colors---color-9--color-9-inverse) 80%,
@@ -1341,7 +1353,6 @@
   --rebel-style_type---base-type--size: 0px;
   --rebel-style_type---base-headlines--font-family: "General Sans", Tahoma,
     sans-serif;
-  --rebel-style_forms---core-inputs--input-font-size: 1rem;
   --rebel-style_forms---core-inputs--input-font-height: 1.5;
   --rebel-style_forms---core-inputs--input-font-weight: 300;
   --rebel-style_forms---core-inputs--input-border-radius: 0.25rem;
@@ -1374,6 +1385,7 @@
     --rebel-style_type---font-weights--font-weight-400
   );
   --_apps---typography--body-font: "General Sans", Tahoma, sans-serif;
+  --font-headline: Khand, Impact, sans-serif;
   --_apps---typography--button-font: Khand, Impact, sans-serif;
   --rebel-style_cards---small-card--sm-card-text-weight-hover: var(
     --rebel-style_type---font-weights--font-weight-400
@@ -1394,18 +1406,16 @@
     --rebel-style---colors--white-input
   );
   --rebel-style_type---line-height--line-height-xxl: 2;
-  --rebel-style_type---line-height--line-height-xl: 1.75;
   --rebel-style_type---line-height--line-height-md: 1.25;
-  --rebel-style_type---line-height--line-height-xs: 0.95;
   --rebel-style_type---line-height--line-height-xxs: 0.85;
   --rebel-style_type---line-height--line-height-sm: 1.05;
-  --rebel-style_type---headlines--size-2: clamp(
-    1.57 * 1rem,
+  --rebel-style_type---headlines--headline-font-size-base: clamp(
+    4 * 1rem,
     (
       (
-          1.57 -
+          4 -
             (
-              (3.37 - 1.57) /
+              (5 - 4) /
                 (
                   var(--rebel-style---max-viewport) -
                     var(--rebel-style---min-viewport)
@@ -1413,37 +1423,14 @@
             )
         ) * 1rem +
         (
-          (3.37 - 1.57) /
+          (5 - 4) /
             (
               var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    3.37 * 1rem
-  );
-  --rebel-style_type---headlines--size: clamp(
-    1.51 * 1rem,
-    (
-      (
-          1.51 -
-            (
-              (3.25 - 1.51) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (3.25 - 1.51) /
-            (
-              var(--rebel-style---max-viewport) -
-                var(--rebel-style---min-viewport)
-            )
-        ) * 100vw
-    ),
-    3.25 * 1rem
+    5 * 1rem
   );
   --rebel-style_type---subheadlines--sub-headline-font-size-xl: clamp(
     2.46 * 1rem,
@@ -1451,7 +1438,7 @@
       (
           2.46 -
             (
-              (5.29 - 2.46) /
+              (3.29 - 2.46) /
                 (
                   var(--rebel-style---max-viewport) -
                     var(--rebel-style---min-viewport)
@@ -1459,14 +1446,14 @@
             )
         ) * 1rem +
         (
-          (5.29 - 2.46) /
+          (3.29 - 2.46) /
             (
               var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    5.29 * 1rem
+    3.29 * 1rem
   );
   --rebel-style_type---subheadlines--sub-headline-font-size-lg: clamp(
     1.72 * 1rem,
@@ -1477,42 +1464,19 @@
               (3.69 - 1.72) /
                 (
                   var(--rebel-style---max-viewport) -
-                    var(--rebel-style---max-viewport)
-                ) * var(--rebel-style---max-viewport)
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
             )
         ) * 1rem +
         (
           (3.69 - 1.72) /
             (
               var(--rebel-style---max-viewport) -
-                var(--rebel-style---max-viewport)
-            )
-        ) * 100vw
-    ),
-    3.69 * 1rem
-  );
-  --rebel-style_type---subheadlines--sub-headlinesub-font-size-base: clamp(
-    0.86 * 1rem,
-    (
-      (
-          0.86 -
-            (
-              (1.866 - 0.86) /
-                (
-                  var(--rebel-style---max-viewport) -
-                    var(--rebel-style---min-viewport)
-                ) * var(--rebel-style---min-viewport)
-            )
-        ) * 1rem +
-        (
-          (1.866 - 0.86) /
-            (
-              var(--rebel-style---max-viewport) -
                 var(--rebel-style---min-viewport)
             )
         ) * 100vw
     ),
-    1.866 * 1rem
+    3.69 * 1rem
   );
   --rebel-style_type---subheadlines--sub-headline-font-size-sm: clamp(
     0.802 * 1rem,
@@ -1560,6 +1524,29 @@
         ) * 100vw
     ),
     3.25 * 1rem
+  );
+  --rebel-style_type---text-size--text-size-xl: clamp(
+    1.35 * 1rem,
+    (
+      (
+          1.35 -
+            (
+              (1.45 - 1.35) /
+                (
+                  var(--rebel-style---max-viewport) -
+                    var(--rebel-style---min-viewport)
+                ) * var(--rebel-style---min-viewport)
+            )
+        ) * 1rem +
+        (
+          (1.45 - 1.35) /
+            (
+              var(--rebel-style---max-viewport) -
+                var(--rebel-style---min-viewport)
+            )
+        ) * 100vw
+    ),
+    1.45 * 1rem
   );
   --rebel-style_type---paragraph--paragraph-font-size-md: var(
     --rebel-style_type---text-size--text-size-md
@@ -1622,12 +1609,8 @@
   --rebel-style_forms---light-input--font-color: var(
     --rebel-style_colors---color-dark--dark-1
   );
-  --rebel-style_forms---light-input--border-color: var(
-    --rebel-style_colors---color-3--color-3
-  );
   --rebel-style---max-width_large: 50rem;
   --rebel-style---label-text-size: 1rem;
-  --rebel-style_type---input-form-font-weight: 350;
   --rebel-style_colors---heading-font-color: var(
     --rebel-style---colors--color-primary
   );
@@ -1747,7 +1730,6 @@
   --h1--font-size: var(--rebel-style_type---h1--h1-font-size);
   --h2--font-family: var(--rebel-style_type---font--font-headline);
   --rebel-style_space-size---widths--max-width-xl: 1720px;
-  --rebel-style_space-size---widths--max-width-md: 1440px;
   --rebel-style_space-size---widths--max-width-base: 1280px;
   --rebel-style_space-size---widths--max-width-xs: 900px;
   --rebel-style_space-size---widths--max-width-xxs: 12px;
@@ -2209,6 +2191,9 @@
   --rebel-style_space-size---section--section-padding-vertical: var(
     --rebel-style_space-size---size--8x
   );
+  --rebel-style_space-size---gap--xxs-gap: var(
+    --rebel-style_space-size---size--0-5x
+  );
   --rebel-style_space-size---gap--xs-gap: var(
     --rebel-style_space-size---size--1x
   );
@@ -2218,14 +2203,20 @@
   --rebel-style_space-size---gap--md-gap: var(
     --rebel-style_space-size---size--3x
   );
+  --rebel-style_space-size---gap--lg-gap: var(
+    --rebel-style_space-size---size--4x
+  );
   --rebel-style_space-size---gap--xl-gap: var(
     --rebel-style_space-size---size--5x
+  );
+  --rebel-style_space-size---gap--xxl-gap: var(
+    --rebel-style_space-size---size--6x
   );
   --rebel-style_type---h0--h0-font-family: var(
     --rebel-style_type---font--font-headline
   );
   --rebel-style_type---h0--h0-font-size: var(
-    --rebel-style_type---headlines--headline-font-size-xl
+    --rebel-style_type---headlines--headline-font-size-md
   );
   --rebel-style_type---h0--h0-font-weight: var(
     --rebel-style_type---font-weights--font-weight-700
@@ -2246,11 +2237,11 @@
   );
   --rebel-style_type---h2--h2-margin-bottom: 1%;
   --rebel-style_type---h3--h3-margin-bottom: 0.15em;
-  --rebel-style_type---h4--h4-margin-bottom: 0.15em;
   --rebel-style_type---h5--h5-font-size: var(
     --rebel-style_type---headlines--headline-font-size-xs
   );
   --rebel-style_type---h5--h5-margin-bottom: 0.15em;
+  --rebel-style_type---h6--h6-margin-bottom: 0.15em;
   --rebel-style_space-size---ix--ix-hero-intro-slide-up-100vh: 0px;
   --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-1: 0px;
   --rebel-style_space-size---ix--ix-hero-intro-clipping-mask-2: 0px;
@@ -2284,9 +2275,13 @@
   --rebel-style_space-size---size--1-25x: 1.25rem;
   --rebel-style_space-size---size--1-5x: 1.5rem;
   --rebel-style_space-size---size--1-75x: 1.75rem;
+  --rebel-style_space-size---size--2x: 2rem;
   --rebel-style_space-size---size--3x: 3rem;
+  --rebel-style_space-size---size--4x: 4rem;
   --rebel-style_space-size---size--5x: 5rem;
+  --rebel-style_space-size---size--6x: 6rem;
   --rebel-style_space-size---size--7x: 7rem;
+  --rebel-style_space-size---size--8x: 8rem;
   --rebel-style_space-size---divider-width: 2px;
   --rebel-style_space-size---height: 0px;
   --rebel-style_colors---links--link-font-color: var(
@@ -2394,7 +2389,6 @@
     var(--rebel-style_buttons---button-grey--button-white--btngrey-border) 80%,
     transparent
   );
-  --rebel-style_buttons---small-buttons--sm-btn-text-size: 0.85rem;
   --rebel-style_buttons---small-buttons--sm-btn-weight: 400;
   --rebel-style_buttons---small-buttons--sm-btn-border-width: 2px;
   --rebel-style_buttons---small-buttons--sm-btn-radius: 1.25px;
@@ -2406,23 +2400,12 @@
   --rebel-style_buttons---tags--letter-spacing: 0;
   --rebel-style_buttons---tags--font-weight-hover: 300;
   --rebel-style_space-size---tags--tag-padding-top: 0.15em;
-  --rebel-style_space-size---tags--tag-padding-bottom: 0.05em;
+  --rebel-style_space-size---tags--tag-padding-bottom: 0.15em;
   --rebel-style_buttons---tags--border-width: 3px;
-  --rebel-style_cards---dark-card--dark-card-bg: var(
-    --rebel-style_colors---primary--primary
-  );
-  --rebel-style_cards---dark-card--dark-card-bg-dim: var(
-    --rebel-style_shades---brand-color-primary--brand-color-primary-l100
-  );
-  --rebel-style_cards---dark-card--dark-card-bg-inverse: var(
-    --rebel-style_colors---primary--primary-inverse
-  );
+  --rebel-style_buttons---tags--radius: 0.35rem;
   --rebel-style_cards---dark-card--dark-card-bg-transparent: transparent;
   --rebel-style_cards---dark-card--dark-card-border-color: var(
     --rebel-style_colors---primary--primary
-  );
-  --rebel-style_cards---dark-card--dark-card-border-color-dim: var(
-    --rebel-style_shades---brand-color-primary--brand-color-primary-l200
   );
   --rebel-style_cards---dark-card--dark-card-border-color-inverse: var(
     --rebel-style_colors---primary--primary
@@ -2462,6 +2445,9 @@
     --rebel-style---colors--light-input
   );
   --rebel-style_cards---light-card--light-card-border-color-transparent: transparent;
+  --rebel-style_cards---light-card--light-card-text-color: var(
+    --rebel-style---colors--color-primary
+  );
   --rebel-style_cards---light-card--light-card-text-color-dim: var(
     --rebel-style_shades---shades-blue--blue-l200
   );
@@ -2521,7 +2507,7 @@
   --rebel-style---ratio-body: 0.2932;
   --rebel-style---size: 0px;
   --rebel-style---max-viewport: 100;
-  --rebel-style---min-viewport: 0;
+  --rebel-style---min-viewport: 20;
   --rebel-style---core-button-color--button-purple: var(
     --rebel-style---colors--color-8-input
   );
@@ -2546,6 +2532,9 @@
   --rebel-style---core-button-color--button-color4-inverse: var(
     --rebel-style---colors--white-input
   );
+  --rebel-style---core-button-color--button-white: var(
+    --rebel-style---colors--white-input
+  );
   --rebel-style---core-button-color--button-white-inverse: transparent;
   --rebel-style---font-weights--font-weight-800: 800;
   --rebel-style_type---s0--s0-font-family: var(
@@ -2554,39 +2543,26 @@
   --rebel-style_type---s0--s0-font-weight: var(
     --rebel-style_type---font-weights--font-weight-300
   );
+  --rebel-style_type---s0--s0-line-height: 1;
+  --rebel-style_type---s0--s0-letter-spacing: 0px;
+  --rebel-style_type---s0--color: white;
   --rebel-style_type---s0--s0-font-size: var(
     --rebel-style_type---subheadlines--sub-headline-font-size-xl
   );
-  --rebel-style_type---s0--s0-line-height: 1;
-  --rebel-style_type---s0--s0-letter-spacing: 0px;
   --rebel-style_type---s1--s1-font-family: var(
     --rebel-style_type---font--subheadline
   );
   --rebel-style_type---s1--s1-font-weight: var(
     --rebel-style_type---font-weights--font-weight-300
   );
+  --rebel-style_type---s1--s1-line-height: 1.25;
+  --rebel-style_type---s1--s1-letter-spacing: 0px;
   --rebel-style_type---s1--s1-font-size: var(
     --rebel-style_type---subheadlines--sub-headline-font-size-lg
   );
-  --rebel-style_type---s1--s1-line-height: 1.25;
-  --rebel-style_type---s1--s1-letter-spacing: 0px;
   --rebel-style_type---s2--s2-font-family: var(
     --rebel-style_type---font--subheadline
   );
-  --rebel-style_type---s2--s2-font-size: var(
-    --rebel-style_type---subheadlines--sub-headline-font-size-md
-  );
-  --rebel-style_type---s4--s4-font-family: var(
-    --rebel-style_type---font--subheadline
-  );
-  --rebel-style_type---s4--s4-font-weight: var(
-    --rebel-style_type---font-weights--font-weight-300
-  );
-  --rebel-style_type---s4--s4-font-size: var(
-    --rebel-style_type---subheadlines--sub-headline-font-size-sm
-  );
-  --rebel-style_type---s4--s4-line-height: 1.25;
-  --rebel-style_type---s4--s4-letter-spacing: 0px;
   --rebel-style_type---s5--s5-font-family: var(
     --rebel-style_type---font--subheadline
   );
@@ -2616,9 +2592,6 @@
   --rebel-style_type---blockquotes--letter-spacing: 0.01em;
   --rebel-style_type---blockquotes--blockquote-padding-vertical: 0px;
   --rebel-style_type---blockquotes--blockquote-padding-horizontal: 0px;
-  --rebel-style_colors-2---text--text-blue\<deleted\|variable-376fe723-b878-0759-96ab-0b42e133af87\>: var(
-    --rebel-style_core-2---core-colors--core-color-blue\<deleted\|variable-6781bb42-b520-79a3-212d-4cb2b1042435\>
-  );
   --rebel-style---core-colors--inherit\<deleted\|variable-bb5cc251-d5e2-5ac6-bead-8a0dc52c2f59\>: #b2d3de;
   --rebel-style_cards-2---dark-card--dark-card-text-color\<deleted\|variable-1e881866-485c-7d1c-a275-41d7719df81e\>: var(
     --rebel-style_colors-2---text--text-brightwhite\<deleted\|variable-7f5d9235-9008-4928-f8b0-24bd8071febe\>
@@ -2626,7 +2599,6 @@
   --rebel-style_cards-2---light-card--light-card-bg\<deleted\|variable-d3575438-9c2f-bf62-e098-4e92beb26d6a\>: var(
     --rebel-style_core-2---core-colors--bright-white\<deleted\|variable-fc25b7db-f5d1-4e2d-b37e-24bc654844ba\>
   );
-  --rebel-style_core-2---core-colors--core-color-blue\<deleted\|variable-6781bb42-b520-79a3-212d-4cb2b1042435\>: #1c437f;
   --rebel-style_colors-2---text--text-brightwhite\<deleted\|variable-7f5d9235-9008-4928-f8b0-24bd8071febe\>: var(
     --rebel-style_core-2---core-colors--bright-white\<deleted\|variable-fc25b7db-f5d1-4e2d-b37e-24bc654844ba\>
   );

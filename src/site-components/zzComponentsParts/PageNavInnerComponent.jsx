@@ -212,7 +212,6 @@ export function PageNavInnerComponent({
           <NavbarButton
             className={"page-nav_menu-button"}
             data-watch={"page-nav-btn"}
-            id={"w-node-c312d4dc-9a43-7774-0faf-5df038fd65fa-38fd65f9"}
             tag={"div"}
           >
             <Block
@@ -255,19 +254,10 @@ export function PageNavInnerComponent({
             tag={"nav"}
           >
             <Block className={"page-nav_grid"} tag={"div"}>
-              <Block
-                className={"page-nav_border-right"}
-                id={"w-node-c312d4dc-9a43-7774-0faf-5df038fd6604-38fd65f9"}
-                tag={"div"}
-              />
-              <Block
-                className={"padding-left_xsmall"}
-                id={"w-node-_24d37d46-4a68-96aa-db8f-dde9f575a1e1-38fd65f9"}
-                tag={"div"}
-              >
+              <Block className={"page-nav_border-right"} tag={"div"} />
+              <Block className={"padding-left_xsmall"} tag={"div"}>
                 <Heading
                   className={"page-nav_heading"}
-                  id={"w-node-c312d4dc-9a43-7774-0faf-5df038fd6606-38fd65f9"}
                   tag={headlineMenuNavHeadlineTag}
                 >
                   {headlineMenuNavHeadline}
@@ -275,7 +265,6 @@ export function PageNavInnerComponent({
               </Block>
               <Block
                 className={"page-nav_links-wrapper text-color-blue"}
-                id={"w-node-c312d4dc-9a43-7774-0faf-5df038fd6607-38fd65f9"}
                 tag={"div"}
               >
                 {menuLink1Visibility ? (
@@ -438,9 +427,6 @@ export function PageNavInnerComponent({
                   >
                     <DropdownToggle
                       className={"page-navbar_menu-dropdown link-nav"}
-                      id={
-                        "w-node-c312d4dc-9a43-7774-0faf-5df038fd6625-38fd65f9"
-                      }
                       tag={"div"}
                     >
                       <HtmlEmbed
@@ -477,9 +463,6 @@ export function PageNavInnerComponent({
                               >
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_906f2c62-1b2c-3416-ef74-efd6df695554-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -553,9 +536,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_906f2c62-1b2c-3416-ef74-efd6df695563-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -633,9 +613,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_906f2c62-1b2c-3416-ef74-efd6df695572-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -713,9 +690,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_906f2c62-1b2c-3416-ef74-efd6df695581-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -882,9 +856,6 @@ export function PageNavInnerComponent({
                   >
                     <DropdownToggle
                       className={"page-navbar_menu-dropdown link-nav"}
-                      id={
-                        "w-node-c312d4dc-9a43-7774-0faf-5df038fd667b-38fd65f9"
-                      }
                       tag={"div"}
                     >
                       <HtmlEmbed
@@ -924,9 +895,6 @@ export function PageNavInnerComponent({
                               >
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442cfa-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -937,9 +905,6 @@ export function PageNavInnerComponent({
                                   >
                                     <Block
                                       className={"color-navcard_right-content"}
-                                      id={
-                                        "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442cfc-38fd65f9"
-                                      }
                                       tag={"div"}
                                     >
                                       <Block
@@ -1002,9 +967,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d09-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -1016,9 +978,6 @@ export function PageNavInnerComponent({
                                     <Block
                                       className={
                                         "color-navcard_right-content is-inverse_brand-color-2"
-                                      }
-                                      id={
-                                        "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d0b-38fd65f9"
                                       }
                                       tag={"div"}
                                     >
@@ -1082,9 +1041,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d18-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -1096,9 +1052,6 @@ export function PageNavInnerComponent({
                                     <Block
                                       className={
                                         "color-navcard_right-content is-inverse_brand-color-5"
-                                      }
-                                      id={
-                                        "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d1a-38fd65f9"
                                       }
                                       tag={"div"}
                                     >
@@ -1162,9 +1115,6 @@ export function PageNavInnerComponent({
                                 </Block>
                                 <Block
                                   className={"navcard-wrapper"}
-                                  id={
-                                    "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d26-38fd65f9"
-                                  }
                                   tag={"div"}
                                 >
                                   <Link
@@ -1176,9 +1126,6 @@ export function PageNavInnerComponent({
                                     <Block
                                       className={
                                         "color-navcard_right-content is-inverse_brand-color-8"
-                                      }
-                                      id={
-                                        "w-node-_27e585d3-4cff-c7d3-47c7-424dfb442d28-38fd65f9"
                                       }
                                       tag={"div"}
                                     >
@@ -1344,9 +1291,6 @@ export function PageNavInnerComponent({
                         block={""}
                         button={false}
                         className={"page-nav_link"}
-                        id={
-                          "w-node-c312d4dc-9a43-7774-0faf-5df038fd66c9-38fd65f9"
-                        }
                         options={menuLink5MenuLink}
                       >
                         {menuLink5MenuLinkText}

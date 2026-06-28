@@ -95,7 +95,6 @@ export function SolutionsSection({
             >
               <Block
                 className={`solutions_main_headline-2 ${_activeStyleVariant}`}
-                id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876528-e1876524"}
                 tag={"div"}
               >
                 <Block
@@ -117,7 +116,6 @@ export function SolutionsSection({
                 </Block>
                 <Block
                   className={`headline-sm-15 text-color-bright-blue font-weight-semibold-4 ${_activeStyleVariant}`}
-                  id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e187652d-e1876524"}
                   tag={"div"}
                 >
                   {mainSectionSubHeadlineText}
@@ -132,12 +130,10 @@ export function SolutionsSection({
               >
                 <Block
                   className={`solutions_grid-3 ${_activeStyleVariant}`}
-                  id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876530-e1876524"}
                   tag={"div"}
                 >
                   <Block
                     className={`solutions_number-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876531-e1876524"}
                     tag={"div"}
                   >
                     <Block
@@ -149,14 +145,10 @@ export function SolutionsSection({
                   </Block>
                   <Block
                     className={`solutions_flex-wrapper-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876534-e1876524"}
                     tag={"div"}
                   >
                     <Block
                       className={`solutions-headline-2 ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876535-e1876524"
-                      }
                       tag={"div"}
                     >
                       <Heading
@@ -176,16 +168,10 @@ export function SolutionsSection({
                       block={"inline"}
                       button={false}
                       className={`solutions_arrow-link ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876538-e1876524"
-                      }
                       options={item1Link}
                     >
                       <Block
                         className={`solutions_arrow-2 ${_activeStyleVariant}`}
-                        id={
-                          "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876539-e1876524"
-                        }
                         tag={"div"}
                       >
                         <Image
@@ -201,12 +187,10 @@ export function SolutionsSection({
                 </Block>
                 <Block
                   className={`solutions_grid-3 ${_activeStyleVariant}`}
-                  id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e187653b-e1876524"}
                   tag={"div"}
                 >
                   <Block
                     className={`solutions_number-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e187653c-e1876524"}
                     tag={"div"}
                   >
                     <Block
@@ -218,7 +202,6 @@ export function SolutionsSection({
                   </Block>
                   <Block
                     className={`solutions_flex-wrapper-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e187653f-e1876524"}
                     tag={"div"}
                   >
                     <Block
@@ -242,16 +225,10 @@ export function SolutionsSection({
                       block={"inline"}
                       button={false}
                       className={`solutions_arrow-link ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876543-e1876524"
-                      }
                       options={item2Link}
                     >
                       <Block
                         className={`solutions_arrow-2 ${_activeStyleVariant}`}
-                        id={
-                          "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876544-e1876524"
-                        }
                         tag={"div"}
                       >
                         <Image
@@ -267,12 +244,10 @@ export function SolutionsSection({
                 </Block>
                 <Block
                   className={`solutions_grid-3 ${_activeStyleVariant}`}
-                  id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876546-e1876524"}
                   tag={"div"}
                 >
                   <Block
                     className={`solutions_number-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876547-e1876524"}
                     tag={"div"}
                   >
                     <Block
@@ -307,18 +282,12 @@ export function SolutionsSection({
                       block={"inline"}
                       button={false}
                       className={`solutions_arrow-link ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e187654e-e1876524"
-                      }
                       options={{
                         href: "#",
                       }}
                     >
                       <Block
                         className={`solutions_arrow-2 ${_activeStyleVariant}`}
-                        id={
-                          "w-node-bd2ca63d-d4c3-8496-fe41-00b9e187654f-e1876524"
-                        }
                         tag={"div"}
                       >
                         <Image
@@ -334,12 +303,10 @@ export function SolutionsSection({
                 </Block>
                 <Block
                   className={`solutions_grid-3 ${_activeStyleVariant}`}
-                  id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876551-e1876524"}
                   tag={"div"}
                 >
                   <Block
                     className={`solutions_number-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876552-e1876524"}
                     tag={"div"}
                   >
                     <Block
@@ -351,14 +318,10 @@ export function SolutionsSection({
                   </Block>
                   <Block
                     className={`solutions_flex-wrapper-2 ${_activeStyleVariant}`}
-                    id={"w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876555-e1876524"}
                     tag={"div"}
                   >
                     <Block
                       className={`solutions-headline-2 ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876556-e1876524"
-                      }
                       tag={"div"}
                     >
                       <Heading
@@ -378,16 +341,10 @@ export function SolutionsSection({
                       block={"inline"}
                       button={false}
                       className={`solutions_arrow-link ${_activeStyleVariant}`}
-                      id={
-                        "w-node-bd2ca63d-d4c3-8496-fe41-00b9e1876559-e1876524"
-                      }
                       options={item4Link}
                     >
                       <Block
                         className={`solutions_arrow-2 ${_activeStyleVariant}`}
-                        id={
-                          "w-node-bd2ca63d-d4c3-8496-fe41-00b9e187655a-e1876524"
-                        }
                         tag={"div"}
                       >
                         <Image
